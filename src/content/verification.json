@@ -1,0 +1,5758 @@
+{
+ "pre-paleo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "구석기시대",
+    "url": "https://encykorea.aks.ac.kr/Article/E0005842"
+   },
+   {
+    "title": "찌르개",
+    "url": "https://encykorea.aks.ac.kr/Article/E0068723"
+   }
+  ],
+  "facts": {
+   "pre-paleo#0": "auto",
+   "pre-paleo#1": "manual",
+   "pre-paleo#2": "manual",
+   "pre-paleo#3": "auto",
+   "pre-paleo#4": "manual"
+  },
+  "yearsOk": true
+ },
+ "pre-neo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "신석기시대",
+    "url": "https://encykorea.aks.ac.kr/Article/E0033063"
+   },
+   {
+    "title": "빗살무늬토기",
+    "url": "https://encykorea.aks.ac.kr/Article/E0025296"
+   }
+  ],
+  "facts": {
+   "pre-neo#0": "manual",
+   "pre-neo#1": "auto",
+   "pre-neo#2": "auto",
+   "pre-neo#3": "manual",
+   "pre-neo#4": "auto",
+   "pre-neo#5": "auto"
+  },
+  "yearsOk": true
+ },
+ "pre-bronze": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "청동기시대",
+    "url": "https://encykorea.aks.ac.kr/Article/E0056357"
+   },
+   {
+    "title": "미송리형토기",
+    "url": "https://encykorea.aks.ac.kr/Article/E0019964"
+   },
+   {
+    "title": "역대 국사교과서(고등학교 국사) · 청동기, 초기 철기 시대",
+    "url": "https://contents.history.go.kr/id/ta_h51_0030_0020_0010"
+   },
+   {
+    "title": "거친무늬 거울",
+    "url": "https://encykorea.aks.ac.kr/Article/E0001942"
+   },
+   {
+    "title": "반달돌칼",
+    "url": "https://encykorea.aks.ac.kr/Article/E0021456"
+   }
+  ],
+  "facts": {
+   "pre-bronze#0": "manual",
+   "pre-bronze#1": "manual",
+   "pre-bronze#2": "manual",
+   "pre-bronze#3": "manual",
+   "pre-bronze#4": "manual",
+   "pre-bronze#5": "manual"
+  },
+  "yearsOk": true,
+  "note": "교과서 통설(기원전 2000~1500년경 시작). 백과사전은 서기전 1000년대 전반을 중심으로 서술 — 시작 연대에 학설 차이 있음 / 고인돌을 ‘지배층의 무덤’으로 보는 것은 교과서 서술. 백과사전「고인돌」은 청동기 시대의 대표적인 무덤·기념물로만 서술하고,「청동기시대」는 고인돌에서 공동체적 성향을 본다고 서술."
+ },
+ "pre-iron": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "철기시대",
+    "url": "https://encykorea.aks.ac.kr/Article/E0056111"
+   },
+   {
+    "title": "거푸집",
+    "url": "https://encykorea.aks.ac.kr/Article/E0001949"
+   },
+   {
+    "title": "잔무늬 거울",
+    "url": "https://encykorea.aks.ac.kr/Article/E0048159"
+   },
+   {
+    "title": "창원 다호리 고분군",
+    "url": "https://encykorea.aks.ac.kr/Article/E0043418"
+   },
+   {
+    "title": "역대 국사교과서(고등학교 국사) · 철기의 사용",
+    "url": "https://contents.history.go.kr/id/ta_h71_0030_0020_0010_0020"
+   }
+  ],
+  "facts": {
+   "pre-iron#0": "manual",
+   "pre-iron#1": "manual",
+   "pre-iron#2": "manual",
+   "pre-iron#3": "term",
+   "pre-iron#4": "auto"
+  },
+  "yearsOk": true
+ },
+ "gojoseon": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "고조선",
+    "url": "https://encykorea.aks.ac.kr/Article/E0003937"
+   },
+   {
+    "title": "홍익인간",
+    "url": "https://encykorea.aks.ac.kr/Article/E0064339"
+   },
+   {
+    "title": "교육",
+    "url": "https://encykorea.aks.ac.kr/Article/E0005524"
+   },
+   {
+    "title": "부왕",
+    "url": "https://encykorea.aks.ac.kr/Article/E0024480"
+   },
+   {
+    "title": "단군",
+    "url": "https://encykorea.aks.ac.kr/Article/E0013538"
+   }
+  ],
+  "facts": {
+   "gojoseon#0": "manual",
+   "gojoseon#1": "manual",
+   "gojoseon#2": "term",
+   "gojoseon#3": "manual",
+   "gojoseon#4": "auto",
+   "gojoseon#5": "manual"
+  },
+  "yearsOk": true,
+  "note": "기원전 2333년은 『삼국유사』 기록 연대(백과사전도 2300년대 건국 기록을 언급)"
+ },
+ "wiman-joseon": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "위만조선",
+    "url": "https://encykorea.aks.ac.kr/Article/E0041138"
+   },
+   {
+    "title": "영변 세죽리 유적",
+    "url": "https://encykorea.aks.ac.kr/Article/E0037390"
+   },
+   {
+    "title": "철기시대",
+    "url": "https://encykorea.aks.ac.kr/Article/E0056111"
+   }
+  ],
+  "facts": {
+   "wiman-joseon#0": "auto",
+   "wiman-joseon#1": "manual",
+   "wiman-joseon#2": "manual",
+   "wiman-joseon#3": "manual",
+   "wiman-joseon#4": "manual"
+  },
+  "yearsOk": true,
+  "note": "E0041138: 위만 집권 서기전 2세기 초~서기전 108년 멸망. 기원전 194년은 교과서 통설 연대"
+ },
+ "buyeo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "부여",
+    "url": "https://encykorea.aks.ac.kr/Article/E0024368"
+   },
+   {
+    "title": "1책 12법",
+    "url": "https://encykorea.aks.ac.kr/Article/E0047328"
+   },
+   {
+    "title": "사출도",
+    "url": "https://encykorea.aks.ac.kr/Article/E0026045"
+   },
+   {
+    "title": "우제점법",
+    "url": "https://encykorea.aks.ac.kr/Article/E0040103"
+   }
+  ],
+  "facts": {
+   "buyeo#0": "manual",
+   "buyeo#1": "manual",
+   "buyeo#2": "term",
+   "buyeo#3": "manual",
+   "buyeo#4": "manual"
+  },
+  "yearsOk": true
+ },
+ "goguryeo-early": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "고구려",
+    "url": "https://encykorea.aks.ac.kr/Article/E0003323"
+   },
+   {
+    "title": "1책 12법",
+    "url": "https://encykorea.aks.ac.kr/Article/E0047328"
+   },
+   {
+    "title": "신편 한국사 6권 · 법률과 풍속",
+    "url": "https://contents.history.go.kr/id/nh_006_0050_0040_0020_0010"
+   }
+  ],
+  "facts": {
+   "goguryeo-early#0": "manual",
+   "goguryeo-early#1": "auto",
+   "goguryeo-early#2": "auto",
+   "goguryeo-early#3": "auto",
+   "goguryeo-early#4": "manual"
+  },
+  "yearsOk": true,
+  "note": "백과사전「1책 12법」은 이를 부여의 법으로 서술. 고구려는 『주서』에 10배, 『구당서』에 12배 배상으로 전함(신편 한국사 6권)."
+ },
+ "okjeo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "옥저",
+    "url": "https://encykorea.aks.ac.kr/Article/E0038760"
+   },
+   {
+    "title": "삼로",
+    "url": "https://encykorea.aks.ac.kr/Article/E0026554"
+   },
+   {
+    "title": "역대 국사교과서(고등학교 국사) · 옥저와 동예",
+    "url": "https://contents.history.go.kr/id/ta_h71_0030_0020_0020_0030"
+   }
+  ],
+  "facts": {
+   "okjeo#0": "auto",
+   "okjeo#1": "manual",
+   "okjeo#2": "auto",
+   "okjeo#3": "manual"
+  },
+  "yearsOk": true,
+  "note": "교과서는 옥저·동예 모두 ‘읍군·삼로’로 서술. 백과사전「삼로」·「읍군」은 옥저는 삼로(읍락 우두머리의 자칭), 읍군은 동예(예) 기록에 나온다고 구분."
+ },
+ "dongye": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "동예",
+    "url": "https://encykorea.aks.ac.kr/Article/E0016693"
+   }
+  ],
+  "facts": {
+   "dongye#0": "manual",
+   "dongye#1": "manual",
+   "dongye#2": "auto",
+   "dongye#3": "manual",
+   "dongye#4": "manual"
+  },
+  "yearsOk": true
+ },
+ "samhan": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "삼한",
+    "url": "https://encykorea.aks.ac.kr/Article/E0026922"
+   },
+   {
+    "title": "변한",
+    "url": "https://encykorea.aks.ac.kr/Article/E0022968"
+   },
+   {
+    "title": "천군",
+    "url": "https://encykorea.aks.ac.kr/Article/E0055784"
+   }
+  ],
+  "facts": {
+   "samhan#0": "auto",
+   "samhan#1": "manual",
+   "samhan#2": "manual",
+   "samhan#3": "manual",
+   "samhan#4": "auto"
+  },
+  "yearsOk": true
+ },
+ "gg-gogukcheon": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "고국천왕",
+    "url": "https://encykorea.aks.ac.kr/Article/E0003340"
+   },
+   {
+    "title": "지방행정제도",
+    "url": "https://encykorea.aks.ac.kr/Article/E0054208"
+   }
+  ],
+  "facts": {
+   "gg-gogukcheon#0": "auto",
+   "gg-gogukcheon#1": "auto",
+   "gg-gogukcheon#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "gg-micheon": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "미천왕",
+    "url": "https://encykorea.aks.ac.kr/Article/E0020017"
+   }
+  ],
+  "facts": {
+   "gg-micheon#0": "manual",
+   "gg-micheon#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "gg-sosurim": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "소수림왕",
+    "url": "https://encykorea.aks.ac.kr/Article/E0030144"
+   }
+  ],
+  "facts": {
+   "gg-sosurim#0": "auto",
+   "gg-sosurim#1": "manual",
+   "gg-sosurim#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "gg-gwanggaeto": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "광개토왕",
+    "url": "https://encykorea.aks.ac.kr/Article/E0005057"
+   }
+  ],
+  "facts": {
+   "gg-gwanggaeto#0": "auto",
+   "gg-gwanggaeto#1": "manual",
+   "gg-gwanggaeto#2": "auto",
+   "gg-gwanggaeto#3": "manual"
+  },
+  "yearsOk": true
+ },
+ "gg-jangsu": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "장수왕",
+    "url": "https://encykorea.aks.ac.kr/Article/E0048605"
+   },
+   {
+    "title": "충주 고구려비",
+    "url": "https://encykorea.aks.ac.kr/Article/E0053885"
+   }
+  ],
+  "facts": {
+   "gg-jangsu#0": "auto",
+   "gg-jangsu#1": "auto",
+   "gg-jangsu#2": "manual",
+   "gg-jangsu#3": "manual",
+   "gg-jangsu#4": "manual"
+  },
+  "yearsOk": true
+ },
+ "gg-salsu": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "살수대첩",
+    "url": "https://encykorea.aks.ac.kr/Article/E0026415"
+   }
+  ],
+  "facts": {
+   "gg-salsu#0": "manual",
+   "gg-salsu#1": "manual",
+   "gg-salsu#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "gg-ansi": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "안시성전투",
+    "url": "https://encykorea.aks.ac.kr/Article/E0034848"
+   }
+  ],
+  "facts": {
+   "gg-ansi#0": "manual",
+   "gg-ansi#1": "manual",
+   "gg-ansi#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "bj-goi": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "고이왕",
+    "url": "https://encykorea.aks.ac.kr/Article/E0003894"
+   },
+   {
+    "title": "신편 한국사 6권 · 백제국의 성장",
+    "url": "https://contents.history.go.kr/id/nh_006_0020_0020_0030"
+   }
+  ],
+  "facts": {
+   "bj-goi#0": "auto",
+   "bj-goi#1": "manual",
+   "bj-goi#2": "manual"
+  },
+  "yearsOk": true,
+  "note": "고이왕 대 율령 반포는 학설이 나뉨(신편 한국사 6권: 고이왕 29년 기사를 인정하는 입장 / 근초고왕~근구수왕 대로 보는 입장). 앱은 율령 반포 문장 대신 뇌물 처벌법만 다룸. 『삼국사기』 고이왕 27~29년 기사(6좌평·16관등·자·비·청 복색·관리 처벌)는 중국 측 기록을 옮겨 실은 것으로 보는 이해와, 6좌평 채택을 웅진 천도 전후로 보는 견해도 있음(신편 한국사 6권, 백과사전「좌평」). 백과사전「공복」은 관식과 띠 색으로 등급을 구분했다고 서술. 『삼국사기』 고이왕 27~29년 기사(6좌평·16관등·자·비·청 복색·관리 처벌)는 중국 측 기록을 옮겨 실은 것으로 보는 이해와, 6좌평 채택을 웅진 천도 전후로 보는 견해도 있음(신편 한국사 6권, 백과사전「좌평」). 백과사전「공복」은 관식과 띠 색으로 등급을 구분했다고 서술. 『삼국사기』 고이왕 27~29년 기사(6좌평·16관등·자·비·청 복색·관리 처벌)는 중국 측 기록을 옮겨 실은 것으로 보는 이해와, 6좌평 채택을 웅진 천도 전후로 보는 견해도 있음(신편 한국사 6권, 백과사전「좌평」). 백과사전「공복」은 관식과 띠 색으로 등급을 구분했다고 서술. 『삼국사기』 고이왕 27~29년 기사(6좌평·16관등·자·비·청 복색·관리 처벌)는 중국 측 기록을 옮겨 실은 것으로 보는 이해와, 6좌평 채택을 웅진 천도 전후로 보는 견해도 있음(신편 한국사 6권, 백과사전「좌평」). 백과사전「공복」은 관식과 띠 색으로 등급을 구분했다고 서술."
+ },
+ "bj-geunchogo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "근초고왕",
+    "url": "https://encykorea.aks.ac.kr/Article/E0007465"
+   },
+   {
+    "title": "삼국시대",
+    "url": "https://encykorea.aks.ac.kr/Article/E0026481"
+   }
+  ],
+  "facts": {
+   "bj-geunchogo#0": "auto",
+   "bj-geunchogo#1": "auto",
+   "bj-geunchogo#2": "manual",
+   "bj-geunchogo#3": "auto",
+   "bj-geunchogo#4": "manual"
+  },
+  "yearsOk": true
+ },
+ "bj-chimnyu": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "침류왕",
+    "url": "https://encykorea.aks.ac.kr/Article/E0058574"
+   }
+  ],
+  "facts": {
+   "bj-chimnyu#0": "auto"
+  },
+  "yearsOk": true
+ },
+ "bj-muryeong": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "무령왕",
+    "url": "https://encykorea.aks.ac.kr/Article/E0019017"
+   },
+   {
+    "title": "담로",
+    "url": "https://encykorea.aks.ac.kr/Article/E0013778"
+   },
+   {
+    "title": "신편 한국사 6권 · 무령왕의 왕권안정을 위한 시책",
+    "url": "https://contents.history.go.kr/id/nh_006_0030_0020_0020_0020_0010"
+   },
+   {
+    "title": "벽돌무덤",
+    "url": "https://encykorea.aks.ac.kr/Article/E0022821"
+   }
+  ],
+  "facts": {
+   "bj-muryeong#0": "manual",
+   "bj-muryeong#1": "auto",
+   "bj-muryeong#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "bj-seong": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "성왕",
+    "url": "https://encykorea.aks.ac.kr/Article/E0029457"
+   }
+  ],
+  "facts": {
+   "bj-seong#0": "manual",
+   "bj-seong#1": "manual",
+   "bj-seong#2": "manual",
+   "bj-seong#3": "auto",
+   "bj-seong#4": "auto"
+  },
+  "yearsOk": true
+ },
+ "bj-mu": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "무왕",
+    "url": "https://encykorea.aks.ac.kr/Article/E0019178"
+   }
+  ],
+  "facts": {
+   "bj-mu#0": "auto"
+  },
+  "yearsOk": true
+ },
+ "bj-uija": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "의자왕",
+    "url": "https://encykorea.aks.ac.kr/Article/E0043357"
+   }
+  ],
+  "facts": {
+   "bj-uija#0": "auto",
+   "bj-uija#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "sl-naemul": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "내물마립간",
+    "url": "https://encykorea.aks.ac.kr/Article/E0012440"
+   }
+  ],
+  "facts": {
+   "sl-naemul#0": "auto",
+   "sl-naemul#1": "auto",
+   "sl-naemul#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "sl-jijeung": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "지증왕",
+    "url": "https://encykorea.aks.ac.kr/Article/E0054400"
+   },
+   {
+    "title": "동시전",
+    "url": "https://encykorea.aks.ac.kr/Article/E0016605"
+   }
+  ],
+  "facts": {
+   "sl-jijeung#0": "auto",
+   "sl-jijeung#1": "auto",
+   "sl-jijeung#2": "auto",
+   "sl-jijeung#3": "manual",
+   "sl-jijeung#4": "auto",
+   "sl-jijeung#5": "manual"
+  },
+  "yearsOk": true
+ },
+ "sl-beopheung": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "법흥왕",
+    "url": "https://encykorea.aks.ac.kr/Article/E0022785"
+   },
+   {
+    "title": "금관가야",
+    "url": "https://encykorea.aks.ac.kr/Article/E0007597"
+   }
+  ],
+  "facts": {
+   "sl-beopheung#0": "auto",
+   "sl-beopheung#1": "auto",
+   "sl-beopheung#2": "manual",
+   "sl-beopheung#3": "auto",
+   "sl-beopheung#4": "auto",
+   "sl-beopheung#5": "auto"
+  },
+  "yearsOk": true
+ },
+ "sl-jinheung": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "진흥왕",
+    "url": "https://encykorea.aks.ac.kr/Article/E0055013"
+   },
+   {
+    "title": "서울 북한산 신라 진흥왕 순수비",
+    "url": "https://encykorea.aks.ac.kr/Article/E0024795"
+   }
+  ],
+  "facts": {
+   "sl-jinheung#0": "auto",
+   "sl-jinheung#1": "auto",
+   "sl-jinheung#2": "auto",
+   "sl-jinheung#3": "manual",
+   "sl-jinheung#4": "auto",
+   "sl-jinheung#5": "manual"
+  },
+  "yearsOk": true
+ },
+ "sl-seondeok": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "선덕여왕",
+    "url": "https://encykorea.aks.ac.kr/Article/E0028652"
+   },
+   {
+    "title": "첨성대",
+    "url": "https://encykorea.aks.ac.kr/Article/E0056197"
+   }
+  ],
+  "facts": {
+   "sl-seondeok#0": "term",
+   "sl-seondeok#1": "auto",
+   "sl-seondeok#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "sl-hwabaek": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "화백",
+    "url": "https://encykorea.aks.ac.kr/Article/E0064621"
+   }
+  ],
+  "facts": {
+   "sl-hwabaek#0": "auto",
+   "sl-hwabaek#1": "auto",
+   "sl-hwabaek#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "gaya-geumgwan": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "금관가야",
+    "url": "https://encykorea.aks.ac.kr/Article/E0007597"
+   },
+   {
+    "title": "역대 국사교과서(중학교 국사) · 철의 나라 가야",
+    "url": "https://contents.history.go.kr/id/ta_m71_0030_0010_0040_0010"
+   },
+   {
+    "title": "법흥왕",
+    "url": "https://encykorea.aks.ac.kr/Article/E0022785"
+   }
+  ],
+  "facts": {
+   "gaya-geumgwan#0": "manual",
+   "gaya-geumgwan#1": "auto",
+   "gaya-geumgwan#2": "manual",
+   "gaya-geumgwan#3": "manual"
+  },
+  "yearsOk": true,
+  "note": "백과사전「덩이쇠」: 용도는 철 소재설과 화폐설이 있음. 앱은 교과서 표현대로 ‘화폐처럼 사용하기도 하였다’로 다룸."
+ },
+ "gaya-daegaya": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "대가야",
+    "url": "https://encykorea.aks.ac.kr/Article/E0013970"
+   }
+  ],
+  "facts": {
+   "gaya-daegaya#0": "auto",
+   "gaya-daegaya#1": "auto",
+   "gaya-daegaya#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "sl-muyeol": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "태종무열왕",
+    "url": "https://encykorea.aks.ac.kr/Article/E0059042"
+   },
+   {
+    "title": "성골",
+    "url": "https://encykorea.aks.ac.kr/Article/E0029185"
+   }
+  ],
+  "facts": {
+   "sl-muyeol#0": "manual",
+   "sl-muyeol#1": "manual",
+   "sl-muyeol#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "sam-hwangsan": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "황산벌전투",
+    "url": "https://encykorea.aks.ac.kr/Article/E0065183"
+   }
+  ],
+  "facts": {
+   "sam-hwangsan#0": "auto",
+   "sam-hwangsan#1": "manual"
+  },
+  "yearsOk": true
+ },
+ "sam-baekje-revival": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "백제 부흥운동",
+    "url": "https://encykorea.aks.ac.kr/Article/E0022364"
+   }
+  ],
+  "facts": {
+   "sam-baekje-revival#0": "auto",
+   "sam-baekje-revival#1": "auto",
+   "sam-baekje-revival#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "sam-goguryeo-revival": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "고구려 부흥운동",
+    "url": "https://encykorea.aks.ac.kr/Article/E0003327"
+   }
+  ],
+  "facts": {
+   "sam-goguryeo-revival#0": "auto",
+   "sam-goguryeo-revival#1": "auto",
+   "sam-goguryeo-revival#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "sam-nadang": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "나당전쟁",
+    "url": "https://encykorea.aks.ac.kr/Article/E0011307"
+   },
+   {
+    "title": "안동도호부",
+    "url": "https://encykorea.aks.ac.kr/Article/E0034607"
+   }
+  ],
+  "facts": {
+   "sam-nadang#0": "auto",
+   "sam-nadang#1": "auto",
+   "sam-nadang#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "art-gg-tomb": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "장군총",
+    "url": "https://encykorea.aks.ac.kr/Article/E0048318"
+   },
+   {
+    "title": "역대 국사교과서(고등학교 국사) · 예술의 발달",
+    "url": "https://contents.history.go.kr/id/ta_h51_0040_0040_0040"
+   }
+  ],
+  "facts": {
+   "art-gg-tomb#0": "manual",
+   "art-gg-tomb#1": "auto",
+   "art-gg-tomb#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "art-bj": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "익산 미륵사지 석탑",
+    "url": "https://encykorea.aks.ac.kr/Article/E0019920"
+   }
+  ],
+  "facts": {
+   "art-bj#0": "auto",
+   "art-bj#1": "auto",
+   "art-bj#2": "manual",
+   "art-bj#3": "manual"
+  },
+  "yearsOk": true
+ },
+ "art-sl": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "돌무지덧널무덤",
+    "url": "https://encykorea.aks.ac.kr/Article/E0016131"
+   }
+  ],
+  "facts": {
+   "art-sl#0": "auto",
+   "art-sl#1": "manual",
+   "art-sl#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "ns-munmu": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "문무왕",
+    "url": "https://encykorea.aks.ac.kr/Article/E0019473"
+   }
+  ],
+  "facts": {
+   "ns-munmu#0": "manual",
+   "ns-munmu#1": "auto",
+   "ns-munmu#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "ns-sinmun": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "신문왕",
+    "url": "https://encykorea.aks.ac.kr/Article/E0032950"
+   },
+   {
+    "title": "관료전",
+    "url": "https://encykorea.aks.ac.kr/Article/E0004812"
+   }
+  ],
+  "facts": {
+   "ns-sinmun#0": "manual",
+   "ns-sinmun#1": "manual",
+   "ns-sinmun#2": "term",
+   "ns-sinmun#3": "auto",
+   "ns-sinmun#4": "manual",
+   "ns-sinmun#5": "auto"
+  },
+  "yearsOk": true
+ },
+ "ns-seongdeok": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "성덕왕",
+    "url": "https://encykorea.aks.ac.kr/Article/E0029270"
+   }
+  ],
+  "facts": {
+   "ns-seongdeok#0": "auto"
+  },
+  "yearsOk": true
+ },
+ "ns-gyeongdeok": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "경덕왕",
+    "url": "https://encykorea.aks.ac.kr/Article/E0002370"
+   }
+  ],
+  "facts": {
+   "ns-gyeongdeok#0": "auto",
+   "ns-gyeongdeok#1": "manual"
+  },
+  "yearsOk": true
+ },
+ "ns-hadae": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "김헌창의 난",
+    "url": "https://encykorea.aks.ac.kr/Article/E0011027"
+   }
+  ],
+  "facts": {
+   "ns-hadae#0": "auto",
+   "ns-hadae#1": "auto",
+   "ns-hadae#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "ns-jangbogo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "장보고",
+    "url": "https://encykorea.aks.ac.kr/Article/E0048474"
+   }
+  ],
+  "facts": {
+   "ns-jangbogo#0": "auto",
+   "ns-jangbogo#1": "manual"
+  },
+  "yearsOk": true
+ },
+ "ns-choichiwon": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "최치원",
+    "url": "https://encykorea.aks.ac.kr/Article/E0057711"
+   },
+   {
+    "title": "격황소서",
+    "url": "https://encykorea.aks.ac.kr/Article/E0002145"
+   }
+  ],
+  "facts": {
+   "ns-choichiwon#0": "auto",
+   "ns-choichiwon#1": "auto",
+   "ns-choichiwon#2": "auto",
+   "ns-choichiwon#3": "manual"
+  },
+  "yearsOk": true
+ },
+ "ns-wonhyo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "원효",
+    "url": "https://encykorea.aks.ac.kr/Article/E0040908"
+   },
+   {
+    "title": "무애가",
+    "url": "https://encykorea.aks.ac.kr/Article/E0019149"
+   }
+  ],
+  "facts": {
+   "ns-wonhyo#0": "manual",
+   "ns-wonhyo#1": "manual",
+   "ns-wonhyo#2": "auto",
+   "ns-wonhyo#3": "manual",
+   "ns-wonhyo#4": "auto"
+  },
+  "yearsOk": true
+ },
+ "ns-uisang": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "의상",
+    "url": "https://encykorea.aks.ac.kr/Article/E0043250"
+   }
+  ],
+  "facts": {
+   "ns-uisang#0": "manual",
+   "ns-uisang#1": "auto",
+   "ns-uisang#2": "manual",
+   "ns-uisang#3": "auto"
+  },
+  "yearsOk": true
+ },
+ "ns-hyecho": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "혜초",
+    "url": "https://encykorea.aks.ac.kr/Article/E0063646"
+   }
+  ],
+  "facts": {
+   "ns-hyecho#0": "auto"
+  },
+  "yearsOk": true
+ },
+ "ns-bulguksa": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "경주 불국사",
+    "url": "https://encykorea.aks.ac.kr/Article/E0024933"
+   },
+   {
+    "title": "경주 석굴암 석굴",
+    "url": "https://encykorea.aks.ac.kr/Article/E0028362"
+   }
+  ],
+  "facts": {
+   "ns-bulguksa#0": "auto",
+   "ns-bulguksa#1": "manual",
+   "ns-bulguksa#2": "manual",
+   "ns-bulguksa#3": "auto"
+  },
+  "yearsOk": true
+ },
+ "ns-seon": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "선종구산문",
+    "url": "https://encykorea.aks.ac.kr/Article/E0028926"
+   },
+   {
+    "title": "불립문자",
+    "url": "https://encykorea.aks.ac.kr/Article/E0078283"
+   },
+   {
+    "title": "도의",
+    "url": "https://encykorea.aks.ac.kr/Article/E0015807"
+   }
+  ],
+  "facts": {
+   "ns-seon#0": "manual",
+   "ns-seon#1": "manual",
+   "ns-seon#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "ns-minjeong": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "신라 촌락문서",
+    "url": "https://encykorea.aks.ac.kr/Article/E0032861"
+   },
+   {
+    "title": "역대 국사교과서(고등학교 국사) · 통일 신라의 경제 정책",
+    "url": "https://contents.history.go.kr/id/ta_h71_0050_0010_0020_0010"
+   }
+  ],
+  "facts": {
+   "ns-minjeong#0": "auto",
+   "ns-minjeong#1": "manual",
+   "ns-minjeong#2": "manual"
+  },
+  "yearsOk": true,
+  "note": "작성 주체(촌주)는 출처에서 확인하지 못해 ‘변동 사항을 조사해 3년마다 다시 작성’으로만 다룸."
+ },
+ "bh-daejoyeong": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "고왕",
+    "url": "https://encykorea.aks.ac.kr/Article/E0003841"
+   }
+  ],
+  "facts": {
+   "bh-daejoyeong#0": "auto",
+   "bh-daejoyeong#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "bh-mu": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "무왕",
+    "url": "https://encykorea.aks.ac.kr/Article/E0019179"
+   },
+   {
+    "title": "인안",
+    "url": "https://encykorea.aks.ac.kr/Article/E0046960"
+   }
+  ],
+  "facts": {
+   "bh-mu#0": "term",
+   "bh-mu#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "bh-mun": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "문왕",
+    "url": "https://encykorea.aks.ac.kr/Article/E0019602"
+   },
+   {
+    "title": "신편 한국사 10권 · 국가체제의 정비",
+    "url": "https://contents.history.go.kr/id/nh_010_0020_0020_0020"
+   },
+   {
+    "title": "신편 한국사 10권 · 신라 귀족항쟁기의 남북교섭",
+    "url": "https://contents.history.go.kr/id/nh_010_0040_0010_0030"
+   }
+  ],
+  "facts": {
+   "bh-mun#0": "auto",
+   "bh-mun#1": "manual",
+   "bh-mun#2": "manual",
+   "bh-mun#3": "manual",
+   "bh-mun#4": "manual"
+  },
+  "yearsOk": true,
+  "note": "‘문왕 때 신라도로 교류’는 두 출처를 합친 판단: 신라도를 통한 접촉 기록(백과사전「신라도」) + 790년 신라 사신 파견이 문왕 재위 중(신편 한국사 10권)."
+ },
+ "bh-seon": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "선왕",
+    "url": "https://encykorea.aks.ac.kr/Article/E0028820"
+   }
+  ],
+  "facts": {
+   "bh-seon#0": "manual",
+   "bh-seon#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "bh-system": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "발해",
+    "url": "https://encykorea.aks.ac.kr/Article/E0021626"
+   }
+  ],
+  "facts": {
+   "bh-system#0": "manual",
+   "bh-system#1": "auto",
+   "bh-system#2": "auto",
+   "bh-system#3": "auto"
+  },
+  "yearsOk": true
+ },
+ "hu-gyeonhwon": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "견훤",
+    "url": "https://encykorea.aks.ac.kr/Article/E0002178"
+   }
+  ],
+  "facts": {
+   "hu-gyeonhwon#0": "auto",
+   "hu-gyeonhwon#1": "auto",
+   "hu-gyeonhwon#2": "auto",
+   "hu-gyeonhwon#3": "auto"
+  },
+  "yearsOk": true
+ },
+ "hu-gungye": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "궁예",
+    "url": "https://encykorea.aks.ac.kr/Article/E0006789"
+   }
+  ],
+  "facts": {
+   "hu-gungye#0": "auto",
+   "hu-gungye#1": "auto",
+   "hu-gungye#2": "auto",
+   "hu-gungye#3": "auto"
+  },
+  "yearsOk": true
+ },
+ "hu-unification": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "후삼국 통일",
+    "url": "https://encykorea.aks.ac.kr/Article/E0065744"
+   }
+  ],
+  "facts": {
+   "hu-unification#0": "auto",
+   "hu-unification#1": "auto",
+   "hu-unification#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "gr-taejo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "왕건 동상",
+    "url": "https://encykorea.aks.ac.kr/Article/E0071025"
+   },
+   {
+    "title": "북진 정책",
+    "url": "https://encykorea.aks.ac.kr/Article/E0024747"
+   }
+  ],
+  "facts": {
+   "gr-taejo#0": "manual",
+   "gr-taejo#1": "auto",
+   "gr-taejo#2": "manual",
+   "gr-taejo#3": "manual",
+   "gr-taejo#4": "auto",
+   "gr-taejo#5": "manual"
+  },
+  "yearsOk": true
+ },
+ "gr-gwangjong": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "광종",
+    "url": "https://encykorea.aks.ac.kr/Article/E0005220"
+   },
+   {
+    "title": "쌍기",
+    "url": "https://encykorea.aks.ac.kr/Article/E0034110"
+   },
+   {
+    "title": "관복",
+    "url": "https://encykorea.aks.ac.kr/Article/E0004850"
+   }
+  ],
+  "facts": {
+   "gr-gwangjong#0": "auto",
+   "gr-gwangjong#1": "manual",
+   "gr-gwangjong#2": "manual",
+   "gr-gwangjong#3": "auto",
+   "gr-gwangjong#4": "auto"
+  },
+  "yearsOk": true
+ },
+ "gr-seongjong": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "성종",
+    "url": "https://encykorea.aks.ac.kr/Article/E0029553"
+   },
+   {
+    "title": "건원중보",
+    "url": "https://encykorea.aks.ac.kr/Article/E0002015"
+   },
+   {
+    "title": "의창",
+    "url": "https://encykorea.aks.ac.kr/Article/E0043415"
+   }
+  ],
+  "facts": {
+   "gr-seongjong#0": "auto",
+   "gr-seongjong#1": "auto",
+   "gr-seongjong#2": "manual",
+   "gr-seongjong#3": "term",
+   "gr-seongjong#4": "term",
+   "gr-seongjong#5": "auto"
+  },
+  "yearsOk": true
+ },
+ "gr-choeseungno": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "최승로",
+    "url": "https://encykorea.aks.ac.kr/Article/E0057433"
+   }
+  ],
+  "facts": {
+   "gr-choeseungno#0": "auto",
+   "gr-choeseungno#1": "manual"
+  },
+  "yearsOk": true
+ },
+ "gr-system": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "중서문하성",
+    "url": "https://encykorea.aks.ac.kr/Article/E0053786"
+   }
+  ],
+  "facts": {
+   "gr-system#0": "auto",
+   "gr-system#1": "manual",
+   "gr-system#2": "auto",
+   "gr-system#3": "manual",
+   "gr-system#4": "manual"
+  },
+  "yearsOk": true
+ },
+ "gr-local": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "속현",
+    "url": "https://encykorea.aks.ac.kr/Article/E0030457"
+   },
+   {
+    "title": "지방행정제도",
+    "url": "https://encykorea.aks.ac.kr/Article/E0054208"
+   },
+   {
+    "title": "향",
+    "url": "https://encykorea.aks.ac.kr/Article/E0062872"
+   }
+  ],
+  "facts": {
+   "gr-local#0": "manual",
+   "gr-local#1": "auto",
+   "gr-local#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "gr-eumseo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "음서",
+    "url": "https://encykorea.aks.ac.kr/Article/E0042999"
+   }
+  ],
+  "facts": {
+   "gr-eumseo#0": "auto",
+   "gr-eumseo#1": "manual",
+   "gr-eumseo#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "gr-khitan": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "서희",
+    "url": "https://encykorea.aks.ac.kr/Article/E0028321"
+   }
+  ],
+  "facts": {
+   "gr-khitan#0": "auto",
+   "gr-khitan#1": "manual",
+   "gr-khitan#2": "auto",
+   "gr-khitan#3": "auto",
+   "gr-khitan#4": "manual"
+  },
+  "yearsOk": true
+ },
+ "gr-yeojin": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "별무반",
+    "url": "https://encykorea.aks.ac.kr/Article/E0023022"
+   },
+   {
+    "title": "윤관",
+    "url": "https://encykorea.aks.ac.kr/Article/E0042215"
+   }
+  ],
+  "facts": {
+   "gr-yeojin#0": "auto",
+   "gr-yeojin#1": "auto",
+   "gr-yeojin#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "gr-leejagyeom": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "이자겸의 난",
+    "url": "https://encykorea.aks.ac.kr/Article/E0045670"
+   },
+   {
+    "title": "이자겸",
+    "url": "https://encykorea.aks.ac.kr/Article/E0045669"
+   }
+  ],
+  "facts": {
+   "gr-leejagyeom#0": "auto",
+   "gr-leejagyeom#1": "auto",
+   "gr-leejagyeom#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "gr-myocheong": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "묘청의 난",
+    "url": "https://encykorea.aks.ac.kr/Article/E0018893"
+   }
+  ],
+  "facts": {
+   "gr-myocheong#0": "manual",
+   "gr-myocheong#1": "auto",
+   "gr-myocheong#2": "auto",
+   "gr-myocheong#3": "auto"
+  },
+  "yearsOk": true
+ },
+ "gr-musin": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "중방",
+    "url": "https://encykorea.aks.ac.kr/Article/E0053757"
+   }
+  ],
+  "facts": {
+   "gr-musin#0": "manual",
+   "gr-musin#1": "auto",
+   "gr-musin#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "gr-choechungheon": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "최충헌",
+    "url": "https://encykorea.aks.ac.kr/Article/E0057707"
+   }
+  ],
+  "facts": {
+   "gr-choechungheon#0": "manual",
+   "gr-choechungheon#1": "auto",
+   "gr-choechungheon#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "gr-choewoo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "최우",
+    "url": "https://encykorea.aks.ac.kr/Article/E0057502"
+   }
+  ],
+  "facts": {
+   "gr-choewoo#0": "auto",
+   "gr-choewoo#1": "manual",
+   "gr-choewoo#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "gr-revolts": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "망이·망소이의 난",
+    "url": "https://encykorea.aks.ac.kr/Article/E0017893"
+   },
+   {
+    "title": "김사미의 난",
+    "url": "https://encykorea.aks.ac.kr/Article/E0009297"
+   }
+  ],
+  "facts": {
+   "gr-revolts#0": "auto",
+   "gr-revolts#1": "auto",
+   "gr-revolts#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "gr-mongol": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "처인성전투",
+    "url": "https://encykorea.aks.ac.kr/Article/E0055720"
+   },
+   {
+    "title": "황룡사 구층목탑",
+    "url": "https://encykorea.aks.ac.kr/Article/E0065127"
+   },
+   {
+    "title": "합천 해인사 대장경판",
+    "url": "https://encykorea.aks.ac.kr/Article/E0062711"
+   }
+  ],
+  "facts": {
+   "gr-mongol#0": "manual",
+   "gr-mongol#1": "auto",
+   "gr-mongol#2": "manual",
+   "gr-mongol#3": "manual",
+   "gr-mongol#4": "auto"
+  },
+  "yearsOk": true
+ },
+ "gr-sambyeolcho": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "삼별초",
+    "url": "https://encykorea.aks.ac.kr/Article/E0026604"
+   }
+  ],
+  "facts": {
+   "gr-sambyeolcho#0": "auto",
+   "gr-sambyeolcho#1": "auto",
+   "gr-sambyeolcho#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "gr-won": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "원간섭기",
+    "url": "https://encykorea.aks.ac.kr/Article/E0070275"
+   },
+   {
+    "title": "공민왕의 반원 정치",
+    "url": "https://encykorea.aks.ac.kr/Article/E0070276"
+   },
+   {
+    "title": "쌍성총관부",
+    "url": "https://encykorea.aks.ac.kr/Article/E0034141"
+   },
+   {
+    "title": "권문세족",
+    "url": "https://encykorea.aks.ac.kr/Article/E0070786"
+   },
+   {
+    "title": "만권당",
+    "url": "https://encykorea.aks.ac.kr/Article/E0017544"
+   }
+  ],
+  "facts": {
+   "gr-won#0": "manual",
+   "gr-won#1": "manual",
+   "gr-won#2": "manual",
+   "gr-won#3": "auto",
+   "gr-won#4": "manual",
+   "gr-won#5": "manual"
+  },
+  "yearsOk": true,
+  "note": "백과사전「권문세족」: 원 간섭기의 지배 세력이지만 원의 행성 설치에는 반대해 부원 세력과 구별된다고 서술 → ‘친원 세력인’ 수식은 빼고 다룸."
+ },
+ "gr-gongmin": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "공민왕",
+    "url": "https://encykorea.aks.ac.kr/Article/E0004295"
+   },
+   {
+    "title": "반원정치",
+    "url": "https://encykorea.aks.ac.kr/Article/E0070276"
+   },
+   {
+    "title": "철령위",
+    "url": "https://encykorea.aks.ac.kr/Article/E0056121"
+   },
+   {
+    "title": "쌍성총관부",
+    "url": "https://encykorea.aks.ac.kr/Article/E0034141"
+   }
+  ],
+  "facts": {
+   "gr-gongmin#0": "auto",
+   "gr-gongmin#1": "manual",
+   "gr-gongmin#2": "manual",
+   "gr-gongmin#3": "auto",
+   "gr-gongmin#4": "manual"
+  },
+  "yearsOk": true
+ },
+ "gr-waegu": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "황산대첩",
+    "url": "https://encykorea.aks.ac.kr/Article/E0065178"
+   }
+  ],
+  "facts": {
+   "gr-waegu#0": "manual",
+   "gr-waegu#1": "auto",
+   "gr-waegu#2": "manual",
+   "gr-waegu#3": "auto"
+  },
+  "yearsOk": true
+ },
+ "gr-wihwado": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "위화도회군",
+    "url": "https://encykorea.aks.ac.kr/Article/E0041212"
+   },
+   {
+    "title": "과전법",
+    "url": "https://encykorea.aks.ac.kr/Article/E0004611"
+   }
+  ],
+  "facts": {
+   "gr-wihwado#0": "manual",
+   "gr-wihwado#1": "auto",
+   "gr-wihwado#2": "term",
+   "gr-wihwado#3": "manual"
+  },
+  "yearsOk": true
+ },
+ "gr-jeonsigwa": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "전시과",
+    "url": "https://encykorea.aks.ac.kr/Article/E0049507"
+   }
+  ],
+  "facts": {
+   "gr-jeonsigwa#0": "auto",
+   "gr-jeonsigwa#1": "manual",
+   "gr-jeonsigwa#2": "auto",
+   "gr-jeonsigwa#3": "auto"
+  },
+  "yearsOk": true
+ },
+ "gr-economy": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "벽란도",
+    "url": "https://encykorea.aks.ac.kr/Article/E0022829"
+   },
+   {
+    "title": "은병",
+    "url": "https://encykorea.aks.ac.kr/Article/E0042821"
+   }
+  ],
+  "facts": {
+   "gr-economy#0": "manual",
+   "gr-economy#1": "auto",
+   "gr-economy#2": "manual",
+   "gr-economy#3": "auto"
+  },
+  "yearsOk": true
+ },
+ "gr-society": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "향도",
+    "url": "https://encykorea.aks.ac.kr/Article/E0062893"
+   },
+   {
+    "title": "상속",
+    "url": "https://encykorea.aks.ac.kr/Article/E0027164"
+   },
+   {
+    "title": "역대 국사교과서(고등학교 국사) · 혼인과 여성의 지위",
+    "url": "https://contents.history.go.kr/id/ta_h71_0060_0020_0020_0040"
+   },
+   {
+    "title": "대비원",
+    "url": "https://encykorea.aks.ac.kr/Article/E0014450"
+   }
+  ],
+  "facts": {
+   "gr-society#0": "manual",
+   "gr-society#1": "manual",
+   "gr-society#2": "auto",
+   "gr-society#3": "manual"
+  },
+  "yearsOk": true
+ },
+ "gr-uicheon": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "의천",
+    "url": "https://encykorea.aks.ac.kr/Article/E0043423"
+   },
+   {
+    "title": "교관겸수",
+    "url": "https://encykorea.aks.ac.kr/Article/E0005443"
+   },
+   {
+    "title": "역대 국사교과서(고등학교 국사) · 불교의 발달",
+    "url": "https://contents.history.go.kr/id/ta_h51_0050_0040_0020"
+   }
+  ],
+  "facts": {
+   "gr-uicheon#0": "auto",
+   "gr-uicheon#1": "term",
+   "gr-uicheon#2": "manual",
+   "gr-uicheon#3": "manual"
+  },
+  "yearsOk": true
+ },
+ "gr-jinul": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "지눌",
+    "url": "https://encykorea.aks.ac.kr/Article/E0054108"
+   }
+  ],
+  "facts": {
+   "gr-jinul#0": "auto",
+   "gr-jinul#1": "manual",
+   "gr-jinul#2": "auto",
+   "gr-jinul#3": "auto"
+  },
+  "yearsOk": true
+ },
+ "gr-yose": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "요세",
+    "url": "https://encykorea.aks.ac.kr/Article/E0039331"
+   }
+  ],
+  "facts": {
+   "gr-yose#0": "auto"
+  },
+  "yearsOk": true
+ },
+ "gr-samguksagi": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "삼국사기",
+    "url": "https://encykorea.aks.ac.kr/Article/E0026478"
+   },
+   {
+    "title": "역대 국사교과서(고등학교 국사) · 역사서의 편찬",
+    "url": "https://contents.history.go.kr/id/ta_h71_0070_0020_0010_0030"
+   }
+  ],
+  "facts": {
+   "gr-samguksagi#0": "auto",
+   "gr-samguksagi#1": "manual",
+   "gr-samguksagi#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "gr-samgukyusa": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "삼국유사",
+    "url": "https://encykorea.aks.ac.kr/Article/E0026482"
+   },
+   {
+    "title": "교육",
+    "url": "https://encykorea.aks.ac.kr/Article/E0005524"
+   }
+  ],
+  "facts": {
+   "gr-samgukyusa#0": "auto",
+   "gr-samgukyusa#1": "manual",
+   "gr-samgukyusa#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "gr-jewangungi": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "제왕운기",
+    "url": "https://encykorea.aks.ac.kr/Article/E0051343"
+   }
+  ],
+  "facts": {
+   "gr-jewangungi#0": "auto",
+   "gr-jewangungi#1": "auto",
+   "gr-jewangungi#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "gr-celadon": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "고려청자",
+    "url": "https://encykorea.aks.ac.kr/Article/E0003499"
+   },
+   {
+    "title": "상감",
+    "url": "https://encykorea.aks.ac.kr/Article/E0026995"
+   },
+   {
+    "title": "분청사기",
+    "url": "https://encykorea.aks.ac.kr/Article/E0024868"
+   }
+  ],
+  "facts": {
+   "gr-celadon#0": "manual",
+   "gr-celadon#1": "manual"
+  },
+  "yearsOk": true
+ },
+ "gr-jikji": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "불조직지심체요절",
+    "url": "https://encykorea.aks.ac.kr/Article/E0025035"
+   }
+  ],
+  "facts": {
+   "gr-jikji#0": "auto",
+   "gr-jikji#1": "auto",
+   "gr-jikji#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "gr-tripitaka": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "합천 해인사 대장경판",
+    "url": "https://encykorea.aks.ac.kr/Article/E0062711"
+   }
+  ],
+  "facts": {
+   "gr-tripitaka#0": "auto",
+   "gr-tripitaka#1": "manual",
+   "gr-tripitaka#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "gr-architecture": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "영주 부석사 무량수전",
+    "url": "https://encykorea.aks.ac.kr/Article/E0024299"
+   },
+   {
+    "title": "역대 국사교과서(고등학교 국사) · 고려 문화의 성장",
+    "url": "https://contents.history.go.kr/id/ta_h31_0050_0020_0020"
+   }
+  ],
+  "facts": {
+   "gr-architecture#0": "auto",
+   "gr-architecture#1": "manual",
+   "gr-architecture#2": "manual",
+   "gr-architecture#3": "manual"
+  },
+  "yearsOk": true
+ },
+ "js-taejo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "이성계",
+    "url": "https://encykorea.aks.ac.kr/Article/E0071375"
+   },
+   {
+    "title": "경복궁",
+    "url": "https://encykorea.aks.ac.kr/Article/E0002434"
+   }
+  ],
+  "facts": {
+   "js-taejo#0": "manual",
+   "js-taejo#1": "manual",
+   "js-taejo#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "js-jeongdojeon": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "정도전",
+    "url": "https://encykorea.aks.ac.kr/Article/E0050093"
+   }
+  ],
+  "facts": {
+   "js-jeongdojeon#0": "auto",
+   "js-jeongdojeon#1": "auto",
+   "js-jeongdojeon#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "js-taejong": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "태종",
+    "url": "https://encykorea.aks.ac.kr/Article/E0059039"
+   }
+  ],
+  "facts": {
+   "js-taejong#0": "auto",
+   "js-taejong#1": "auto",
+   "js-taejong#2": "auto",
+   "js-taejong#3": "auto",
+   "js-taejong#4": "auto"
+  },
+  "yearsOk": true
+ },
+ "js-sejong": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "세종",
+    "url": "https://encykorea.aks.ac.kr/Article/E0029857"
+   },
+   {
+    "title": "역대 국사교과서(고등학교 국사) · 민족 문화의 발달",
+    "url": "https://contents.history.go.kr/id/ta_h61_0060_0040_0010"
+   }
+  ],
+  "facts": {
+   "js-sejong#0": "auto",
+   "js-sejong#1": "auto",
+   "js-sejong#2": "auto",
+   "js-sejong#3": "auto",
+   "js-sejong#4": "manual",
+   "js-sejong#5": "auto",
+   "js-sejong#6": "manual",
+   "js-sejong#7": "manual"
+  },
+  "yearsOk": true
+ },
+ "js-sejo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "세조",
+    "url": "https://encykorea.aks.ac.kr/Article/E0029849"
+   }
+  ],
+  "facts": {
+   "js-sejo#0": "manual",
+   "js-sejo#1": "auto",
+   "js-sejo#2": "manual",
+   "js-sejo#3": "auto",
+   "js-sejo#4": "manual"
+  },
+  "yearsOk": true
+ },
+ "js-seongjong": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "성종",
+    "url": "https://encykorea.aks.ac.kr/Article/E0029554"
+   }
+  ],
+  "facts": {
+   "js-seongjong#0": "auto",
+   "js-seongjong#1": "auto",
+   "js-seongjong#2": "auto",
+   "js-seongjong#3": "auto",
+   "js-seongjong#4": "manual"
+  },
+  "yearsOk": true
+ },
+ "js-system": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "의정부",
+    "url": "https://encykorea.aks.ac.kr/Article/E0043379"
+   },
+   {
+    "title": "속현",
+    "url": "https://encykorea.aks.ac.kr/Article/E0030457"
+   }
+  ],
+  "facts": {
+   "js-system#0": "auto",
+   "js-system#1": "manual",
+   "js-system#2": "manual",
+   "js-system#3": "manual",
+   "js-system#4": "auto"
+  },
+  "yearsOk": true,
+  "note": "백과사전「속현」: 조선은 수령이 없는 속현을 차례로 정리해 15세기 후반에도 72곳이 남았고 17세기경 모두 없어짐(‘모든 군현에 수령 파견’은 이 정리가 끝난 결과)."
+ },
+ "js-gwageo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "과거",
+    "url": "https://encykorea.aks.ac.kr/Article/E0004562"
+   }
+  ],
+  "facts": {
+   "js-gwageo#0": "auto",
+   "js-gwageo#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "js-sarim": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "사림",
+    "url": "https://encykorea.aks.ac.kr/Article/E0025557"
+   }
+  ],
+  "facts": {
+   "js-sarim#0": "auto",
+   "js-sarim#1": "manual",
+   "js-sarim#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "js-muo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "무오사화",
+    "url": "https://encykorea.aks.ac.kr/Article/E0019174"
+   }
+  ],
+  "facts": {
+   "js-muo#0": "auto",
+   "js-muo#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "js-gapja": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "갑자사화",
+    "url": "https://encykorea.aks.ac.kr/Article/E0000935"
+   }
+  ],
+  "facts": {
+   "js-gapja#0": "manual",
+   "js-gapja#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "js-jogwangjo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "조광조",
+    "url": "https://encykorea.aks.ac.kr/Article/E0051606"
+   },
+   {
+    "title": "소격서",
+    "url": "https://encykorea.aks.ac.kr/Article/E0029912"
+   }
+  ],
+  "facts": {
+   "js-jogwangjo#0": "manual",
+   "js-jogwangjo#1": "manual",
+   "js-jogwangjo#2": "auto",
+   "js-jogwangjo#3": "manual"
+  },
+  "yearsOk": true
+ },
+ "js-gimyo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "기묘사화",
+    "url": "https://encykorea.aks.ac.kr/Article/E0008223"
+   }
+  ],
+  "facts": {
+   "js-gimyo#0": "auto",
+   "js-gimyo#1": "manual"
+  },
+  "yearsOk": true
+ },
+ "js-eulsa": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "을사사화",
+    "url": "https://encykorea.aks.ac.kr/Article/E0042955"
+   }
+  ],
+  "facts": {
+   "js-eulsa#0": "auto",
+   "js-eulsa#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "js-seowon": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "서원",
+    "url": "https://encykorea.aks.ac.kr/Article/E0028090"
+   },
+   {
+    "title": "서원",
+    "url": "https://encykorea.aks.ac.kr/Article/E0028091"
+   }
+  ],
+  "facts": {
+   "js-seowon#0": "manual",
+   "js-seowon#1": "auto",
+   "js-seowon#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "js-yihwang": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "이황",
+    "url": "https://encykorea.aks.ac.kr/Article/E0046626"
+   }
+  ],
+  "facts": {
+   "js-yihwang#0": "auto",
+   "js-yihwang#1": "manual",
+   "js-yihwang#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "js-yiyi": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "이이",
+    "url": "https://encykorea.aks.ac.kr/Article/E0045546"
+   }
+  ],
+  "facts": {
+   "js-yiyi#0": "auto",
+   "js-yiyi#1": "manual",
+   "js-yiyi#2": "manual",
+   "js-yiyi#3": "auto"
+  },
+  "yearsOk": true
+ },
+ "js-imjin": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "임진왜란",
+    "url": "https://encykorea.aks.ac.kr/Article/E0047674"
+   }
+  ],
+  "facts": {
+   "js-imjin#0": "manual",
+   "js-imjin#1": "auto",
+   "js-imjin#2": "auto",
+   "js-imjin#3": "manual",
+   "js-imjin#4": "auto",
+   "js-imjin#5": "auto"
+  },
+  "yearsOk": true
+ },
+ "js-yisunsin": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "이순신",
+    "url": "https://encykorea.aks.ac.kr/Article/E0044900"
+   }
+  ],
+  "facts": {
+   "js-yisunsin#0": "manual",
+   "js-yisunsin#1": "manual",
+   "js-yisunsin#2": "auto",
+   "js-yisunsin#3": "auto"
+  },
+  "yearsOk": true
+ },
+ "js-gwanghaegun": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "광해군",
+    "url": "https://encykorea.aks.ac.kr/Article/E0005335"
+   }
+  ],
+  "facts": {
+   "js-gwanghaegun#0": "manual",
+   "js-gwanghaegun#1": "auto",
+   "js-gwanghaegun#2": "auto",
+   "js-gwanghaegun#3": "manual"
+  },
+  "yearsOk": true,
+  "note": "백과사전「광해군」: ‘중립 외교’는 교과서·개설서의 통설이지만 1990년대 이후 연구에서 이 평가에 대한 문제 제기가 많다고 서술."
+ },
+ "js-jeongmyo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "정묘호란",
+    "url": "https://encykorea.aks.ac.kr/Article/E0050194"
+   }
+  ],
+  "facts": {
+   "js-jeongmyo#0": "auto",
+   "js-jeongmyo#1": "auto",
+   "js-jeongmyo#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "js-byeongja": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "병자호란",
+    "url": "https://encykorea.aks.ac.kr/Article/E0023151"
+   }
+  ],
+  "facts": {
+   "js-byeongja#0": "manual",
+   "js-byeongja#1": "auto",
+   "js-byeongja#2": "auto",
+   "js-byeongja#3": "auto"
+  },
+  "yearsOk": true
+ },
+ "js-injo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "인조",
+    "url": "https://encykorea.aks.ac.kr/Article/E0047028"
+   }
+  ],
+  "facts": {
+   "js-injo#0": "auto",
+   "js-injo#1": "auto",
+   "js-injo#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "js-hyojong": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "효종",
+    "url": "https://encykorea.aks.ac.kr/Article/E0065706"
+   },
+   {
+    "title": "나선정벌",
+    "url": "https://encykorea.aks.ac.kr/Article/E0011383"
+   }
+  ],
+  "facts": {
+   "js-hyojong#0": "auto",
+   "js-hyojong#1": "manual",
+   "js-hyojong#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "js-gwajeon": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "과전법",
+    "url": "https://encykorea.aks.ac.kr/Article/E0004611"
+   }
+  ],
+  "facts": {
+   "js-gwajeon#0": "auto",
+   "js-gwajeon#1": "auto",
+   "js-gwajeon#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "js-sillok": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "조선왕조실록",
+    "url": "https://encykorea.aks.ac.kr/Article/E0052160"
+   }
+  ],
+  "facts": {
+   "js-sillok#0": "auto",
+   "js-sillok#1": "auto",
+   "js-sillok#2": "auto",
+   "js-sillok#3": "manual"
+  },
+  "yearsOk": true
+ },
+ "js-buncheong": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "분청사기",
+    "url": "https://encykorea.aks.ac.kr/Article/E0024868"
+   }
+  ],
+  "facts": {
+   "js-buncheong#0": "manual",
+   "js-buncheong#1": "manual"
+  },
+  "yearsOk": true
+ },
+ "js-art1": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "몽유도원도",
+    "url": "https://encykorea.aks.ac.kr/Article/E0018824"
+   }
+  ],
+  "facts": {
+   "js-art1#0": "auto",
+   "js-art1#1": "manual",
+   "js-art1#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "jl-bungdang": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "붕당정치",
+    "url": "https://encykorea.aks.ac.kr/Article/E0025062"
+   }
+  ],
+  "facts": {
+   "jl-bungdang#0": "auto",
+   "jl-bungdang#1": "auto",
+   "jl-bungdang#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "jl-yesong": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "예송",
+    "url": "https://encykorea.aks.ac.kr/Article/E0037964"
+   },
+   {
+    "title": "성리학",
+    "url": "https://encykorea.aks.ac.kr/Article/E0029308"
+   }
+  ],
+  "facts": {
+   "jl-yesong#0": "manual",
+   "jl-yesong#1": "auto",
+   "jl-yesong#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "jl-sukjong": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "숙종",
+    "url": "https://encykorea.aks.ac.kr/Article/E0031837"
+   },
+   {
+    "title": "경신환국",
+    "url": "https://encykorea.aks.ac.kr/Article/E0002637"
+   },
+   {
+    "title": "상평통보",
+    "url": "https://encykorea.aks.ac.kr/Article/E0027386"
+   },
+   {
+    "title": "백두산정계비",
+    "url": "https://encykorea.aks.ac.kr/Article/E0022058"
+   }
+  ],
+  "facts": {
+   "jl-sukjong#0": "term",
+   "jl-sukjong#1": "manual",
+   "jl-sukjong#2": "manual",
+   "jl-sukjong#3": "manual",
+   "jl-sukjong#4": "auto"
+  },
+  "yearsOk": true
+ },
+ "jl-yeongjo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "영조",
+    "url": "https://encykorea.aks.ac.kr/Article/E0037669"
+   },
+   {
+    "title": "탕평비",
+    "url": "https://encykorea.aks.ac.kr/Article/E0058858"
+   }
+  ],
+  "facts": {
+   "jl-yeongjo#0": "term",
+   "jl-yeongjo#1": "manual",
+   "jl-yeongjo#2": "auto",
+   "jl-yeongjo#3": "auto",
+   "jl-yeongjo#4": "auto",
+   "jl-yeongjo#5": "manual"
+  },
+  "yearsOk": true
+ },
+ "jl-jeongjo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "정조",
+    "url": "https://encykorea.aks.ac.kr/Article/E0050867"
+   },
+   {
+    "title": "신해통공",
+    "url": "https://encykorea.aks.ac.kr/Article/E0033551"
+   }
+  ],
+  "facts": {
+   "jl-jeongjo#0": "auto",
+   "jl-jeongjo#1": "manual",
+   "jl-jeongjo#2": "manual",
+   "jl-jeongjo#3": "manual",
+   "jl-jeongjo#4": "term",
+   "jl-jeongjo#5": "manual"
+  },
+  "yearsOk": true
+ },
+ "jl-sedo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "세도정치",
+    "url": "https://encykorea.aks.ac.kr/Article/E0029786"
+   },
+   {
+    "title": "신편 한국사 37권 · 흥선대원군의 집권",
+    "url": "https://contents.history.go.kr/id/nh_037_0040_0010"
+   }
+  ],
+  "facts": {
+   "jl-sedo#0": "auto",
+   "jl-sedo#1": "manual",
+   "jl-sedo#2": "manual"
+  },
+  "yearsOk": true,
+  "note": "E0029786: 순조·철종대 외척의 권력 장악(1800 순조 즉위~1863 철종 사망)"
+ },
+ "jl-yeongjeong": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "영정법",
+    "url": "https://encykorea.aks.ac.kr/Article/E0037662"
+   }
+  ],
+  "facts": {
+   "jl-yeongjeong#0": "auto",
+   "jl-yeongjeong#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "jl-daedong": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "대동법",
+    "url": "https://encykorea.aks.ac.kr/Article/E0014246"
+   }
+  ],
+  "facts": {
+   "jl-daedong#0": "manual",
+   "jl-daedong#1": "auto",
+   "jl-daedong#2": "auto",
+   "jl-daedong#3": "auto"
+  },
+  "yearsOk": true
+ },
+ "jl-gyunyeok": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "균역법",
+    "url": "https://encykorea.aks.ac.kr/Article/E0007303"
+   }
+  ],
+  "facts": {
+   "jl-gyunyeok#0": "manual",
+   "jl-gyunyeok#1": "manual",
+   "jl-gyunyeok#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "jl-agri": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "이앙법",
+    "url": "https://encykorea.aks.ac.kr/Article/E0045066"
+   }
+  ],
+  "facts": {
+   "jl-agri#0": "manual",
+   "jl-agri#1": "auto",
+   "jl-agri#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "jl-commerce": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "송상인",
+    "url": "https://encykorea.aks.ac.kr/Article/E0030854"
+   },
+   {
+    "title": "개성상인",
+    "url": "https://encykorea.aks.ac.kr/Article/E0001656"
+   },
+   {
+    "title": "왜관무역",
+    "url": "https://encykorea.aks.ac.kr/Article/E0039199"
+   },
+   {
+    "title": "여각",
+    "url": "https://encykorea.aks.ac.kr/Article/E0036279"
+   },
+   {
+    "title": "덕대제",
+    "url": "https://encykorea.aks.ac.kr/Article/E0015325"
+   }
+  ],
+  "facts": {
+   "jl-commerce#0": "manual",
+   "jl-commerce#1": "auto",
+   "jl-commerce#2": "manual",
+   "jl-commerce#3": "auto",
+   "jl-commerce#4": "manual",
+   "jl-commerce#5": "manual"
+  },
+  "yearsOk": true
+ },
+ "jl-society": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "공명첩",
+    "url": "https://encykorea.aks.ac.kr/Article/E0004276"
+   },
+   {
+    "title": "향전",
+    "url": "https://encykorea.aks.ac.kr/Article/E0062980"
+   }
+  ],
+  "facts": {
+   "jl-society#0": "auto",
+   "jl-society#1": "auto",
+   "jl-society#2": "manual",
+   "jl-society#3": "manual"
+  },
+  "yearsOk": true
+ },
+ "jl-catholic": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "신해박해",
+    "url": "https://encykorea.aks.ac.kr/Article/E0033544"
+   }
+  ],
+  "facts": {
+   "jl-catholic#0": "auto",
+   "jl-catholic#1": "auto",
+   "jl-catholic#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "jl-donghak": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "동학",
+    "url": "https://encykorea.aks.ac.kr/Article/E0016857"
+   }
+  ],
+  "facts": {
+   "jl-donghak#0": "manual",
+   "jl-donghak#1": "auto",
+   "jl-donghak#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "jl-hongkyungnae": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "홍경래의 난",
+    "url": "https://encykorea.aks.ac.kr/Article/E0063948"
+   }
+  ],
+  "facts": {
+   "jl-hongkyungnae#0": "auto",
+   "jl-hongkyungnae#1": "auto",
+   "jl-hongkyungnae#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "jl-imsul": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "삼정이정청",
+    "url": "https://encykorea.aks.ac.kr/Article/E0026800"
+   },
+   {
+    "title": "백낙신",
+    "url": "https://encykorea.aks.ac.kr/Article/E0022016"
+   }
+  ],
+  "facts": {
+   "jl-imsul#0": "manual",
+   "jl-imsul#1": "manual",
+   "jl-imsul#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "jl-yuhyeongwon": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "유형원",
+    "url": "https://encykorea.aks.ac.kr/Article/E0042005"
+   },
+   {
+    "title": "균전론",
+    "url": "https://encykorea.aks.ac.kr/Article/E0007308"
+   }
+  ],
+  "facts": {
+   "jl-yuhyeongwon#0": "auto",
+   "jl-yuhyeongwon#1": "term"
+  },
+  "yearsOk": true
+ },
+ "jl-yik": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "이익",
+    "url": "https://encykorea.aks.ac.kr/Article/E0045562"
+   },
+   {
+    "title": "한전론",
+    "url": "https://encykorea.aks.ac.kr/Article/E0061940"
+   }
+  ],
+  "facts": {
+   "jl-yik#0": "auto",
+   "jl-yik#1": "term",
+   "jl-yik#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "jl-jeongyakyong": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "정약용",
+    "url": "https://encykorea.aks.ac.kr/Article/E0050549"
+   },
+   {
+    "title": "마과회통",
+    "url": "https://encykorea.aks.ac.kr/Article/E0017293"
+   },
+   {
+    "title": "목민심서",
+    "url": "https://encykorea.aks.ac.kr/Article/E0018631"
+   },
+   {
+    "title": "거중기",
+    "url": "https://encykorea.aks.ac.kr/Article/E0001891"
+   }
+  ],
+  "facts": {
+   "jl-jeongyakyong#0": "auto",
+   "jl-jeongyakyong#1": "manual",
+   "jl-jeongyakyong#2": "manual",
+   "jl-jeongyakyong#3": "manual",
+   "jl-jeongyakyong#4": "manual"
+  },
+  "yearsOk": true
+ },
+ "jl-hongdaeyong": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "홍대용",
+    "url": "https://encykorea.aks.ac.kr/Article/E0064019"
+   }
+  ],
+  "facts": {
+   "jl-hongdaeyong#0": "auto",
+   "jl-hongdaeyong#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "jl-bakjiwon": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "박지원",
+    "url": "https://encykorea.aks.ac.kr/Article/E0021216"
+   },
+   {
+    "title": "열하일기",
+    "url": "https://encykorea.aks.ac.kr/Article/E0037072"
+   },
+   {
+    "title": "연암집",
+    "url": "https://encykorea.aks.ac.kr/Article/E0036866"
+   },
+   {
+    "title": "북학",
+    "url": "https://encykorea.aks.ac.kr/Article/E0024783"
+   }
+  ],
+  "facts": {
+   "jl-bakjiwon#0": "manual",
+   "jl-bakjiwon#1": "manual",
+   "jl-bakjiwon#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "jl-bakjega": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "박제가",
+    "url": "https://encykorea.aks.ac.kr/Article/E0021136"
+   },
+   {
+    "title": "북학의",
+    "url": "https://encykorea.aks.ac.kr/Article/E0024784"
+   },
+   {
+    "title": "역대 국사교과서(고등학교 국사) · 실학의 발달",
+    "url": "https://contents.history.go.kr/id/ta_h42_0030_0020_0010"
+   }
+  ],
+  "facts": {
+   "jl-bakjega#0": "auto",
+   "jl-bakjega#1": "manual",
+   "jl-bakjega#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "jl-yudeukgong": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "유득공",
+    "url": "https://encykorea.aks.ac.kr/Article/E0041372"
+   }
+  ],
+  "facts": {
+   "jl-yudeukgong#0": "auto",
+   "jl-yudeukgong#1": "manual"
+  },
+  "yearsOk": true
+ },
+ "jl-history-books": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "동사강목",
+    "url": "https://encykorea.aks.ac.kr/Article/E0016533"
+   },
+   {
+    "title": "동국지도",
+    "url": "https://encykorea.aks.ac.kr/Article/E0016300"
+   }
+  ],
+  "facts": {
+   "jl-history-books#0": "auto",
+   "jl-history-books#1": "manual",
+   "jl-history-books#2": "manual",
+   "jl-history-books#3": "auto",
+   "jl-history-books#4": "manual"
+  },
+  "yearsOk": true
+ },
+ "jl-kimjeonghui": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "김정희",
+    "url": "https://encykorea.aks.ac.kr/Article/E0010428"
+   },
+   {
+    "title": "서울 북한산 신라 진흥왕 순수비",
+    "url": "https://encykorea.aks.ac.kr/Article/E0024795"
+   }
+  ],
+  "facts": {
+   "jl-kimjeonghui#0": "manual",
+   "jl-kimjeonghui#1": "auto",
+   "jl-kimjeonghui#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "jl-ilseongnok": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "승정원일기",
+    "url": "https://encykorea.aks.ac.kr/Article/E0032244"
+   }
+  ],
+  "facts": {
+   "jl-ilseongnok#0": "auto",
+   "jl-ilseongnok#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "jl-art": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "김홍도",
+    "url": "https://encykorea.aks.ac.kr/Article/E0011078"
+   },
+   {
+    "title": "김홍도 필 풍속도 화첩",
+    "url": "https://encykorea.aks.ac.kr/Article/E0013639"
+   }
+  ],
+  "facts": {
+   "jl-art#0": "auto",
+   "jl-art#1": "manual",
+   "jl-art#2": "manual",
+   "jl-art#3": "auto"
+  },
+  "yearsOk": true
+ },
+ "jl-seomin": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "판소리",
+    "url": "https://encykorea.aks.ac.kr/Article/E0059663"
+   },
+   {
+    "title": "봉산탈춤",
+    "url": "https://encykorea.aks.ac.kr/Article/E0023902"
+   },
+   {
+    "title": "홍길동전",
+    "url": "https://encykorea.aks.ac.kr/Article/E0063994"
+   }
+  ],
+  "facts": {
+   "jl-seomin#0": "manual",
+   "jl-seomin#1": "manual",
+   "jl-seomin#2": "manual",
+   "jl-seomin#3": "auto"
+  },
+  "yearsOk": true
+ },
+ "jl-architecture": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "보은 법주사 팔상전",
+    "url": "https://encykorea.aks.ac.kr/Article/E0022741"
+   }
+  ],
+  "facts": {
+   "jl-architecture#0": "manual",
+   "jl-architecture#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "gh-daewongun": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "흥선대원군 묘",
+    "url": "https://encykorea.aks.ac.kr/Article/E0066018"
+   },
+   {
+    "title": "영주 소수서원",
+    "url": "https://encykorea.aks.ac.kr/Article/E0030146"
+   }
+  ],
+  "facts": {
+   "gh-daewongun#0": "auto",
+   "gh-daewongun#1": "auto",
+   "gh-daewongun#2": "auto",
+   "gh-daewongun#3": "auto",
+   "gh-daewongun#4": "manual",
+   "gh-daewongun#5": "auto",
+   "gh-daewongun#6": "manual"
+  },
+  "yearsOk": true
+ },
+ "gh-sherman": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "제너럴셔먼호 사건",
+    "url": "https://encykorea.aks.ac.kr/Article/E0051255"
+   }
+  ],
+  "facts": {
+   "gh-sherman#0": "auto",
+   "gh-sherman#1": "manual",
+   "gh-sherman#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "gh-byeongin": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "병인양요",
+    "url": "https://encykorea.aks.ac.kr/Article/E0023142"
+   },
+   {
+    "title": "한성근",
+    "url": "https://encykorea.aks.ac.kr/Article/E0061722"
+   }
+  ],
+  "facts": {
+   "gh-byeongin#0": "auto",
+   "gh-byeongin#1": "manual",
+   "gh-byeongin#2": "manual",
+   "gh-byeongin#3": "manual"
+  },
+  "yearsOk": true
+ },
+ "gh-oppert": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "오페르트의 남연군묘 도굴사건",
+    "url": "https://encykorea.aks.ac.kr/Article/E0038589"
+   },
+   {
+    "title": "병인박해",
+    "url": "https://encykorea.aks.ac.kr/Article/E0023139"
+   }
+  ],
+  "facts": {
+   "gh-oppert#0": "manual",
+   "gh-oppert#1": "manual"
+  },
+  "yearsOk": true,
+  "note": "E0023139: 1868년(고종 5) 남연군묘 도굴 미수"
+ },
+ "gh-shinmi": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "신미양요",
+    "url": "https://encykorea.aks.ac.kr/Article/E0032961"
+   }
+  ],
+  "facts": {
+   "gh-shinmi#0": "auto",
+   "gh-shinmi#1": "auto",
+   "gh-shinmi#2": "manual",
+   "gh-shinmi#3": "manual"
+  },
+  "yearsOk": true
+ },
+ "gh-ganghwa": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "강화도조약",
+    "url": "https://encykorea.aks.ac.kr/Article/E0001508"
+   }
+  ],
+  "facts": {
+   "gh-ganghwa#0": "manual",
+   "gh-ganghwa#1": "auto",
+   "gh-ganghwa#2": "auto",
+   "gh-ganghwa#3": "auto",
+   "gh-ganghwa#4": "manual"
+  },
+  "yearsOk": true
+ },
+ "gh-susinsa": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "수신사",
+    "url": "https://encykorea.aks.ac.kr/Article/E0031506"
+   }
+  ],
+  "facts": {
+   "gh-susinsa#0": "auto",
+   "gh-susinsa#1": "auto",
+   "gh-susinsa#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "gh-josa": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "조사시찰단",
+    "url": "https://encykorea.aks.ac.kr/Article/E0033036"
+   }
+  ],
+  "facts": {
+   "gh-josa#0": "auto",
+   "gh-josa#1": "auto",
+   "gh-josa#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "gh-yeongseon": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "영선사",
+    "url": "https://encykorea.aks.ac.kr/Article/E0037460"
+   }
+  ],
+  "facts": {
+   "gh-yeongseon#0": "manual",
+   "gh-yeongseon#1": "manual",
+   "gh-yeongseon#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "gh-bobing": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "보빙사",
+    "url": "https://encykorea.aks.ac.kr/Article/E0023371"
+   }
+  ],
+  "facts": {
+   "gh-bobing#0": "auto",
+   "gh-bobing#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "gh-tongni": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "통리기무아문",
+    "url": "https://encykorea.aks.ac.kr/Article/E0059315"
+   }
+  ],
+  "facts": {
+   "gh-tongni#0": "manual",
+   "gh-tongni#1": "auto",
+   "gh-tongni#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "gh-usa": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "조미조약",
+    "url": "https://encykorea.aks.ac.kr/Article/E0051767"
+   },
+   {
+    "title": "신편 한국사 39권 · 일본에 의한 개항과 무관세무역",
+    "url": "https://contents.history.go.kr/id/nh_039_0040_0010_0010_0010"
+   }
+  ],
+  "facts": {
+   "gh-usa#0": "manual",
+   "gh-usa#1": "manual",
+   "gh-usa#2": "manual",
+   "gh-usa#3": "auto"
+  },
+  "yearsOk": true,
+  "note": "조미조약이 ‘처음으로’ 최혜국 대우를 규정했다는 서술은 근거를 찾지 못해 ‘포함되었다’로 고침."
+ },
+ "gh-wijeong": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "위정척사사상",
+    "url": "https://encykorea.aks.ac.kr/Article/E0041196"
+   },
+   {
+    "title": "최익현",
+    "url": "https://encykorea.aks.ac.kr/Article/E0057582"
+   },
+   {
+    "title": "신편 한국사 38권 · 병자년의 위정척사운동",
+    "url": "https://contents.history.go.kr/id/nh_038_0040_0020_0010"
+   }
+  ],
+  "facts": {
+   "gh-wijeong#0": "manual",
+   "gh-wijeong#1": "manual",
+   "gh-wijeong#2": "manual"
+  },
+  "yearsOk": true,
+  "note": "1860~1890년대는 단계 구분(통상 반대→개항 반대→개화 반대→항일 의병)을 묶은 교과서식 표현"
+ },
+ "gh-imo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "임오군란",
+    "url": "https://encykorea.aks.ac.kr/Article/E0047565"
+   }
+  ],
+  "facts": {
+   "gh-imo#0": "manual",
+   "gh-imo#1": "manual",
+   "gh-imo#2": "manual",
+   "gh-imo#3": "manual",
+   "gh-imo#4": "manual"
+  },
+  "yearsOk": true
+ },
+ "gh-gapsin": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "갑신정변",
+    "url": "https://encykorea.aks.ac.kr/Article/E0000922"
+   },
+   {
+    "title": "우정총국",
+    "url": "https://encykorea.aks.ac.kr/Article/E0040100"
+   }
+  ],
+  "facts": {
+   "gh-gapsin#0": "term",
+   "gh-gapsin#1": "auto",
+   "gh-gapsin#2": "manual",
+   "gh-gapsin#3": "manual",
+   "gh-gapsin#4": "auto",
+   "gh-gapsin#5": "auto"
+  },
+  "yearsOk": true
+ },
+ "gh-geomundo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "거문도사건",
+    "url": "https://encykorea.aks.ac.kr/Article/E0001825"
+   },
+   {
+    "title": "중립화",
+    "url": "https://encykorea.aks.ac.kr/Article/E0053745"
+   }
+  ],
+  "facts": {
+   "gh-geomundo#0": "auto",
+   "gh-geomundo#1": "manual"
+  },
+  "yearsOk": true
+ },
+ "gh-banggok": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "방곡령사건",
+    "url": "https://encykorea.aks.ac.kr/Article/E0021663"
+   }
+  ],
+  "facts": {
+   "gh-banggok#0": "manual",
+   "gh-banggok#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "gh-gobu": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "고부민란",
+    "url": "https://encykorea.aks.ac.kr/Article/E0003613"
+   }
+  ],
+  "facts": {
+   "gh-gobu#0": "auto",
+   "gh-gobu#1": "manual",
+   "gh-gobu#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "gh-donghak1": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "집강소",
+    "url": "https://encykorea.aks.ac.kr/Article/E0055029"
+   },
+   {
+    "title": "역대 국사교과서(고등학교 국사) · 동학 농민 운동의 전개",
+    "url": "https://contents.history.go.kr/id/ta_h52_0040_0020_0010"
+   }
+  ],
+  "facts": {
+   "gh-donghak1#0": "auto",
+   "gh-donghak1#1": "manual",
+   "gh-donghak1#2": "auto",
+   "gh-donghak1#3": "auto",
+   "gh-donghak1#4": "auto"
+  },
+  "yearsOk": true
+ },
+ "gh-donghak2": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "우금치전투",
+    "url": "https://encykorea.aks.ac.kr/Article/E0039816"
+   },
+   {
+    "title": "동학운동",
+    "url": "https://encykorea.aks.ac.kr/Article/E0016865"
+   }
+  ],
+  "facts": {
+   "gh-donghak2#0": "auto",
+   "gh-donghak2#1": "auto",
+   "gh-donghak2#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "gh-gabo1": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "갑오개혁",
+    "url": "https://encykorea.aks.ac.kr/Article/E0000925"
+   }
+  ],
+  "facts": {
+   "gh-gabo1#0": "auto",
+   "gh-gabo1#1": "auto",
+   "gh-gabo1#2": "auto",
+   "gh-gabo1#3": "auto",
+   "gh-gabo1#4": "manual",
+   "gh-gabo1#5": "auto"
+  },
+  "yearsOk": true
+ },
+ "gh-gabo2": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "갑오개혁",
+    "url": "https://encykorea.aks.ac.kr/Article/E0000925"
+   }
+  ],
+  "facts": {
+   "gh-gabo2#0": "auto",
+   "gh-gabo2#1": "auto",
+   "gh-gabo2#2": "auto",
+   "gh-gabo2#3": "manual"
+  },
+  "yearsOk": true
+ },
+ "gh-eulmisabyeon": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "을미사변",
+    "url": "https://encykorea.aks.ac.kr/Article/E0042948"
+   }
+  ],
+  "facts": {
+   "gh-eulmisabyeon#0": "auto",
+   "gh-eulmisabyeon#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "gh-eulmi-reform": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "을미개혁",
+    "url": "https://encykorea.aks.ac.kr/Article/E0042947"
+   }
+  ],
+  "facts": {
+   "gh-eulmi-reform#0": "auto",
+   "gh-eulmi-reform#1": "auto",
+   "gh-eulmi-reform#2": "auto",
+   "gh-eulmi-reform#3": "auto"
+  },
+  "yearsOk": true
+ },
+ "gh-agwan": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "아관파천",
+    "url": "https://encykorea.aks.ac.kr/Article/E0034214"
+   }
+  ],
+  "facts": {
+   "gh-agwan#0": "auto",
+   "gh-agwan#1": "manual"
+  },
+  "yearsOk": true
+ },
+ "gh-independence": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "독립협회",
+    "url": "https://encykorea.aks.ac.kr/Article/E0015993"
+   }
+  ],
+  "facts": {
+   "gh-independence#0": "auto",
+   "gh-independence#1": "auto",
+   "gh-independence#2": "auto",
+   "gh-independence#3": "auto",
+   "gh-independence#4": "auto"
+  },
+  "yearsOk": true
+ },
+ "gh-daehan": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "대한제국",
+    "url": "https://encykorea.aks.ac.kr/Article/E0015187"
+   },
+   {
+    "title": "광무개혁",
+    "url": "https://encykorea.aks.ac.kr/Article/E0005118"
+   }
+  ],
+  "facts": {
+   "gh-daehan#0": "auto",
+   "gh-daehan#1": "auto",
+   "gh-daehan#2": "auto",
+   "gh-daehan#3": "manual",
+   "gh-daehan#4": "manual",
+   "gh-daehan#5": "manual"
+  },
+  "yearsOk": true
+ },
+ "gh-facilities": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "원산학사",
+    "url": "https://encykorea.aks.ac.kr/Article/E0040700"
+   },
+   {
+    "title": "제중원",
+    "url": "https://encykorea.aks.ac.kr/Article/E0051479"
+   }
+  ],
+  "facts": {
+   "gh-facilities#0": "auto",
+   "gh-facilities#1": "manual",
+   "gh-facilities#2": "manual",
+   "gh-facilities#3": "auto",
+   "gh-facilities#4": "manual"
+  },
+  "yearsOk": true
+ },
+ "gh-press": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "황성신문",
+    "url": "https://encykorea.aks.ac.kr/Article/E0065214"
+   }
+  ],
+  "facts": {
+   "gh-press#0": "manual",
+   "gh-press#1": "auto",
+   "gh-press#2": "auto",
+   "gh-press#3": "manual"
+  },
+  "yearsOk": true
+ },
+ "gh-uijeongseo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "한일의정서",
+    "url": "https://encykorea.aks.ac.kr/Article/E0061922"
+   }
+  ],
+  "facts": {
+   "gh-uijeongseo#0": "manual",
+   "gh-uijeongseo#1": "manual"
+  },
+  "yearsOk": true
+ },
+ "gh-hyeobyak1": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "고문정치",
+    "url": "https://encykorea.aks.ac.kr/Article/E0003576"
+   }
+  ],
+  "facts": {
+   "gh-hyeobyak1#0": "auto",
+   "gh-hyeobyak1#1": "auto",
+   "gh-hyeobyak1#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "gh-eulsa": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "을사늑약",
+    "url": "https://encykorea.aks.ac.kr/Article/E0042958"
+   },
+   {
+    "title": "자신회",
+    "url": "https://encykorea.aks.ac.kr/Article/E0047976"
+   }
+  ],
+  "facts": {
+   "gh-eulsa#0": "auto",
+   "gh-eulsa#1": "auto",
+   "gh-eulsa#2": "manual",
+   "gh-eulsa#3": "manual"
+  },
+  "yearsOk": true
+ },
+ "gh-hague": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "헤이그 특사 사건",
+    "url": "https://encykorea.aks.ac.kr/Article/E0063241"
+   }
+  ],
+  "facts": {
+   "gh-hague#0": "auto",
+   "gh-hague#1": "auto",
+   "gh-hague#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "gh-jeongmi": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "한일신협약",
+    "url": "https://encykorea.aks.ac.kr/Article/E0061918"
+   }
+  ],
+  "facts": {
+   "gh-jeongmi#0": "auto",
+   "gh-jeongmi#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "gh-annex": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "기유각서",
+    "url": "https://encykorea.aks.ac.kr/Article/E0008369"
+   }
+  ],
+  "facts": {
+   "gh-annex#0": "manual",
+   "gh-annex#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "gh-eulmi-uibyeong": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "을미의병",
+    "url": "https://encykorea.aks.ac.kr/Article/E0042949"
+   }
+  ],
+  "facts": {
+   "gh-eulmi-uibyeong#0": "manual",
+   "gh-eulmi-uibyeong#1": "auto",
+   "gh-eulmi-uibyeong#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "gh-eulsa-uibyeong": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "을사의병",
+    "url": "https://encykorea.aks.ac.kr/Article/E0042956"
+   }
+  ],
+  "facts": {
+   "gh-eulsa-uibyeong#0": "auto",
+   "gh-eulsa-uibyeong#1": "auto",
+   "gh-eulsa-uibyeong#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "gh-jeongmi-uibyeong": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "정미의병",
+    "url": "https://encykorea.aks.ac.kr/Article/E0050215"
+   },
+   {
+    "title": "십삼도창의군",
+    "url": "https://encykorea.aks.ac.kr/Article/E0033997"
+   },
+   {
+    "title": "한국문화사 14권 · 의병 전쟁의 전개와 신무기의 갈망",
+    "url": "https://contents.history.go.kr/id/km_014_0070_0050_0020"
+   }
+  ],
+  "facts": {
+   "gh-jeongmi-uibyeong#0": "auto",
+   "gh-jeongmi-uibyeong#1": "auto",
+   "gh-jeongmi-uibyeong#2": "auto",
+   "gh-jeongmi-uibyeong#3": "manual"
+  },
+  "yearsOk": true
+ },
+ "gh-anjunggeun": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "안중근",
+    "url": "https://encykorea.aks.ac.kr/Article/E0035026"
+   },
+   {
+    "title": "동양평화론",
+    "url": "https://encykorea.aks.ac.kr/Article/E0016677"
+   }
+  ],
+  "facts": {
+   "gh-anjunggeun#0": "manual",
+   "gh-anjunggeun#1": "manual"
+  },
+  "yearsOk": true
+ },
+ "gh-boanhoe": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "보안회",
+    "url": "https://encykorea.aks.ac.kr/Article/E0023463"
+   },
+   {
+    "title": "대한자강회",
+    "url": "https://encykorea.aks.ac.kr/Article/E0015173"
+   },
+   {
+    "title": "역대 국사교과서(고등학교 국사) · 애국 계몽 운동의 전개",
+    "url": "https://contents.history.go.kr/id/ta_h52_0040_0020_0050"
+   }
+  ],
+  "facts": {
+   "gh-boanhoe#0": "manual",
+   "gh-boanhoe#1": "manual"
+  },
+  "yearsOk": true
+ },
+ "gh-sinminhoe": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "신민회",
+    "url": "https://encykorea.aks.ac.kr/Article/E0032974"
+   }
+  ],
+  "facts": {
+   "gh-sinminhoe#0": "auto",
+   "gh-sinminhoe#1": "auto",
+   "gh-sinminhoe#2": "manual",
+   "gh-sinminhoe#3": "manual",
+   "gh-sinminhoe#4": "manual"
+  },
+  "yearsOk": true
+ },
+ "gh-gukchae": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "국채보상운동",
+    "url": "https://encykorea.aks.ac.kr/Article/E0006527"
+   }
+  ],
+  "facts": {
+   "gh-gukchae#0": "manual",
+   "gh-gukchae#1": "manual",
+   "gh-gukchae#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "gh-dokdo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "독도",
+    "url": "https://encykorea.aks.ac.kr/Article/E0015953"
+   }
+  ],
+  "facts": {
+   "gh-dokdo#0": "auto",
+   "gh-dokdo#1": "auto",
+   "gh-dokdo#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "ij-mudan": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "3·1운동",
+    "url": "https://encykorea.aks.ac.kr/Article/E0026772"
+   },
+   {
+    "title": "조선총독부",
+    "url": "https://encykorea.aks.ac.kr/Article/E0052242"
+   }
+  ],
+  "facts": {
+   "ij-mudan#0": "manual",
+   "ij-mudan#1": "manual",
+   "ij-mudan#2": "manual",
+   "ij-mudan#3": "manual"
+  },
+  "yearsOk": true,
+  "note": "1910년대(국권 피탈~3·1 운동) — E0026772에서 3·1 운동 이후 문화통치로 전환"
+ },
+ "ij-land": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "토지조사사업",
+    "url": "https://encykorea.aks.ac.kr/Article/E0059218"
+   },
+   {
+    "title": "역대 국사교과서(고등학교 국사) · 민족 경제의 침탈",
+    "url": "https://contents.history.go.kr/id/ta_h52_0050_0030_0010"
+   }
+  ],
+  "facts": {
+   "ij-land#0": "manual",
+   "ij-land#1": "auto",
+   "ij-land#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "ij-uigunbu": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "대한독립의군부",
+    "url": "https://encykorea.aks.ac.kr/Article/E0014978"
+   },
+   {
+    "title": "신편 한국사 47권 · 1910년대 국내민족운동의 성격",
+    "url": "https://contents.history.go.kr/id/nh_047_0030_0010_0050"
+   }
+  ],
+  "facts": {
+   "ij-uigunbu#0": "manual",
+   "ij-uigunbu#1": "manual",
+   "ij-uigunbu#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "ij-gwangbokhoe": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "대한광복회",
+    "url": "https://encykorea.aks.ac.kr/Article/E0014922"
+   }
+  ],
+  "facts": {
+   "ij-gwangbokhoe#0": "auto",
+   "ij-gwangbokhoe#1": "auto",
+   "ij-gwangbokhoe#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "ij-abroad1910": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "대한광복군정부",
+    "url": "https://encykorea.aks.ac.kr/Article/E0014921"
+   }
+  ],
+  "facts": {
+   "ij-abroad1910#0": "auto",
+   "ij-abroad1910#1": "auto",
+   "ij-abroad1910#2": "manual",
+   "ij-abroad1910#3": "auto"
+  },
+  "yearsOk": true,
+  "note": "E0014921: 권업회 1911·대한광복군정부 1914 / E0014780: 대조선국민군단 1914"
+ },
+ "ij-sinheung": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "신흥무관학교",
+    "url": "https://encykorea.aks.ac.kr/Article/E0033613"
+   }
+  ],
+  "facts": {
+   "ij-sinheung#0": "auto",
+   "ij-sinheung#1": "manual",
+   "ij-sinheung#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "ij-samil": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "3·1운동",
+    "url": "https://encykorea.aks.ac.kr/Article/E0026772"
+   },
+   {
+    "title": "신편 한국사 47권 · 개요",
+    "url": "https://contents.history.go.kr/id/nh_047_0010"
+   }
+  ],
+  "facts": {
+   "ij-samil#0": "manual",
+   "ij-samil#1": "auto",
+   "ij-samil#2": "manual",
+   "ij-samil#3": "manual",
+   "ij-samil#4": "auto"
+  },
+  "yearsOk": true
+ },
+ "ij-kpg": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "대한민국 임시정부",
+    "url": "https://encykorea.aks.ac.kr/Article/E0015017"
+   }
+  ],
+  "facts": {
+   "ij-kpg#0": "auto",
+   "ij-kpg#1": "auto",
+   "ij-kpg#2": "auto",
+   "ij-kpg#3": "auto",
+   "ij-kpg#4": "auto"
+  },
+  "yearsOk": true
+ },
+ "ij-national-rep": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "국민대표회의",
+    "url": "https://encykorea.aks.ac.kr/Article/E0006294"
+   }
+  ],
+  "facts": {
+   "ij-national-rep#0": "auto",
+   "ij-national-rep#1": "manual"
+  },
+  "yearsOk": true
+ },
+ "ij-kpg-chongqing": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "삼균주의",
+    "url": "https://encykorea.aks.ac.kr/Article/E0026495"
+   }
+  ],
+  "facts": {
+   "ij-kpg-chongqing#0": "auto",
+   "ij-kpg-chongqing#1": "auto",
+   "ij-kpg-chongqing#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "ij-munhwa": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "치안유지법",
+    "url": "https://encykorea.aks.ac.kr/Article/E0066841"
+   },
+   {
+    "title": "3·1운동",
+    "url": "https://encykorea.aks.ac.kr/Article/E0026772"
+   }
+  ],
+  "facts": {
+   "ij-munhwa#0": "manual",
+   "ij-munhwa#1": "auto",
+   "ij-munhwa#2": "manual",
+   "ij-munhwa#3": "auto"
+  },
+  "yearsOk": true,
+  "note": "E0026772: 3·1 운동 이후 문화통치로 전환(1920년대)"
+ },
+ "ij-sanmi": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "산미증식계획",
+    "url": "https://encykorea.aks.ac.kr/Article/E0026227"
+   },
+   {
+    "title": "역대 국사교과서(고등학교 국사) · 민족 경제의 침탈",
+    "url": "https://contents.history.go.kr/id/ta_h52_0050_0030_0010"
+   },
+   {
+    "title": "수리조합 반대운동",
+    "url": "https://encykorea.aks.ac.kr/Article/E0031351"
+   }
+  ],
+  "facts": {
+   "ij-sanmi#0": "manual",
+   "ij-sanmi#1": "manual",
+   "ij-sanmi#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "ij-mulsan": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "조선물산장려운동",
+    "url": "https://encykorea.aks.ac.kr/Article/E0052020"
+   },
+   {
+    "title": "역대 국사교과서(고등학교 국사) · 경제적 저항 운동의 전개",
+    "url": "https://contents.history.go.kr/id/ta_h52_0050_0030_0020"
+   },
+   {
+    "title": "조선물산장려회",
+    "url": "https://encykorea.aks.ac.kr/Article/E0052021"
+   }
+  ],
+  "facts": {
+   "ij-mulsan#0": "manual",
+   "ij-mulsan#1": "manual",
+   "ij-mulsan#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "ij-university": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "민립대학설립운동",
+    "url": "https://encykorea.aks.ac.kr/Article/E0020095"
+   }
+  ],
+  "facts": {
+   "ij-university#0": "auto",
+   "ij-university#1": "manual",
+   "ij-university#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "ij-literacy": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "브나로드운동",
+    "url": "https://encykorea.aks.ac.kr/Article/E0025066"
+   },
+   {
+    "title": "문자보급운동",
+    "url": "https://encykorea.aks.ac.kr/Article/E0076100"
+   }
+  ],
+  "facts": {
+   "ij-literacy#0": "auto",
+   "ij-literacy#1": "auto"
+  },
+  "yearsOk": true,
+  "note": "E0076100 문자보급운동: 1920년대 말~1930년대 초 / E0025066 브나로드운동: 1931~1934년"
+ },
+ "ij-amtae": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "암태도 소작쟁의",
+    "url": "https://encykorea.aks.ac.kr/Article/E0035164"
+   }
+  ],
+  "facts": {
+   "ij-amtae#0": "auto",
+   "ij-amtae#1": "manual"
+  },
+  "yearsOk": true
+ },
+ "ij-hyeongpyeong": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "형평운동",
+    "url": "https://encykorea.aks.ac.kr/Article/E0063568"
+   }
+  ],
+  "facts": {
+   "ij-hyeongpyeong#0": "auto",
+   "ij-hyeongpyeong#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "ij-youth": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "방정환",
+    "url": "https://encykorea.aks.ac.kr/Article/E0021783"
+   }
+  ],
+  "facts": {
+   "ij-youth#0": "auto",
+   "ij-youth#1": "auto",
+   "ij-youth#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "ij-singanhoe": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "신간회",
+    "url": "https://encykorea.aks.ac.kr/Article/E0032606"
+   },
+   {
+    "title": "정우회",
+    "url": "https://encykorea.aks.ac.kr/Article/E0050639"
+   }
+  ],
+  "facts": {
+   "ij-singanhoe#0": "auto",
+   "ij-singanhoe#1": "auto",
+   "ij-singanhoe#2": "auto",
+   "ij-singanhoe#3": "manual"
+  },
+  "yearsOk": true
+ },
+ "ij-610": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "6·10만세운동",
+    "url": "https://encykorea.aks.ac.kr/Article/E0042124"
+   },
+   {
+    "title": "신간회",
+    "url": "https://encykorea.aks.ac.kr/Article/E0032606"
+   }
+  ],
+  "facts": {
+   "ij-610#0": "auto",
+   "ij-610#1": "manual"
+  },
+  "yearsOk": true
+ },
+ "ij-gwangju": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "광주학생운동",
+    "url": "https://encykorea.aks.ac.kr/Article/E0005301"
+   }
+  ],
+  "facts": {
+   "ij-gwangju#0": "auto",
+   "ij-gwangju#1": "auto",
+   "ij-gwangju#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "ij-bongodong": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "봉오동전투",
+    "url": "https://encykorea.aks.ac.kr/Article/E0023974"
+   }
+  ],
+  "facts": {
+   "ij-bongodong#0": "auto",
+   "ij-bongodong#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "ij-cheongsanri": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "청산리대첩",
+    "url": "https://encykorea.aks.ac.kr/Article/E0056468"
+   }
+  ],
+  "facts": {
+   "ij-cheongsanri#0": "auto",
+   "ij-cheongsanri#1": "manual"
+  },
+  "yearsOk": true
+ },
+ "ij-gando": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "대한독립군단",
+    "url": "https://encykorea.aks.ac.kr/Article/E0014968"
+   },
+   {
+    "title": "경신참변",
+    "url": "https://encykorea.aks.ac.kr/Article/E0002635"
+   },
+   {
+    "title": "흑하사변",
+    "url": "https://encykorea.aks.ac.kr/Article/E0065923"
+   }
+  ],
+  "facts": {
+   "ij-gando#0": "manual",
+   "ij-gando#1": "auto",
+   "ij-gando#2": "manual"
+  },
+  "yearsOk": true,
+  "note": "E0000512: 1921년 1~3월 독립군의 자유시 이동"
+ },
+ "ij-3bu": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "정의부",
+    "url": "https://encykorea.aks.ac.kr/Article/E0050766"
+   }
+  ],
+  "facts": {
+   "ij-3bu#0": "auto",
+   "ij-3bu#1": "manual",
+   "ij-3bu#2": "manual"
+  },
+  "yearsOk": true,
+  "note": "E0000512: 1923년 8월 의용군 독자 노선 → 1924년 참의부 정식 인준, 1925년 3부 정립"
+ },
+ "ij-hangukdoknip": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "쌍성보전투",
+    "url": "https://encykorea.aks.ac.kr/Article/E0034139"
+   }
+  ],
+  "facts": {
+   "ij-hangukdoknip#0": "auto",
+   "ij-hangukdoknip#1": "auto",
+   "ij-hangukdoknip#2": "auto",
+   "ij-hangukdoknip#3": "auto"
+  },
+  "yearsOk": true
+ },
+ "ij-joseonhyeokmyeong": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "조선혁명군",
+    "url": "https://encykorea.aks.ac.kr/Article/E0052267"
+   }
+  ],
+  "facts": {
+   "ij-joseonhyeokmyeong#0": "auto",
+   "ij-joseonhyeokmyeong#1": "auto",
+   "ij-joseonhyeokmyeong#2": "manual",
+   "ij-joseonhyeokmyeong#3": "auto"
+  },
+  "yearsOk": true
+ },
+ "ij-uiyeoldan": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "의열단",
+    "url": "https://encykorea.aks.ac.kr/Article/E0043334"
+   },
+   {
+    "title": "조선혁명간부학교",
+    "url": "https://encykorea.aks.ac.kr/Article/E0052266"
+   }
+  ],
+  "facts": {
+   "ij-uiyeoldan#0": "manual",
+   "ij-uiyeoldan#1": "auto",
+   "ij-uiyeoldan#2": "auto",
+   "ij-uiyeoldan#3": "auto",
+   "ij-uiyeoldan#4": "term"
+  },
+  "yearsOk": true
+ },
+ "ij-aegukdan": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "한인애국단",
+    "url": "https://encykorea.aks.ac.kr/Article/E0061905"
+   }
+  ],
+  "facts": {
+   "ij-aegukdan#0": "auto",
+   "ij-aegukdan#1": "auto",
+   "ij-aegukdan#2": "manual",
+   "ij-aegukdan#3": "manual"
+  },
+  "yearsOk": true
+ },
+ "ij-joseonuiyongdae": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "조선의용대",
+    "url": "https://encykorea.aks.ac.kr/Article/E0052178"
+   },
+   {
+    "title": "신편 한국사 50권 · 조선의용대의 편입",
+    "url": "https://contents.history.go.kr/id/nh_050_0050_0020_0020_0020"
+   }
+  ],
+  "facts": {
+   "ij-joseonuiyongdae#0": "manual",
+   "ij-joseonuiyongdae#1": "auto",
+   "ij-joseonuiyongdae#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "ij-joseondoknipdongmaeng": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "조선독립동맹",
+    "url": "https://encykorea.aks.ac.kr/Article/E0051988"
+   }
+  ],
+  "facts": {
+   "ij-joseondoknipdongmaeng#0": "manual",
+   "ij-joseondoknipdongmaeng#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "ij-gwangbokgun": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "한국광복군",
+    "url": "https://encykorea.aks.ac.kr/Article/E0005134"
+   },
+   {
+    "title": "김상준",
+    "url": "https://encykorea.aks.ac.kr/Article/E0078535"
+   },
+   {
+    "title": "박영진",
+    "url": "https://encykorea.aks.ac.kr/Article/E0078479"
+   }
+  ],
+  "facts": {
+   "ij-gwangbokgun#0": "manual",
+   "ij-gwangbokgun#1": "auto",
+   "ij-gwangbokgun#2": "auto",
+   "ij-gwangbokgun#3": "manual"
+  },
+  "yearsOk": true
+ },
+ "ij-geonguk": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "조선건국동맹",
+    "url": "https://encykorea.aks.ac.kr/Article/E0073803"
+   }
+  ],
+  "facts": {
+   "ij-geonguk#0": "auto",
+   "ij-geonguk#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "ij-malsal": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "황국신민서사",
+    "url": "https://encykorea.aks.ac.kr/Article/E0076120"
+   }
+  ],
+  "facts": {
+   "ij-malsal#0": "auto",
+   "ij-malsal#1": "auto",
+   "ij-malsal#2": "manual",
+   "ij-malsal#3": "manual"
+  },
+  "yearsOk": true,
+  "note": "1930년대 후반(1937 황국신민서사 등)~1945"
+ },
+ "ij-mobilization": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "국가총동원법",
+    "url": "https://encykorea.aks.ac.kr/Article/E0006142"
+   }
+  ],
+  "facts": {
+   "ij-mobilization#0": "manual",
+   "ij-mobilization#1": "manual",
+   "ij-mobilization#2": "auto",
+   "ij-mobilization#3": "manual"
+  },
+  "yearsOk": true,
+  "note": "1938 국가총동원법 등 1930년대 후반~1945"
+ },
+ "ij-korean-language": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "조선어학회 사건",
+    "url": "https://encykorea.aks.ac.kr/Article/E0052129"
+   },
+   {
+    "title": "가갸날",
+    "url": "https://encykorea.aks.ac.kr/Article/E0078705"
+   }
+  ],
+  "facts": {
+   "ij-korean-language#0": "auto",
+   "ij-korean-language#1": "manual",
+   "ij-korean-language#2": "manual",
+   "ij-korean-language#3": "auto"
+  },
+  "yearsOk": true
+ },
+ "ij-parkeunsik": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "박은식",
+    "url": "https://encykorea.aks.ac.kr/Article/E0021025"
+   },
+   {
+    "title": "양명학",
+    "url": "https://encykorea.aks.ac.kr/Article/E0035512"
+   }
+  ],
+  "facts": {
+   "ij-parkeunsik#0": "auto",
+   "ij-parkeunsik#1": "auto",
+   "ij-parkeunsik#2": "auto",
+   "ij-parkeunsik#3": "manual"
+  },
+  "yearsOk": true
+ },
+ "ij-sinchaeho": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "신채호",
+    "url": "https://encykorea.aks.ac.kr/Article/E0033432"
+   }
+  ],
+  "facts": {
+   "ij-sinchaeho#0": "auto",
+   "ij-sinchaeho#1": "auto",
+   "ij-sinchaeho#2": "auto",
+   "ij-sinchaeho#3": "auto"
+  },
+  "yearsOk": true
+ },
+ "ij-history": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "백남운",
+    "url": "https://encykorea.aks.ac.kr/Article/E0022026"
+   },
+   {
+    "title": "조선사회경제사",
+    "url": "https://encykorea.aks.ac.kr/Article/E0052073"
+   }
+  ],
+  "facts": {
+   "ij-history#0": "auto",
+   "ij-history#1": "manual",
+   "ij-history#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "ij-jeonginbo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "정인보",
+    "url": "https://encykorea.aks.ac.kr/Article/E0050790"
+   },
+   {
+    "title": "양명학",
+    "url": "https://encykorea.aks.ac.kr/Article/E0035512"
+   },
+   {
+    "title": "여유당전서",
+    "url": "https://encykorea.aks.ac.kr/Article/E0036443"
+   }
+  ],
+  "facts": {
+   "ij-jeonginbo#0": "manual",
+   "ij-jeonginbo#1": "manual",
+   "ij-jeonginbo#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "ij-jindan": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "진단학회",
+    "url": "https://encykorea.aks.ac.kr/Article/E0054620"
+   },
+   {
+    "title": "실증사학",
+    "url": "https://encykorea.aks.ac.kr/Article/E0033684"
+   }
+  ],
+  "facts": {
+   "ij-jindan#0": "manual",
+   "ij-jindan#1": "auto",
+   "ij-jindan#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "ij-religion": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "대종교",
+    "url": "https://encykorea.aks.ac.kr/Article/E0014791"
+   }
+  ],
+  "facts": {
+   "ij-religion#0": "auto",
+   "ij-religion#1": "auto",
+   "ij-religion#2": "manual",
+   "ij-religion#3": "auto"
+  },
+  "yearsOk": true
+ },
+ "hd-geonjun": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "조선건국준비위원회",
+    "url": "https://encykorea.aks.ac.kr/Article/E0051909"
+   }
+  ],
+  "facts": {
+   "hd-geonjun#0": "auto",
+   "hd-geonjun#1": "auto",
+   "hd-geonjun#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "hd-moscow": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "모스크바 삼상회의",
+    "url": "https://encykorea.aks.ac.kr/Article/E0066402"
+   }
+  ],
+  "facts": {
+   "hd-moscow#0": "auto",
+   "hd-moscow#1": "auto",
+   "hd-moscow#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "hd-misogongwi": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "미소공동위원회",
+    "url": "https://encykorea.aks.ac.kr/Article/E0019961"
+   }
+  ],
+  "facts": {
+   "hd-misogongwi#0": "manual",
+   "hd-misogongwi#1": "manual"
+  },
+  "yearsOk": true
+ },
+ "hd-jwau": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "좌우합작위원회",
+    "url": "https://encykorea.aks.ac.kr/Article/E0053123"
+   }
+  ],
+  "facts": {
+   "hd-jwau#0": "auto",
+   "hd-jwau#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "hd-un": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "유엔 한국임시위원단",
+    "url": "https://encykorea.aks.ac.kr/Article/E0068340"
+   }
+  ],
+  "facts": {
+   "hd-un#0": "auto",
+   "hd-un#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "hd-namBuk": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "남북협상",
+    "url": "https://encykorea.aks.ac.kr/Article/E0011936"
+   }
+  ],
+  "facts": {
+   "hd-namBuk#0": "auto",
+   "hd-namBuk#1": "auto",
+   "hd-namBuk#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "hd-jeju": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "제주4·3사건",
+    "url": "https://encykorea.aks.ac.kr/Article/E0051439"
+   },
+   {
+    "title": "5·10 총선거",
+    "url": "https://encykorea.aks.ac.kr/Article/E0038395"
+   }
+  ],
+  "facts": {
+   "hd-jeju#0": "auto",
+   "hd-jeju#1": "manual"
+  },
+  "yearsOk": true
+ },
+ "hd-510": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "5·10 총선거",
+    "url": "https://encykorea.aks.ac.kr/Article/E0038395"
+   },
+   {
+    "title": "제헌국회",
+    "url": "https://encykorea.aks.ac.kr/Article/E0073413"
+   }
+  ],
+  "facts": {
+   "hd-510#0": "auto",
+   "hd-510#1": "manual",
+   "hd-510#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "hd-yeosun": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "여수·순천 10·19사건",
+    "url": "https://encykorea.aks.ac.kr/Article/E0036410"
+   }
+  ],
+  "facts": {
+   "hd-yeosun#0": "auto",
+   "hd-yeosun#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "hd-banmin": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "반민족행위처벌법",
+    "url": "https://encykorea.aks.ac.kr/Article/E0021477"
+   }
+  ],
+  "facts": {
+   "hd-banmin#0": "auto",
+   "hd-banmin#1": "auto",
+   "hd-banmin#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "hd-land-reform": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "농지개혁",
+    "url": "https://encykorea.aks.ac.kr/Article/E0013191"
+   },
+   {
+    "title": "농지개혁법",
+    "url": "https://encykorea.aks.ac.kr/Article/E0080662"
+   }
+  ],
+  "facts": {
+   "hd-land-reform#0": "auto",
+   "hd-land-reform#1": "manual",
+   "hd-land-reform#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "hd-war": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "한국전쟁",
+    "url": "https://encykorea.aks.ac.kr/Article/E0042143"
+   },
+   {
+    "title": "한미상호방위조약",
+    "url": "https://encykorea.aks.ac.kr/Article/E0061616"
+   }
+  ],
+  "facts": {
+   "hd-war#0": "auto",
+   "hd-war#1": "manual",
+   "hd-war#2": "manual",
+   "hd-war#3": "auto",
+   "hd-war#4": "manual"
+  },
+  "yearsOk": true
+ },
+ "hd-balchwe": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "발췌개헌",
+    "url": "https://encykorea.aks.ac.kr/Article/E0021623"
+   },
+   {
+    "title": "부산정치파동",
+    "url": "https://encykorea.aks.ac.kr/Article/E0024272"
+   }
+  ],
+  "facts": {
+   "hd-balchwe#0": "auto",
+   "hd-balchwe#1": "manual"
+  },
+  "yearsOk": true
+ },
+ "hd-sasao": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "사사오입 개헌",
+    "url": "https://encykorea.aks.ac.kr/Article/E0025681"
+   }
+  ],
+  "facts": {
+   "hd-sasao#0": "manual",
+   "hd-sasao#1": "manual"
+  },
+  "yearsOk": true
+ },
+ "hd-jinbo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "진보당사건",
+    "url": "https://encykorea.aks.ac.kr/Article/E0054703"
+   },
+   {
+    "title": "경향신문",
+    "url": "https://encykorea.aks.ac.kr/Article/E0002998"
+   }
+  ],
+  "facts": {
+   "hd-jinbo#0": "auto",
+   "hd-jinbo#1": "manual"
+  },
+  "yearsOk": true
+ },
+ "hd-sambaek": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "삼백공업",
+    "url": "https://encykorea.aks.ac.kr/Article/E0073419"
+   }
+  ],
+  "facts": {
+   "hd-sambaek#0": "auto",
+   "hd-sambaek#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "hd-419": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "4·19혁명",
+    "url": "https://encykorea.aks.ac.kr/Article/E0025902"
+   },
+   {
+    "title": "변희용",
+    "url": "https://encykorea.aks.ac.kr/Article/E0022980"
+   }
+  ],
+  "facts": {
+   "hd-419#0": "manual",
+   "hd-419#1": "manual",
+   "hd-419#2": "manual",
+   "hd-419#3": "auto"
+  },
+  "yearsOk": true
+ },
+ "hd-jangmyeon": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "장면",
+    "url": "https://encykorea.aks.ac.kr/Article/E0048442"
+   },
+   {
+    "title": "의원내각제",
+    "url": "https://encykorea.aks.ac.kr/Article/E0043345"
+   },
+   {
+    "title": "지방자치단체장",
+    "url": "https://encykorea.aks.ac.kr/Article/E0080679"
+   }
+  ],
+  "facts": {
+   "hd-jangmyeon#0": "manual",
+   "hd-jangmyeon#1": "manual"
+  },
+  "yearsOk": true
+ },
+ "hd-516": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "5·16",
+    "url": "https://encykorea.aks.ac.kr/Article/E0038494"
+   }
+  ],
+  "facts": {
+   "hd-516#0": "auto",
+   "hd-516#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "hd-hanil": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "한일기본조약",
+    "url": "https://encykorea.aks.ac.kr/Article/E0061915"
+   },
+   {
+    "title": "한일협정 반대운동",
+    "url": "https://encykorea.aks.ac.kr/Article/E0068579"
+   }
+  ],
+  "facts": {
+   "hd-hanil#0": "manual",
+   "hd-hanil#1": "manual",
+   "hd-hanil#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "hd-vietnam": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "베트남",
+    "url": "https://encykorea.aks.ac.kr/Article/E0022798"
+   },
+   {
+    "title": "베트남특수",
+    "url": "https://encykorea.aks.ac.kr/Article/E0073434"
+   }
+  ],
+  "facts": {
+   "hd-vietnam#0": "manual",
+   "hd-vietnam#1": "manual"
+  },
+  "yearsOk": true,
+  "note": "E0022798 베트남: 1964년 9월 22일 파월 시작, 1973년 3월 24일 철수"
+ },
+ "hd-3seon": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "삼선개헌",
+    "url": "https://encykorea.aks.ac.kr/Article/E0026643"
+   }
+  ],
+  "facts": {
+   "hd-3seon#0": "auto"
+  },
+  "yearsOk": true
+ },
+ "hd-yushin": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "10월유신",
+    "url": "https://encykorea.aks.ac.kr/Article/E0032425"
+   },
+   {
+    "title": "유신헌법 개헌청원 백만인 서명운동",
+    "url": "https://encykorea.aks.ac.kr/Article/E0073466"
+   }
+  ],
+  "facts": {
+   "hd-yushin#0": "auto",
+   "hd-yushin#1": "auto",
+   "hd-yushin#2": "auto",
+   "hd-yushin#3": "manual"
+  },
+  "yearsOk": true
+ },
+ "hd-park-econ": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "새마을운동",
+    "url": "https://encykorea.aks.ac.kr/Article/E0027443"
+   },
+   {
+    "title": "포스코",
+    "url": "https://encykorea.aks.ac.kr/Article/E0060217"
+   },
+   {
+    "title": "수출공업화전략",
+    "url": "https://encykorea.aks.ac.kr/Article/E0075905"
+   },
+   {
+    "title": "중화학공업육성계획",
+    "url": "https://encykorea.aks.ac.kr/Article/E0080955"
+   },
+   {
+    "title": "사료로 본 한국사 · 제4차 경제 개발 5개년 계획의 목표와 방침",
+    "url": "https://contents.history.go.kr/id/hm_155_0080"
+   }
+  ],
+  "facts": {
+   "hd-park-econ#0": "auto",
+   "hd-park-econ#1": "auto",
+   "hd-park-econ#2": "manual",
+   "hd-park-econ#3": "manual",
+   "hd-park-econ#4": "manual"
+  },
+  "yearsOk": true,
+  "note": "E0075905 수출공업화전략: 1962년 경제개발계획 발표 / E0080955 중화학공업육성계획: 1973년 중화학공업화 선언"
+ },
+ "hd-buma": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "부마민주항쟁",
+    "url": "https://encykorea.aks.ac.kr/Article/E0024157"
+   }
+  ],
+  "facts": {
+   "hd-buma#0": "manual",
+   "hd-buma#1": "manual",
+   "hd-buma#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "hd-1212": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "서울의 봄",
+    "url": "https://encykorea.aks.ac.kr/Article/E0075759"
+   }
+  ],
+  "facts": {
+   "hd-1212#0": "auto",
+   "hd-1212#1": "manual"
+  },
+  "yearsOk": true
+ },
+ "hd-518": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "서울의 봄",
+    "url": "https://encykorea.aks.ac.kr/Article/E0075759"
+   },
+   {
+    "title": "5·18광주민주화운동",
+    "url": "https://encykorea.aks.ac.kr/Article/E0038496"
+   },
+   {
+    "title": "사료로 본 한국사 · 5.18민주화운동에 대한 고등법원 및 대법원 판결문",
+    "url": "https://contents.history.go.kr/id/hm_151_0020"
+   }
+  ],
+  "facts": {
+   "hd-518#0": "manual",
+   "hd-518#1": "manual",
+   "hd-518#2": "manual"
+  },
+  "yearsOk": true,
+  "note": "E0075759: 1980년 5월 17일 비상계엄 전국 확대"
+ },
+ "hd-chun": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "언론 통폐합 사건",
+    "url": "https://encykorea.aks.ac.kr/Article/E0068258"
+   },
+   {
+    "title": "남북이산가족 고향방문",
+    "url": "https://encykorea.aks.ac.kr/Article/E0011931"
+   },
+   {
+    "title": "3저 호황",
+    "url": "https://encykorea.aks.ac.kr/Article/E0073420"
+   }
+  ],
+  "facts": {
+   "hd-chun#0": "auto",
+   "hd-chun#1": "manual",
+   "hd-chun#2": "manual",
+   "hd-chun#3": "manual",
+   "hd-chun#4": "manual"
+  },
+  "yearsOk": true
+ },
+ "hd-june": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "6월항쟁",
+    "url": "https://encykorea.aks.ac.kr/Article/E0068343"
+   }
+  ],
+  "facts": {
+   "hd-june#0": "auto",
+   "hd-june#1": "manual",
+   "hd-june#2": "manual",
+   "hd-june#3": "manual",
+   "hd-june#4": "auto"
+  },
+  "yearsOk": true
+ },
+ "hd-rohtaewoo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "북방외교",
+    "url": "https://encykorea.aks.ac.kr/Article/E0066460"
+   }
+  ],
+  "facts": {
+   "hd-rohtaewoo#0": "auto",
+   "hd-rohtaewoo#1": "auto",
+   "hd-rohtaewoo#2": "auto",
+   "hd-rohtaewoo#3": "manual"
+  },
+  "yearsOk": true
+ },
+ "hd-kimyoungsam": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "김영삼",
+    "url": "https://encykorea.aks.ac.kr/Article/E0078653"
+   },
+   {
+    "title": "역사바로세우기",
+    "url": "https://encykorea.aks.ac.kr/Article/E0080725"
+   }
+  ],
+  "facts": {
+   "hd-kimyoungsam#0": "auto",
+   "hd-kimyoungsam#1": "auto",
+   "hd-kimyoungsam#2": "manual",
+   "hd-kimyoungsam#3": "auto",
+   "hd-kimyoungsam#4": "manual"
+  },
+  "yearsOk": true
+ },
+ "hd-kimdaejung": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "김대중",
+    "url": "https://encykorea.aks.ac.kr/Article/E0078635"
+   },
+   {
+    "title": "금강산 관광객 억류 사건",
+    "url": "https://encykorea.aks.ac.kr/Article/E0073370"
+   },
+   {
+    "title": "경제사회발전노사정위원회",
+    "url": "https://encykorea.aks.ac.kr/Article/E0066326"
+   },
+   {
+    "title": "국민기초생활보장법",
+    "url": "https://encykorea.aks.ac.kr/Article/E0067851"
+   }
+  ],
+  "facts": {
+   "hd-kimdaejung#0": "manual",
+   "hd-kimdaejung#1": "auto",
+   "hd-kimdaejung#2": "manual",
+   "hd-kimdaejung#3": "manual"
+  },
+  "yearsOk": true,
+  "note": "노사정 위원회는 1998년 1월(김대중 대통령 당선인 시기)에 조직되고 1999년 법률로 제도화."
+ },
+ "hd-rohmoohyun": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "노무현",
+    "url": "https://encykorea.aks.ac.kr/Article/E0078638"
+   },
+   {
+    "title": "자유무역협정",
+    "url": "https://encykorea.aks.ac.kr/Article/E0068393"
+   },
+   {
+    "title": "호주제 폐지",
+    "url": "https://encykorea.aks.ac.kr/Article/E0068599"
+   }
+  ],
+  "facts": {
+   "hd-rohmoohyun#0": "manual",
+   "hd-rohmoohyun#1": "manual",
+   "hd-rohmoohyun#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "hd-74": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "7·4남북공동성명",
+    "url": "https://encykorea.aks.ac.kr/Article/E0058478"
+   }
+  ],
+  "facts": {
+   "hd-74#0": "auto",
+   "hd-74#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "hd-basic": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "남북기본합의서",
+    "url": "https://encykorea.aks.ac.kr/Article/E0066313"
+   }
+  ],
+  "facts": {
+   "hd-basic#0": "auto",
+   "hd-basic#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "hd-615": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "남북정상회담",
+    "url": "https://encykorea.aks.ac.kr/Article/E0070317"
+   },
+   {
+    "title": "육일오남북공동선언",
+    "url": "https://encykorea.aks.ac.kr/Article/E0070107"
+   }
+  ],
+  "facts": {
+   "hd-615#0": "manual",
+   "hd-615#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "hd-104": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "남북정상회담",
+    "url": "https://encykorea.aks.ac.kr/Article/E0070317"
+   },
+   {
+    "title": "십사 남북정상선언",
+    "url": "https://encykorea.aks.ac.kr/Article/E0070192"
+   }
+  ],
+  "facts": {
+   "hd-104#0": "manual",
+   "hd-104#1": "manual"
+  },
+  "yearsOk": true
+ },
+ "hd-panmunjom": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "판문점선언",
+    "url": "https://encykorea.aks.ac.kr/Article/E0080601"
+   }
+  ],
+  "facts": {
+   "hd-panmunjom#0": "auto",
+   "hd-panmunjom#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "th-seol": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "설",
+    "url": "https://encykorea.aks.ac.kr/Article/E0028997"
+   },
+   {
+    "title": "대보름",
+    "url": "https://encykorea.aks.ac.kr/Article/E0014413"
+   }
+  ],
+  "facts": {
+   "th-seol#0": "manual",
+   "th-seol#1": "manual",
+   "th-seol#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "th-boreum": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "대보름",
+    "url": "https://encykorea.aks.ac.kr/Article/E0014413"
+   },
+   {
+    "title": "쥐불놀이",
+    "url": "https://encykorea.aks.ac.kr/Article/E0053990"
+   }
+  ],
+  "facts": {
+   "th-boreum#0": "manual",
+   "th-boreum#1": "manual",
+   "th-boreum#2": "manual",
+   "th-boreum#3": "auto"
+  },
+  "yearsOk": true
+ },
+ "th-hansik": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "한식",
+    "url": "https://encykorea.aks.ac.kr/Article/E0061793"
+   }
+  ],
+  "facts": {
+   "th-hansik#0": "auto",
+   "th-hansik#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "th-dano": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "단오",
+    "url": "https://encykorea.aks.ac.kr/Article/E0013638"
+   },
+   {
+    "title": "수리취떡",
+    "url": "https://encykorea.aks.ac.kr/Article/E0031354"
+   }
+  ],
+  "facts": {
+   "th-dano#0": "manual",
+   "th-dano#1": "term",
+   "th-dano#2": "manual",
+   "th-dano#3": "auto"
+  },
+  "yearsOk": true
+ },
+ "th-chuseok": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "추석",
+    "url": "https://encykorea.aks.ac.kr/Article/E0057862"
+   }
+  ],
+  "facts": {
+   "th-chuseok#0": "auto",
+   "th-chuseok#1": "auto",
+   "th-chuseok#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "th-dongji": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "동지",
+    "url": "https://encykorea.aks.ac.kr/Article/E0016784"
+   }
+  ],
+  "facts": {
+   "th-dongji#0": "auto",
+   "th-dongji#1": "auto",
+   "th-dongji#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "th-ganghwa": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "강화도",
+    "url": "https://encykorea.aks.ac.kr/Article/E0001507"
+   },
+   {
+    "title": "강화학파",
+    "url": "https://encykorea.aks.ac.kr/Article/E0001537"
+   },
+   {
+    "title": "외규장각의궤",
+    "url": "https://encykorea.aks.ac.kr/Article/E0071554"
+   }
+  ],
+  "facts": {
+   "th-ganghwa#0": "auto",
+   "th-ganghwa#1": "auto",
+   "th-ganghwa#2": "manual",
+   "th-ganghwa#3": "term",
+   "th-ganghwa#4": "manual"
+  },
+  "yearsOk": true
+ },
+ "th-gaeseong": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "개성시장",
+    "url": "https://encykorea.aks.ac.kr/Article/E0001661"
+   }
+  ],
+  "facts": {
+   "th-gaeseong#0": "manual",
+   "th-gaeseong#1": "auto",
+   "th-gaeseong#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "th-pyeongyang": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "평양시",
+    "url": "https://encykorea.aks.ac.kr/Article/E0059979"
+   }
+  ],
+  "facts": {
+   "th-pyeongyang#0": "auto",
+   "th-pyeongyang#1": "manual",
+   "th-pyeongyang#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "th-gongju": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "공주시",
+    "url": "https://encykorea.aks.ac.kr/Article/E0004485"
+   }
+  ],
+  "facts": {
+   "th-gongju#0": "auto",
+   "th-gongju#1": "auto",
+   "th-gongju#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "th-buyeo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "부여군",
+    "url": "https://encykorea.aks.ac.kr/Article/E0024379"
+   }
+  ],
+  "facts": {
+   "th-buyeo#0": "auto",
+   "th-buyeo#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "th-jinju": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "진주시",
+    "url": "https://encykorea.aks.ac.kr/Article/E0054910"
+   }
+  ],
+  "facts": {
+   "th-jinju#0": "auto",
+   "th-jinju#1": "manual",
+   "th-jinju#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "th-jeonju": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "전주시",
+    "url": "https://encykorea.aks.ac.kr/Article/E0049669"
+   }
+  ],
+  "facts": {
+   "th-jeonju#0": "auto",
+   "th-jeonju#1": "auto",
+   "th-jeonju#2": "manual"
+  },
+  "yearsOk": true
+ },
+ "th-wonsan": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "원산시",
+    "url": "https://encykorea.aks.ac.kr/Article/E0040691"
+   }
+  ],
+  "facts": {
+   "th-wonsan#0": "auto",
+   "th-wonsan#1": "manual"
+  },
+  "yearsOk": true
+ },
+ "th-jeju": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "제주도",
+    "url": "https://encykorea.aks.ac.kr/Article/E0051413"
+   },
+   {
+    "title": "김만덕",
+    "url": "https://encykorea.aks.ac.kr/Article/E0076304"
+   },
+   {
+    "title": "탐라총관부",
+    "url": "https://encykorea.aks.ac.kr/Article/E0058823"
+   }
+  ],
+  "facts": {
+   "th-jeju#0": "manual",
+   "th-jeju#1": "manual",
+   "th-jeju#2": "term",
+   "th-jeju#3": "manual"
+  },
+  "yearsOk": true
+ },
+ "th-dokdo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "독도",
+    "url": "https://encykorea.aks.ac.kr/Article/E0015953"
+   }
+  ],
+  "facts": {
+   "th-dokdo#0": "auto",
+   "th-dokdo#1": "auto",
+   "th-dokdo#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "th-chungju": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "충주시",
+    "url": "https://encykorea.aks.ac.kr/Article/E0058216"
+   }
+  ],
+  "facts": {
+   "th-chungju#0": "manual",
+   "th-chungju#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "th-pungsu": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "도선",
+    "url": "https://encykorea.aks.ac.kr/Article/E0015705"
+   },
+   {
+    "title": "묘청",
+    "url": "https://encykorea.aks.ac.kr/Article/E0018892"
+   }
+  ],
+  "facts": {
+   "th-pungsu#0": "auto",
+   "th-pungsu#1": "manual"
+  },
+  "yearsOk": true
+ },
+ "th-dogyo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "도교",
+    "url": "https://encykorea.aks.ac.kr/Article/E0015518"
+   }
+  ],
+  "facts": {
+   "th-dogyo#0": "manual",
+   "th-dogyo#1": "auto"
+  },
+  "yearsOk": true
+ },
+ "th-seongnihak": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "성리학",
+    "url": "https://encykorea.aks.ac.kr/Article/E0029308"
+   }
+  ],
+  "facts": {
+   "th-seongnihak#0": "manual",
+   "th-seongnihak#1": "auto",
+   "th-seongnihak#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "th-gyeongdang": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "경당",
+    "url": "https://encykorea.aks.ac.kr/Article/E0002361"
+   }
+  ],
+  "facts": {
+   "th-gyeongdang#0": "auto"
+  },
+  "yearsOk": true
+ },
+ "th-sahak": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "최충",
+    "url": "https://encykorea.aks.ac.kr/Article/E0057700"
+   }
+  ],
+  "facts": {
+   "th-sahak#0": "auto",
+   "th-sahak#1": "auto",
+   "th-sahak#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "th-seonggyungwan": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "성균관",
+    "url": "https://encykorea.aks.ac.kr/Article/E0029204"
+   },
+   {
+    "title": "역대 국사교과서(고등학교 국사) · 조선 초기의 사회 구조",
+    "url": "https://contents.history.go.kr/id/ta_h31_0060_0010_0030"
+   }
+  ],
+  "facts": {
+   "th-seonggyungwan#0": "auto",
+   "th-seonggyungwan#1": "manual",
+   "th-seonggyungwan#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "th-currency": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "상평통보",
+    "url": "https://encykorea.aks.ac.kr/Article/E0027386"
+   }
+  ],
+  "facts": {
+   "th-currency#0": "auto",
+   "th-currency#1": "auto",
+   "th-currency#2": "auto"
+  },
+  "yearsOk": true
+ },
+ "th-medical": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "향약구급방",
+    "url": "https://encykorea.aks.ac.kr/Article/E0062951"
+   }
+  ],
+  "facts": {
+   "th-medical#0": "manual",
+   "th-medical#1": "auto",
+   "th-medical#2": "auto",
+   "th-medical#3": "auto"
+  },
+  "yearsOk": true
+ },
+ "th-jongmyo": {
+  "status": "verified",
+  "checkedAt": "2026-11-27",
+  "sources": [
+   {
+    "title": "종묘",
+    "url": "https://encykorea.aks.ac.kr/Article/E0052928"
+   }
+  ],
+  "facts": {
+   "th-jongmyo#0": "auto",
+   "th-jongmyo#1": "manual"
+  },
+  "yearsOk": true
+ }
+}

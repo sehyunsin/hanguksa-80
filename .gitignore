@@ -1,0 +1,8 @@
+node_modules
+dist
+dev-dist
+*.local
+coverage
+exam-pdfs/
+verify-cache/
+*.tsbuildinfo

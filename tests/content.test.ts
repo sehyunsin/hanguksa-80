@@ -58,3 +58,19 @@ describe('백과사전 검증 기록', () => {
     }
   });
 });
+
+describe('사료 원문 링크(src/content/primarySources.ts)', () => {
+  it('있는 개념을 가리키고, 공식 사료 데이터베이스 주소만 쓴다', async () => {
+    const { PRIMARY_SOURCES } = await import('../src/content/primarySources');
+    const { CONCEPT_MAP } = await import('../src/content');
+    const hosts = /^https:\/\/(sillok\.history\.go\.kr\/id\/k[a-z]{2}_\d{8}_\d{3}|db\.history\.go\.kr\/(ancient|goryeo)\/level\.do\?levelId=[a-z]{2}_\d{3}r[_\d]+|www\.law\.go\.kr\/)/;
+    expect(Object.keys(PRIMARY_SOURCES).length).toBeGreaterThan(10);
+    for (const [cid, list] of Object.entries(PRIMARY_SOURCES)) {
+      expect(CONCEPT_MAP.has(cid), cid).toBe(true);
+      for (const p of list) {
+        expect(p.url, cid).toMatch(hosts);
+        expect(p.title.length, cid).toBeGreaterThan(5);
+      }
+    }
+  });
+});

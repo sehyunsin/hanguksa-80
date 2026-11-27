@@ -2,6 +2,7 @@ import { useLiveQuery } from 'dexie-react-hooks';
 import { CONCEPT_MAP, ERA_LABEL, UNIT_MAP, VERIFICATION } from '../content';
 import { ANALYZED_ROUNDS, frequencyOf } from '../content/exams';
 import { creditOf, imagesOf } from '../content/images';
+import { PRIMARY_CHECKED_AT, primaryOf } from '../content/primarySources';
 import type { Concept } from '../content/types';
 import { db } from '../db/db';
 import { startSession } from '../db/repo';
@@ -111,6 +112,24 @@ export default function ConceptScreen({ id }: { id?: string }) {
               <div className="text-[11px] text-muted">※ 자료는 사료의 요지를 쉬운 말로 풀어 쓴 것입니다(원문 인용 아님).</div>
             </div>
           )}
+          {primaryOf(c.id).length > 0 && (
+            <div className="mt-3 border-t border-line pt-3">
+              <div className="text-sm font-bold">사료 원문 보기</div>
+              <ul className="mt-1 space-y-1.5 text-sm leading-6">
+                {primaryOf(c.id).map((p) => (
+                  <li key={p.url}>
+                    <a href={p.url} target="_blank" rel="noopener noreferrer" className="text-brand underline-offset-2 hover:underline">
+                      {p.title}
+                    </a>
+                    <span className="text-xs text-muted"> · {p.site}</span>
+                  </li>
+                ))}
+              </ul>
+              <div className="mt-1 text-[11px] text-muted">
+                공식 데이터베이스의 해당 기사로 연결돼요. 번역문은 각 기관의 저작물이라 앱에 옮겨 싣지 않았어요(링크 확인 {PRIMARY_CHECKED_AT}).
+              </div>
+            </div>
+          )}
         </Card>
       </Section>
 
@@ -179,8 +198,9 @@ export default function ConceptScreen({ id }: { id?: string }) {
                 {c.status === 'verified' ? '모든 사실과 연도를 아래 항목 본문과 대조했어요.' : '아래 사실은 출처 본문에서 근거를 아직 찾지 못했어요(틀렸다는 뜻은 아니에요).'} (대조일 {VERIFICATION[c.id].checkedAt})
               </p>
               <p className="mt-1 text-xs text-muted">
-                사실 {c.facts.length}개 중 사람이 출처를 읽고 확인 {Object.values(VERIFICATION[c.id].facts).filter((v) => v === 'manual').length}개 · 자동 확인(같은 문장 근처 일치){' '}
-                {Object.values(VERIFICATION[c.id].facts).filter((v) => v === 'auto' || v === 'term').length}개
+                사실 {c.facts.length}개 중 사람이 출처의 근거 문장을 읽고 확인 {Object.values(VERIFICATION[c.id].facts).filter((v) => v === 'manual').length}개
+                {Object.values(VERIFICATION[c.id].facts).some((v) => v === 'auto' || v === 'term') &&
+                  ` · 자동 확인(같은 문장 근처 일치) ${Object.values(VERIFICATION[c.id].facts).filter((v) => v === 'auto' || v === 'term').length}개`}
               </p>
               {Object.entries(VERIFICATION[c.id].facts).some(([, v]) => v === 'unconfirmed') && (
                 <ul className="mt-1 list-disc pl-5 text-warn">

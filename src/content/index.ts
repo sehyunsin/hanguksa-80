@@ -13,7 +13,7 @@ import u09 from './units/u09';
 import u10 from './units/u10';
 
 /** 콘텐츠 버전. 콘텐츠를 수정하면 올린다(학습 기록에는 영향 없음). */
-export const CONTENT_VERSION = '2026.11.27-4';
+export const CONTENT_VERSION = '2026.11.27-5';
 
 const built = [u01, u02, u03, u04, u05, u06, u07, u08, u09, u10].map(buildUnit);
 

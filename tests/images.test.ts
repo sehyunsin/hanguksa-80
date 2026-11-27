@@ -5,7 +5,7 @@ import { IMAGES, imagesOf } from '../src/content/images';
 import { Balancer, genPhoto, grade } from '../src/engine/questions';
 import { mulberry32 } from '../src/engine/util';
 
-const LICENSES = /^(Public domain|PD|CC0|CC BY(-SA)? [0-9.]+( [a-z]{2,3})?|KOGL Type 1)$/i;
+const LICENSES = /^(Public domain|PD|CC0|CC BY(-SA)? [0-9.]+( [a-z]{2,3})?|KOGL Type 1|Attribution)$/i;
 
 describe('문화유산 사진', () => {
   it('모든 사진에 출처·이용 조건·저작자가 있고 파일이 실제로 있다', () => {
@@ -17,6 +17,7 @@ describe('문화유산 사진', () => {
       expect(CONCEPT_MAP.has(im.conceptId), im.id).toBe(true);
       if (im.factId) expect(FACT_MAP.get(im.factId)?.conceptId, im.id).toBe(im.conceptId);
       expect(im.license, im.id).toMatch(LICENSES);
+      expect(['heritage', 'person', 'map']).toContain(im.kind ?? 'heritage');
       expect(im.author.trim().length, im.id).toBeGreaterThan(0);
       expect(im.sourceUrl, im.id).toMatch(/^https:\/\/commons\.wikimedia\.org\/wiki\/File:/);
       expect(im.checkedAt, im.id).toMatch(/^\d{4}-\d{2}-\d{2}$/);

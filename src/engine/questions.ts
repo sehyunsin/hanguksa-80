@@ -4,7 +4,8 @@
 //  - 정답 위치는 Balancer로 고르게 분산한다.
 //  - 순서 문제는 sort 값으로 정답을 판정하므로 보기 순서를 섞어도 오류가 없다.
 import { CONCEPTS, CONCEPT_MAP, ERA_LABEL, ERA_ORDER, FACT_MAP } from '../content';
-import { IMAGES, creditOf, imagesOf } from '../content/images';
+import { IMAGES, creditOf, imagesOf, kindOf } from '../content/images';
+import { ALSO_TRUE } from '../content/overlaps';
 import type { Concept, Fact } from '../content/types';
 import { josa, shuffle, type Rng, defaultRng } from './util';
 
@@ -156,6 +157,30 @@ function place(correct: Choice, wrongs: Choice[], ctx: GenCtx): Choice[] {
 const specific = (c: Concept) => c.facts.filter((f) => !f.generic);
 const keySet = (c: Concept) => new Set(c.facts.map((f) => f.key));
 
+const softText = (s: string) => ` ${s.replace(/[『』「」·]/g, '').replace(/\s+/g, ' ')}`;
+const tight = (s: string) => s.replace(/[『』「」\s·]/g, '');
+/** 문장에 개념의 이름·별칭이 낱말 첫머리로 나오는지(‘왕오천축국전’ 속 ‘고왕’ 같은 우연 일치는 제외) */
+export function namesConcept(text: string, c: Concept): boolean {
+  const t = softText(text);
+  return [c.name.replace(/\(.*?\)/g, '').trim(), ...c.aliases]
+    .filter((n) => tight(n).length >= 2)
+    .some((n) => {
+      const k = softText(n).trim();
+      return [' ', '(', '“', '‘'].some((p) => t.includes(p + k));
+    });
+}
+/** 사실 f가 개념 c에도 맞을 수 있음(사람이 판단한 예외 목록, 또는 문장에 c의 이름이 들어 있음) */
+export function alsoFits(f: Fact, c: Concept): boolean {
+  return (ALSO_TRUE[f.id]?.includes(c.id) ?? false) || namesConcept(f.text, c);
+}
+/** 개념 이름과 그 구성 부분(‘보안회와 대한 자강회’ → 보안회, 대한 자강회) */
+const nameParts = (c: Concept) => {
+  const base = c.name.replace(/\(.*?\)/g, '').trim();
+  return [base, ...base.split(/(?:와|과|및) /)].map(tight).filter((n) => n.length >= 2);
+};
+/** 자료·발문에 정답 이름이 드러나는 사실(예: 인조 — ‘인조반정으로 즉위하였다’) */
+export const leaksName = (f: Fact, c: Concept) => nameParts(c).some((n) => tight(f.text).includes(n));
+
 /** 비슷한 개념 후보: 혼동 개념 → 같은 단원·같은 종류 → 같은 시대·같은 종류 → 같은 종류 */
 export function similarConcepts(c: Concept, ctx: GenCtx, opts: { sameNoun?: boolean; need?: (x: Concept) => boolean } = {}): Concept[] {
   const ok = (x: Concept) =>
@@ -191,7 +216,7 @@ export function falseFactsFor(c: Concept, ctx: GenCtx, n: number, exclude: Set<s
   const sameNoun = similarConcepts(c, ctx, { sameNoun: true });
   const rest = similarConcepts(c, ctx).filter((x) => !sameNoun.includes(x));
   for (const other of [...sameNoun, ...rest]) {
-    const okFacts = shuffle(specific(other), ctx.rng).filter((f) => !ks.has(f.key) && !used.has(f.key));
+    const okFacts = shuffle(specific(other), ctx.rng).filter((f) => !ks.has(f.key) && !used.has(f.key) && !alsoFits(f, c));
     if (okFacts.length) {
       out.push(okFacts[0]);
       used.add(okFacts[0].key);
@@ -255,15 +280,17 @@ export function genOX(c: Concept, ctx: GenCtx, wantTrue?: boolean): Question | n
 
 /** 사실 → 누구(무엇)인가? */
 export function genWho(c: Concept, ctx: GenCtx, n = 3): Question | null {
-  const f = shuffle(specific(c), ctx.rng)[0] ?? c.facts[0];
+  // 정답 이름이 드러나는 사실은 쓰지 않는다
+  const f = shuffle(specific(c), ctx.rng).find((x) => !leaksName(x, c)) ?? c.facts.find((x) => !leaksName(x, c));
   if (!f) return null;
+  const fitsToo = (x: Concept) => x.facts.some((xf) => xf.key === f.key) || alsoFits(f, x);
   const others = similarConcepts(c, ctx, {
     sameNoun: true,
-    need: (x) => !x.facts.some((xf) => xf.key === f.key),
+    need: (x) => !fitsToo(x),
   }).slice(0, n - 1);
   const more =
     others.length < n - 1
-      ? similarConcepts(c, ctx, { need: (x) => !x.facts.some((xf) => xf.key === f.key) && !others.includes(x) }).slice(0, n - 1 - others.length)
+      ? similarConcepts(c, ctx, { need: (x) => !fitsToo(x) && !others.includes(x) }).slice(0, n - 1 - others.length)
       : [];
   const ds = [...others, ...more];
   if (ds.length < 1) return null;
@@ -288,7 +315,9 @@ export function genWho(c: Concept, ctx: GenCtx, n = 3): Question | null {
 
 /** 이 개념에 대한 설명으로 옳은 것은? (쉬운 3지선다) */
 export function genFact(c: Concept, ctx: GenCtx, n = 3): Question | null {
-  const right = shuffle(specific(c), ctx.rng)[0] ?? shuffle(c.facts, ctx.rng)[0];
+  // 정답 선택지에 대상 이름이 그대로 있으면 너무 쉬우므로, 가능하면 이름이 없는 사실을 정답으로
+  const cands = shuffle(specific(c), ctx.rng).sort((a, b) => Number(leaksName(a, c)) - Number(leaksName(b, c)));
+  const right = cands[0] ?? shuffle(c.facts, ctx.rng)[0];
   if (!right) return null;
   const wrong = falseFactsFor(c, ctx, n - 1);
   if (wrong.length < n - 1) return null;
@@ -317,7 +346,8 @@ export function genCloze(c: Concept, ctx: GenCtx, typed = false): Question | nul
   );
   const f = cand[0];
   if (!f || !f.blank) return null;
-  const blankText = f.text.replace(f.blank, '（　？　）');
+  // 같은 말이 두 번 나오면 모두 가린다(예: ‘교장도감을 두어 교장을 편찬’)
+  const blankText = f.text.split(f.blank).join('（　？　）');
   if (typed) {
     const accept = [f.blank, f.blank.replace(/[『』「」]/g, '')];
     return {
@@ -336,10 +366,12 @@ export function genCloze(c: Concept, ctx: GenCtx, typed = false): Question | nul
   }
   // 오답: 비슷한 개념의 빈칸어
   const pool: string[] = [];
-  const own = new Set(c.facts.map((x) => x.blank).filter(Boolean) as string[]);
+  const own = c.facts.map((x) => x.blank).filter(Boolean) as string[];
+  // 한쪽이 다른 쪽을 품는 말(사비/사비성, 향약/예안 향약)은 사실상 같은 답이라 오답으로 쓰지 않는다
+  const nested = (a: string, b: string) => tight(a).includes(tight(b)) || tight(b).includes(tight(a));
   for (const o of similarConcepts(c, ctx)) {
     for (const of of shuffle(o.facts, ctx.rng)) {
-      if (of.blank && !own.has(of.blank) && !pool.includes(of.blank) && of.blank !== f.blank) {
+      if (of.blank && !own.some((x) => nested(x, of.blank!)) && !pool.some((x) => nested(x, of.blank!))) {
         pool.push(of.blank);
         break;
       }
@@ -380,7 +412,10 @@ export function genMatch(c: Concept, ctx: GenCtx, size = 3): Question | null {
   for (let gi = 0; gi < group.length; gi++) {
     const g = group[gi];
     const f = shuffle(specific(g), ctx.rng).find(
-      (x) => !usedKeys.has(x.key) && allKeys.every((ks, i) => i === gi || !ks.has(x.key)),
+      (x) =>
+        !usedKeys.has(x.key) &&
+        allKeys.every((ks, i) => i === gi || !ks.has(x.key)) &&
+        group.every((o, i) => i === gi || !alsoFits(x, o)),
     );
     if (!f) return null;
     usedKeys.add(f.key);
@@ -404,8 +439,8 @@ export function genSort2(c: Concept, ctx: GenCtx, otherId?: string): Question | 
   if (!other) return null;
   const ka = keySet(c);
   const kb = keySet(other);
-  const fa = shuffle(specific(c), ctx.rng).filter((f) => !kb.has(f.key)).slice(0, 2);
-  const fb = shuffle(specific(other), ctx.rng).filter((f) => !ka.has(f.key)).slice(0, 2);
+  const fa = shuffle(specific(c), ctx.rng).filter((f) => !kb.has(f.key) && !alsoFits(f, other)).slice(0, 2);
+  const fb = shuffle(specific(other), ctx.rng).filter((f) => !ka.has(f.key) && !alsoFits(f, c)).slice(0, 2);
   if (fa.length + fb.length < 3 || !fa.length || !fb.length) return null;
   const items = shuffle(
     [
@@ -419,7 +454,8 @@ export function genSort2(c: Concept, ctx: GenCtx, otherId?: string): Question | 
     kind: 'sort2',
     conceptId: c.id,
     relatedIds: [other.id],
-    prompt: `각 설명이 ${josa(c.name, '과/와')} ${other.name} 중 어디에 해당하는지 고르세요.`,
+    // 이름 자체에 ‘~와 ~’가 들어간 개념이 있어 따옴표로 묶는다
+    prompt: `각 설명이 ‘${c.name}’, ‘${other.name}’ 중 어디에 해당하는지 고르세요.`,
     groups: { A: c.name, B: other.name },
     sortItems: items,
     explanation: `${baseExplanation(c)}\n${baseExplanation(other)}`,
@@ -431,7 +467,40 @@ function orderable(c: Concept) {
   return typeof c.sort === 'number' && (c.kind === 'event' || c.kind === 'person' || c.kind === 'group' || c.kind === 'policy' || c.kind === 'institution');
 }
 
-/** 연대순 후보 고르기: 서로 0.02 이상 떨어진 sort 값 */
+/**
+ * 개념의 시기 범위(연도). ‘1176~1198’, ‘1920년대’, ‘14세기 후반’처럼 기간인 개념끼리는 겹치면 순서를 정할 수 없다.
+ * 끝이 열린 표기(‘976~’, ‘?~846’)와 단일 시점은 sort 값 한 점으로 본다.
+ */
+export function spanOf(c: Concept): [number, number] {
+  const s = c.sort as number;
+  const w = c.when ?? '';
+  const nums = (w.match(/\d{2,4}/g) ?? []).map(Number).map((y) => (/기원전/.test(w) ? -y : y));
+  let lo = s;
+  let hi = s;
+  const century = w.match(/(\d{1,2})세기/);
+  if (/년대/.test(w) && nums.length) {
+    // ‘1920년대’ → 1920~1929, ‘1930년대 후반~1945’ → 1930~1945
+    lo = Math.min(...nums);
+    hi = Math.max(...nums);
+    if (w.includes(`${hi}년대`)) hi += 9;
+  } else if (century) {
+    const base = (Number(century[1]) - 1) * 100;
+    lo = base + (/후반/.test(w) ? 50 : 0);
+    hi = base + (/전반/.test(w) ? 49 : 99);
+  } else if (/\d\s*~\s*\d/.test(w) && nums.length >= 2) {
+    lo = Math.min(...nums);
+    hi = Math.max(...nums);
+  }
+  return [Math.min(lo, s), Math.max(hi, s)];
+}
+const apart = (a: Concept, b: Concept) => {
+  if (Math.abs((a.sort as number) - (b.sort as number)) < 0.02) return false;
+  const [al, ah] = spanOf(a);
+  const [bl, bh] = spanOf(b);
+  return ah < bl || bh < al;
+};
+
+/** 연대순 후보 고르기: sort 값이 0.02 이상 떨어지고 시기 범위가 겹치지 않는 것끼리 */
 function pickChrono(c: Concept, ctx: GenCtx, n: number, wide = false): Concept[] | null {
   if (!orderable(c)) return null;
   const pool = CONCEPTS.filter(
@@ -445,7 +514,7 @@ function pickChrono(c: Concept, ctx: GenCtx, n: number, wide = false): Concept[]
   for (const x of prefer) {
     if (chosen.length >= n) break;
     if (chosen.includes(x)) continue;
-    if (chosen.every((y) => Math.abs((y.sort as number) - (x.sort as number)) >= 0.02)) chosen.push(x);
+    if (chosen.every((y) => apart(x, y))) chosen.push(x);
   }
   return chosen.length >= n ? chosen : null;
 }
@@ -531,13 +600,19 @@ export function genClue5(c: Concept, ctx: GenCtx): Question | null {
     if (m) m[1].split(',').forEach((i) => c.facts[Number(i)] && revealed.add(c.facts[Number(i)].key));
     for (const f of c.facts) if (f.blank && text.includes(f.blank)) revealed.add(f.key);
   } else {
-    const clueFacts = shuffle(c.facts, ctx.rng).slice(0, c.facts.length >= 4 ? 2 : 1);
+    // 자료는 대상을 하나로 좁혀야 하므로 일반적 서술·다른 개념에도 맞는 사실·이름이 드러나는 사실은 쓰지 않는다
+    const clueFacts = shuffle(
+      c.facts.filter((f) => !f.generic && !ALSO_TRUE[f.id] && !leaksName(f, c)),
+      ctx.rng,
+    ).slice(0, c.facts.length >= 4 ? 2 : 1);
+    if (!clueFacts.length) return null;
     if (c.facts.length < 2) return null;
     passage = clueFacts.map((f) => `• ${f.text}`);
     clueFacts.forEach((f) => revealed.add(f.key));
   }
+  // 자료는 이름을 (가)로 가렸으므로 정답 선택지에도 이름이 드러나지 않게
   const rightCands = shuffle(
-    c.facts.filter((f) => !revealed.has(f.key)),
+    c.facts.filter((f) => !revealed.has(f.key) && !leaksName(f, c)),
     ctx.rng,
   ).sort((a, b) => Number(a.generic) - Number(b.generic));
   const right = rightCands[0];
@@ -617,7 +692,8 @@ export function genEra(c: Concept, ctx: GenCtx): Question | null {
   };
 }
 
-const SINGLE_YEAR = /^(\d{3,4})년/;
+// ‘1920년대’는 단일 연도가 아니다
+const SINGLE_YEAR = /^(\d{3,4})년(?!대)/;
 /** 연도 맞히기(단일 연도 사건만) */
 export function genYear(c: Concept, ctx: GenCtx): Question | null {
   if (c.kind !== 'event' || !c.when) return null;
@@ -660,8 +736,11 @@ export function genPhoto(c: Concept, ctx: GenCtx): Question | null {
   const mine = imagesOf(c.id);
   if (!mine.length) return null;
   const im = mine[Math.floor(ctx.rng() * mine.length)];
-  const image: QuestionImage = { src: im.file, alt: '문화유산 사진', width: im.width, height: im.height, credit: creditOf(im), sourceUrl: im.sourceUrl };
-  const others = shuffle(IMAGES.filter((x) => x.name !== im.name), ctx.rng);
+  const kind = kindOf(im);
+  const W = PHOTO_WORDS[kind];
+  const image: QuestionImage = { src: im.file, alt: W.alt, width: im.width, height: im.height, credit: creditOf(im), sourceUrl: im.sourceUrl };
+  // 오답 후보는 같은 종류(문화유산끼리·인물끼리·지도끼리)에서만
+  const others = shuffle(IMAGES.filter((x) => x.name !== im.name && kindOf(x) === kind), ctx.rng);
   // 같은 시대의 사진을 먼저 오답 후보로(구별해야 할 대상)
   others.sort((a, b) => Number(CONCEPT_MAP.get(b.conceptId)?.era === c.era) - Number(CONCEPT_MAP.get(a.conceptId)?.era === c.era));
   const fact = im.factId ? FACT_MAP.get(im.factId) : undefined;
@@ -675,7 +754,7 @@ export function genPhoto(c: Concept, ctx: GenCtx): Question | null {
     const idx = ERA_ORDER.indexOf(c.era);
     const near = ERA_ORDER.filter((e) => e !== c.era).sort((a, b) => Math.abs(ERA_ORDER.indexOf(a) - idx) - Math.abs(ERA_ORDER.indexOf(b) - idx) + (ctx.rng() - 0.5));
     const choices = place({ id: c.era, text: ERA_LABEL[c.era], correct: true }, near.slice(0, 3).map((e) => ({ id: e, text: ERA_LABEL[e], correct: false })), ctx);
-    return { ...base, prompt: '사진 속 문화유산과 관련된 시대는?', choices, explanation: `${ERA_LABEL[c.era]}: ${tail}` };
+    return { ...base, prompt: W.era, choices, explanation: `${ERA_LABEL[c.era]}: ${tail}` };
   }
   if (v === 'fact') {
     const seenFacts = new Set<string>();
@@ -684,7 +763,7 @@ export function genPhoto(c: Concept, ctx: GenCtx): Question | null {
       .slice(0, 3)
       .map((x, i) => ({ id: `w${i}`, text: FACT_MAP.get(x.factId!)!.text, correct: false, conceptId: x.conceptId !== c.id ? x.conceptId : undefined }));
     const choices = place({ id: 'ans', text: fact!.text, correct: true, conceptId: c.id }, wrongs, ctx);
-    return { ...base, prompt: '사진 속 문화유산에 대한 설명으로 옳은 것은?', choices, explanation: tail };
+    return { ...base, prompt: W.fact, choices, explanation: tail };
   }
   const names = others.slice(0, 3);
   if (names.length < 3) return null;
@@ -693,8 +772,14 @@ export function genPhoto(c: Concept, ctx: GenCtx): Question | null {
     names.map((x, i) => ({ id: `w${i}`, text: x.name, correct: false, conceptId: x.conceptId !== c.id ? x.conceptId : undefined })),
     ctx,
   );
-  return { ...base, prompt: '사진 속 문화유산은?', choices, explanation: tail };
+  return { ...base, prompt: W.name, choices, explanation: tail };
 }
+
+const PHOTO_WORDS = {
+  heritage: { alt: '문화유산 사진', name: '사진 속 문화유산은?', fact: '사진 속 문화유산에 대한 설명으로 옳은 것은?', era: '사진 속 문화유산과 관련된 시대는?' },
+  person: { alt: '인물 초상·사진', name: '사진 속 인물은?', fact: '사진 속 인물에 대한 설명으로 옳은 것은?', era: '사진 속 인물이 활동한 시대는?' },
+  map: { alt: '역사 지도', name: '지도에 나타난 상황은?', fact: '지도와 관련된 설명으로 옳은 것은?', era: '지도와 관련된 시대는?' },
+} as const;
 
 const GENERATORS: Record<QKind, (c: Concept, ctx: GenCtx) => Question | null> = {
   ox: (c, x) => genOX(c, x),

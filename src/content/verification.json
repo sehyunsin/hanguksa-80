@@ -13,10 +13,10 @@
    }
   ],
   "facts": {
-   "pre-paleo#0": "auto",
+   "pre-paleo#0": "manual",
    "pre-paleo#1": "manual",
    "pre-paleo#2": "manual",
-   "pre-paleo#3": "auto",
+   "pre-paleo#3": "manual",
    "pre-paleo#4": "manual"
   },
   "yearsOk": true
@@ -32,15 +32,19 @@
    {
     "title": "빗살무늬토기",
     "url": "https://encykorea.aks.ac.kr/Article/E0025296"
+   },
+   {
+    "title": "청동기시대",
+    "url": "https://encykorea.aks.ac.kr/Article/E0056357"
    }
   ],
   "facts": {
    "pre-neo#0": "manual",
-   "pre-neo#1": "auto",
-   "pre-neo#2": "auto",
+   "pre-neo#1": "manual",
+   "pre-neo#2": "manual",
    "pre-neo#3": "manual",
-   "pre-neo#4": "auto",
-   "pre-neo#5": "auto"
+   "pre-neo#4": "manual",
+   "pre-neo#5": "manual"
   },
   "yearsOk": true
  },
@@ -89,10 +93,6 @@
     "url": "https://encykorea.aks.ac.kr/Article/E0056111"
    },
    {
-    "title": "거푸집",
-    "url": "https://encykorea.aks.ac.kr/Article/E0001949"
-   },
-   {
     "title": "잔무늬 거울",
     "url": "https://encykorea.aks.ac.kr/Article/E0048159"
    },
@@ -103,14 +103,18 @@
    {
     "title": "역대 국사교과서(고등학교 국사) · 철기의 사용",
     "url": "https://contents.history.go.kr/id/ta_h71_0030_0020_0010_0020"
+   },
+   {
+    "title": "거푸집",
+    "url": "https://encykorea.aks.ac.kr/Article/E0001949"
    }
   ],
   "facts": {
    "pre-iron#0": "manual",
    "pre-iron#1": "manual",
    "pre-iron#2": "manual",
-   "pre-iron#3": "term",
-   "pre-iron#4": "auto"
+   "pre-iron#3": "manual",
+   "pre-iron#4": "manual"
   },
   "yearsOk": true
  },
@@ -123,10 +127,6 @@
     "url": "https://encykorea.aks.ac.kr/Article/E0003937"
    },
    {
-    "title": "홍익인간",
-    "url": "https://encykorea.aks.ac.kr/Article/E0064339"
-   },
-   {
     "title": "교육",
     "url": "https://encykorea.aks.ac.kr/Article/E0005524"
    },
@@ -137,14 +137,18 @@
    {
     "title": "단군",
     "url": "https://encykorea.aks.ac.kr/Article/E0013538"
+   },
+   {
+    "title": "홍익인간",
+    "url": "https://encykorea.aks.ac.kr/Article/E0064339"
    }
   ],
   "facts": {
    "gojoseon#0": "manual",
    "gojoseon#1": "manual",
-   "gojoseon#2": "term",
+   "gojoseon#2": "manual",
    "gojoseon#3": "manual",
-   "gojoseon#4": "auto",
+   "gojoseon#4": "manual",
    "gojoseon#5": "manual"
   },
   "yearsOk": true,
@@ -165,10 +169,14 @@
    {
     "title": "철기시대",
     "url": "https://encykorea.aks.ac.kr/Article/E0056111"
+   },
+   {
+    "title": "고조선",
+    "url": "https://encykorea.aks.ac.kr/Article/E0003937"
    }
   ],
   "facts": {
-   "wiman-joseon#0": "auto",
+   "wiman-joseon#0": "manual",
    "wiman-joseon#1": "manual",
    "wiman-joseon#2": "manual",
    "wiman-joseon#3": "manual",
@@ -186,22 +194,22 @@
     "url": "https://encykorea.aks.ac.kr/Article/E0024368"
    },
    {
-    "title": "1책 12법",
-    "url": "https://encykorea.aks.ac.kr/Article/E0047328"
-   },
-   {
     "title": "사출도",
     "url": "https://encykorea.aks.ac.kr/Article/E0026045"
    },
    {
     "title": "우제점법",
     "url": "https://encykorea.aks.ac.kr/Article/E0040103"
+   },
+   {
+    "title": "1책 12법",
+    "url": "https://encykorea.aks.ac.kr/Article/E0047328"
    }
   ],
   "facts": {
    "buyeo#0": "manual",
    "buyeo#1": "manual",
-   "buyeo#2": "term",
+   "buyeo#2": "manual",
    "buyeo#3": "manual",
    "buyeo#4": "manual"
   },
@@ -222,13 +230,25 @@
    {
     "title": "신편 한국사 6권 · 법률과 풍속",
     "url": "https://contents.history.go.kr/id/nh_006_0050_0040_0020_0010"
+   },
+   {
+    "title": "동맹",
+    "url": "https://encykorea.aks.ac.kr/Article/E0016416"
+   },
+   {
+    "title": "부경",
+    "url": "https://encykorea.aks.ac.kr/Article/E0024090"
+   },
+   {
+    "title": "제가회의",
+    "url": "https://encykorea.aks.ac.kr/Article/E0077924"
    }
   ],
   "facts": {
    "goguryeo-early#0": "manual",
-   "goguryeo-early#1": "auto",
-   "goguryeo-early#2": "auto",
-   "goguryeo-early#3": "auto",
+   "goguryeo-early#1": "manual",
+   "goguryeo-early#2": "manual",
+   "goguryeo-early#3": "manual",
    "goguryeo-early#4": "manual"
   },
   "yearsOk": true,
@@ -252,9 +272,9 @@
    }
   ],
   "facts": {
-   "okjeo#0": "auto",
+   "okjeo#0": "manual",
    "okjeo#1": "manual",
-   "okjeo#2": "auto",
+   "okjeo#2": "manual",
    "okjeo#3": "manual"
   },
   "yearsOk": true,
@@ -272,7 +292,7 @@
   "facts": {
    "dongye#0": "manual",
    "dongye#1": "manual",
-   "dongye#2": "auto",
+   "dongye#2": "manual",
    "dongye#3": "manual",
    "dongye#4": "manual"
   },
@@ -296,11 +316,11 @@
    }
   ],
   "facts": {
-   "samhan#0": "auto",
+   "samhan#0": "manual",
    "samhan#1": "manual",
    "samhan#2": "manual",
    "samhan#3": "manual",
-   "samhan#4": "auto"
+   "samhan#4": "manual"
   },
   "yearsOk": true
  },
@@ -318,8 +338,8 @@
    }
   ],
   "facts": {
-   "gg-gogukcheon#0": "auto",
-   "gg-gogukcheon#1": "auto",
+   "gg-gogukcheon#0": "manual",
+   "gg-gogukcheon#1": "manual",
    "gg-gogukcheon#2": "manual"
   },
   "yearsOk": true
@@ -335,7 +355,7 @@
   ],
   "facts": {
    "gg-micheon#0": "manual",
-   "gg-micheon#1": "auto"
+   "gg-micheon#1": "manual"
   },
   "yearsOk": true
  },
@@ -349,9 +369,9 @@
    }
   ],
   "facts": {
-   "gg-sosurim#0": "auto",
+   "gg-sosurim#0": "manual",
    "gg-sosurim#1": "manual",
-   "gg-sosurim#2": "auto"
+   "gg-sosurim#2": "manual"
   },
   "yearsOk": true
  },
@@ -365,9 +385,9 @@
    }
   ],
   "facts": {
-   "gg-gwanggaeto#0": "auto",
+   "gg-gwanggaeto#0": "manual",
    "gg-gwanggaeto#1": "manual",
-   "gg-gwanggaeto#2": "auto",
+   "gg-gwanggaeto#2": "manual",
    "gg-gwanggaeto#3": "manual"
   },
   "yearsOk": true
@@ -383,11 +403,15 @@
    {
     "title": "충주 고구려비",
     "url": "https://encykorea.aks.ac.kr/Article/E0053885"
+   },
+   {
+    "title": "광개토왕",
+    "url": "https://encykorea.aks.ac.kr/Article/E0005057"
    }
   ],
   "facts": {
-   "gg-jangsu#0": "auto",
-   "gg-jangsu#1": "auto",
+   "gg-jangsu#0": "manual",
+   "gg-jangsu#1": "manual",
    "gg-jangsu#2": "manual",
    "gg-jangsu#3": "manual",
    "gg-jangsu#4": "manual"
@@ -417,6 +441,10 @@
    {
     "title": "안시성전투",
     "url": "https://encykorea.aks.ac.kr/Article/E0034848"
+   },
+   {
+    "title": "고구려",
+    "url": "https://encykorea.aks.ac.kr/Article/E0003323"
    }
   ],
   "facts": {
@@ -440,7 +468,7 @@
    }
   ],
   "facts": {
-   "bj-goi#0": "auto",
+   "bj-goi#0": "manual",
    "bj-goi#1": "manual",
    "bj-goi#2": "manual"
   },
@@ -461,10 +489,10 @@
    }
   ],
   "facts": {
-   "bj-geunchogo#0": "auto",
-   "bj-geunchogo#1": "auto",
+   "bj-geunchogo#0": "manual",
+   "bj-geunchogo#1": "manual",
    "bj-geunchogo#2": "manual",
-   "bj-geunchogo#3": "auto",
+   "bj-geunchogo#3": "manual",
    "bj-geunchogo#4": "manual"
   },
   "yearsOk": true
@@ -479,7 +507,7 @@
    }
   ],
   "facts": {
-   "bj-chimnyu#0": "auto"
+   "bj-chimnyu#0": "manual"
   },
   "yearsOk": true
  },
@@ -506,7 +534,7 @@
   ],
   "facts": {
    "bj-muryeong#0": "manual",
-   "bj-muryeong#1": "auto",
+   "bj-muryeong#1": "manual",
    "bj-muryeong#2": "manual"
   },
   "yearsOk": true
@@ -524,8 +552,8 @@
    "bj-seong#0": "manual",
    "bj-seong#1": "manual",
    "bj-seong#2": "manual",
-   "bj-seong#3": "auto",
-   "bj-seong#4": "auto"
+   "bj-seong#3": "manual",
+   "bj-seong#4": "manual"
   },
   "yearsOk": true
  },
@@ -539,7 +567,7 @@
    }
   ],
   "facts": {
-   "bj-mu#0": "auto"
+   "bj-mu#0": "manual"
   },
   "yearsOk": true
  },
@@ -553,8 +581,8 @@
    }
   ],
   "facts": {
-   "bj-uija#0": "auto",
-   "bj-uija#1": "auto"
+   "bj-uija#0": "manual",
+   "bj-uija#1": "manual"
   },
   "yearsOk": true
  },
@@ -568,8 +596,8 @@
    }
   ],
   "facts": {
-   "sl-naemul#0": "auto",
-   "sl-naemul#1": "auto",
+   "sl-naemul#0": "manual",
+   "sl-naemul#1": "manual",
    "sl-naemul#2": "manual"
   },
   "yearsOk": true
@@ -588,11 +616,11 @@
    }
   ],
   "facts": {
-   "sl-jijeung#0": "auto",
-   "sl-jijeung#1": "auto",
-   "sl-jijeung#2": "auto",
+   "sl-jijeung#0": "manual",
+   "sl-jijeung#1": "manual",
+   "sl-jijeung#2": "manual",
    "sl-jijeung#3": "manual",
-   "sl-jijeung#4": "auto",
+   "sl-jijeung#4": "manual",
    "sl-jijeung#5": "manual"
   },
   "yearsOk": true
@@ -611,12 +639,12 @@
    }
   ],
   "facts": {
-   "sl-beopheung#0": "auto",
-   "sl-beopheung#1": "auto",
+   "sl-beopheung#0": "manual",
+   "sl-beopheung#1": "manual",
    "sl-beopheung#2": "manual",
-   "sl-beopheung#3": "auto",
-   "sl-beopheung#4": "auto",
-   "sl-beopheung#5": "auto"
+   "sl-beopheung#3": "manual",
+   "sl-beopheung#4": "manual",
+   "sl-beopheung#5": "manual"
   },
   "yearsOk": true
  },
@@ -634,11 +662,11 @@
    }
   ],
   "facts": {
-   "sl-jinheung#0": "auto",
-   "sl-jinheung#1": "auto",
-   "sl-jinheung#2": "auto",
+   "sl-jinheung#0": "manual",
+   "sl-jinheung#1": "manual",
+   "sl-jinheung#2": "manual",
    "sl-jinheung#3": "manual",
-   "sl-jinheung#4": "auto",
+   "sl-jinheung#4": "manual",
    "sl-jinheung#5": "manual"
   },
   "yearsOk": true
@@ -657,8 +685,8 @@
    }
   ],
   "facts": {
-   "sl-seondeok#0": "term",
-   "sl-seondeok#1": "auto",
+   "sl-seondeok#0": "manual",
+   "sl-seondeok#1": "manual",
    "sl-seondeok#2": "manual"
   },
   "yearsOk": true
@@ -673,9 +701,9 @@
    }
   ],
   "facts": {
-   "sl-hwabaek#0": "auto",
-   "sl-hwabaek#1": "auto",
-   "sl-hwabaek#2": "auto"
+   "sl-hwabaek#0": "manual",
+   "sl-hwabaek#1": "manual",
+   "sl-hwabaek#2": "manual"
   },
   "yearsOk": true
  },
@@ -698,7 +726,7 @@
   ],
   "facts": {
    "gaya-geumgwan#0": "manual",
-   "gaya-geumgwan#1": "auto",
+   "gaya-geumgwan#1": "manual",
    "gaya-geumgwan#2": "manual",
    "gaya-geumgwan#3": "manual"
   },
@@ -715,8 +743,8 @@
    }
   ],
   "facts": {
-   "gaya-daegaya#0": "auto",
-   "gaya-daegaya#1": "auto",
+   "gaya-daegaya#0": "manual",
+   "gaya-daegaya#1": "manual",
    "gaya-daegaya#2": "manual"
   },
   "yearsOk": true
@@ -732,12 +760,16 @@
    {
     "title": "성골",
     "url": "https://encykorea.aks.ac.kr/Article/E0029185"
+   },
+   {
+    "title": "나당전쟁",
+    "url": "https://encykorea.aks.ac.kr/Article/E0011307"
    }
   ],
   "facts": {
    "sl-muyeol#0": "manual",
    "sl-muyeol#1": "manual",
-   "sl-muyeol#2": "auto"
+   "sl-muyeol#2": "manual"
   },
   "yearsOk": true
  },
@@ -748,10 +780,14 @@
    {
     "title": "황산벌전투",
     "url": "https://encykorea.aks.ac.kr/Article/E0065183"
+   },
+   {
+    "title": "의자왕",
+    "url": "https://encykorea.aks.ac.kr/Article/E0043357"
    }
   ],
   "facts": {
-   "sam-hwangsan#0": "auto",
+   "sam-hwangsan#0": "manual",
    "sam-hwangsan#1": "manual"
   },
   "yearsOk": true
@@ -766,9 +802,9 @@
    }
   ],
   "facts": {
-   "sam-baekje-revival#0": "auto",
-   "sam-baekje-revival#1": "auto",
-   "sam-baekje-revival#2": "auto"
+   "sam-baekje-revival#0": "manual",
+   "sam-baekje-revival#1": "manual",
+   "sam-baekje-revival#2": "manual"
   },
   "yearsOk": true
  },
@@ -782,9 +818,9 @@
    }
   ],
   "facts": {
-   "sam-goguryeo-revival#0": "auto",
-   "sam-goguryeo-revival#1": "auto",
-   "sam-goguryeo-revival#2": "auto"
+   "sam-goguryeo-revival#0": "manual",
+   "sam-goguryeo-revival#1": "manual",
+   "sam-goguryeo-revival#2": "manual"
   },
   "yearsOk": true
  },
@@ -802,8 +838,8 @@
    }
   ],
   "facts": {
-   "sam-nadang#0": "auto",
-   "sam-nadang#1": "auto",
+   "sam-nadang#0": "manual",
+   "sam-nadang#1": "manual",
    "sam-nadang#2": "manual"
   },
   "yearsOk": true
@@ -819,11 +855,15 @@
    {
     "title": "역대 국사교과서(고등학교 국사) · 예술의 발달",
     "url": "https://contents.history.go.kr/id/ta_h51_0040_0040_0040"
+   },
+   {
+    "title": "무용총",
+    "url": "https://encykorea.aks.ac.kr/Article/E0019185"
    }
   ],
   "facts": {
    "art-gg-tomb#0": "manual",
-   "art-gg-tomb#1": "auto",
+   "art-gg-tomb#1": "manual",
    "art-gg-tomb#2": "manual"
   },
   "yearsOk": true
@@ -835,11 +875,19 @@
    {
     "title": "익산 미륵사지 석탑",
     "url": "https://encykorea.aks.ac.kr/Article/E0019920"
+   },
+   {
+    "title": "부여 정림사지 오층석탑",
+    "url": "https://encykorea.aks.ac.kr/Article/E0024447"
+   },
+   {
+    "title": "백제금동대향로",
+    "url": "https://encykorea.aks.ac.kr/Article/E0024394"
    }
   ],
   "facts": {
-   "art-bj#0": "auto",
-   "art-bj#1": "auto",
+   "art-bj#0": "manual",
+   "art-bj#1": "manual",
    "art-bj#2": "manual",
    "art-bj#3": "manual"
   },
@@ -852,12 +900,16 @@
    {
     "title": "돌무지덧널무덤",
     "url": "https://encykorea.aks.ac.kr/Article/E0016131"
+   },
+   {
+    "title": "경주 분황사 모전석탑",
+    "url": "https://encykorea.aks.ac.kr/Article/E0024896"
    }
   ],
   "facts": {
-   "art-sl#0": "auto",
+   "art-sl#0": "manual",
    "art-sl#1": "manual",
-   "art-sl#2": "auto"
+   "art-sl#2": "manual"
   },
   "yearsOk": true
  },
@@ -872,7 +924,7 @@
   ],
   "facts": {
    "ns-munmu#0": "manual",
-   "ns-munmu#1": "auto",
+   "ns-munmu#1": "manual",
    "ns-munmu#2": "manual"
   },
   "yearsOk": true
@@ -893,10 +945,10 @@
   "facts": {
    "ns-sinmun#0": "manual",
    "ns-sinmun#1": "manual",
-   "ns-sinmun#2": "term",
-   "ns-sinmun#3": "auto",
+   "ns-sinmun#2": "manual",
+   "ns-sinmun#3": "manual",
    "ns-sinmun#4": "manual",
-   "ns-sinmun#5": "auto"
+   "ns-sinmun#5": "manual"
   },
   "yearsOk": true
  },
@@ -910,7 +962,7 @@
    }
   ],
   "facts": {
-   "ns-seongdeok#0": "auto"
+   "ns-seongdeok#0": "manual"
   },
   "yearsOk": true
  },
@@ -924,7 +976,7 @@
    }
   ],
   "facts": {
-   "ns-gyeongdeok#0": "auto",
+   "ns-gyeongdeok#0": "manual",
    "ns-gyeongdeok#1": "manual"
   },
   "yearsOk": true
@@ -936,12 +988,20 @@
    {
     "title": "김헌창의 난",
     "url": "https://encykorea.aks.ac.kr/Article/E0011027"
+   },
+   {
+    "title": "원종·애노의 난",
+    "url": "https://encykorea.aks.ac.kr/Article/E0040826"
+   },
+   {
+    "title": "호족",
+    "url": "https://encykorea.aks.ac.kr/Article/E0063859"
    }
   ],
   "facts": {
-   "ns-hadae#0": "auto",
-   "ns-hadae#1": "auto",
-   "ns-hadae#2": "auto"
+   "ns-hadae#0": "manual",
+   "ns-hadae#1": "manual",
+   "ns-hadae#2": "manual"
   },
   "yearsOk": true
  },
@@ -955,7 +1015,7 @@
    }
   ],
   "facts": {
-   "ns-jangbogo#0": "auto",
+   "ns-jangbogo#0": "manual",
    "ns-jangbogo#1": "manual"
   },
   "yearsOk": true
@@ -974,9 +1034,9 @@
    }
   ],
   "facts": {
-   "ns-choichiwon#0": "auto",
-   "ns-choichiwon#1": "auto",
-   "ns-choichiwon#2": "auto",
+   "ns-choichiwon#0": "manual",
+   "ns-choichiwon#1": "manual",
+   "ns-choichiwon#2": "manual",
    "ns-choichiwon#3": "manual"
   },
   "yearsOk": true
@@ -997,9 +1057,9 @@
   "facts": {
    "ns-wonhyo#0": "manual",
    "ns-wonhyo#1": "manual",
-   "ns-wonhyo#2": "auto",
+   "ns-wonhyo#2": "manual",
    "ns-wonhyo#3": "manual",
-   "ns-wonhyo#4": "auto"
+   "ns-wonhyo#4": "manual"
   },
   "yearsOk": true
  },
@@ -1014,9 +1074,9 @@
   ],
   "facts": {
    "ns-uisang#0": "manual",
-   "ns-uisang#1": "auto",
+   "ns-uisang#1": "manual",
    "ns-uisang#2": "manual",
-   "ns-uisang#3": "auto"
+   "ns-uisang#3": "manual"
   },
   "yearsOk": true
  },
@@ -1030,7 +1090,7 @@
    }
   ],
   "facts": {
-   "ns-hyecho#0": "auto"
+   "ns-hyecho#0": "manual"
   },
   "yearsOk": true
  },
@@ -1045,13 +1105,17 @@
    {
     "title": "경주 석굴암 석굴",
     "url": "https://encykorea.aks.ac.kr/Article/E0028362"
+   },
+   {
+    "title": "성덕대왕신종",
+    "url": "https://encykorea.aks.ac.kr/Article/E0029268"
    }
   ],
   "facts": {
-   "ns-bulguksa#0": "auto",
+   "ns-bulguksa#0": "manual",
    "ns-bulguksa#1": "manual",
    "ns-bulguksa#2": "manual",
-   "ns-bulguksa#3": "auto"
+   "ns-bulguksa#3": "manual"
   },
   "yearsOk": true
  },
@@ -1070,6 +1134,10 @@
    {
     "title": "도의",
     "url": "https://encykorea.aks.ac.kr/Article/E0015807"
+   },
+   {
+    "title": "참선",
+    "url": "https://encykorea.aks.ac.kr/Article/E0078362"
    }
   ],
   "facts": {
@@ -1093,7 +1161,7 @@
    }
   ],
   "facts": {
-   "ns-minjeong#0": "auto",
+   "ns-minjeong#0": "manual",
    "ns-minjeong#1": "manual",
    "ns-minjeong#2": "manual"
   },
@@ -1107,11 +1175,19 @@
    {
     "title": "고왕",
     "url": "https://encykorea.aks.ac.kr/Article/E0003841"
+   },
+   {
+    "title": "발해",
+    "url": "https://encykorea.aks.ac.kr/Article/E0021626"
+   },
+   {
+    "title": "천문령전투",
+    "url": "https://encykorea.aks.ac.kr/Article/E0071955"
    }
   ],
   "facts": {
-   "bh-daejoyeong#0": "auto",
-   "bh-daejoyeong#1": "auto"
+   "bh-daejoyeong#0": "manual",
+   "bh-daejoyeong#1": "manual"
   },
   "yearsOk": true
  },
@@ -1129,8 +1205,8 @@
    }
   ],
   "facts": {
-   "bh-mu#0": "term",
-   "bh-mu#1": "auto"
+   "bh-mu#0": "manual",
+   "bh-mu#1": "manual"
   },
   "yearsOk": true
  },
@@ -1149,10 +1225,14 @@
    {
     "title": "신편 한국사 10권 · 신라 귀족항쟁기의 남북교섭",
     "url": "https://contents.history.go.kr/id/nh_010_0040_0010_0030"
+   },
+   {
+    "title": "신라도",
+    "url": "https://encykorea.aks.ac.kr/Article/E0032814"
    }
   ],
   "facts": {
-   "bh-mun#0": "auto",
+   "bh-mun#0": "manual",
    "bh-mun#1": "manual",
    "bh-mun#2": "manual",
    "bh-mun#3": "manual",
@@ -1172,7 +1252,7 @@
   ],
   "facts": {
    "bh-seon#0": "manual",
-   "bh-seon#1": "auto"
+   "bh-seon#1": "manual"
   },
   "yearsOk": true
  },
@@ -1187,9 +1267,9 @@
   ],
   "facts": {
    "bh-system#0": "manual",
-   "bh-system#1": "auto",
-   "bh-system#2": "auto",
-   "bh-system#3": "auto"
+   "bh-system#1": "manual",
+   "bh-system#2": "manual",
+   "bh-system#3": "manual"
   },
   "yearsOk": true
  },
@@ -1203,10 +1283,10 @@
    }
   ],
   "facts": {
-   "hu-gyeonhwon#0": "auto",
-   "hu-gyeonhwon#1": "auto",
-   "hu-gyeonhwon#2": "auto",
-   "hu-gyeonhwon#3": "auto"
+   "hu-gyeonhwon#0": "manual",
+   "hu-gyeonhwon#1": "manual",
+   "hu-gyeonhwon#2": "manual",
+   "hu-gyeonhwon#3": "manual"
   },
   "yearsOk": true
  },
@@ -1220,10 +1300,10 @@
    }
   ],
   "facts": {
-   "hu-gungye#0": "auto",
-   "hu-gungye#1": "auto",
-   "hu-gungye#2": "auto",
-   "hu-gungye#3": "auto"
+   "hu-gungye#0": "manual",
+   "hu-gungye#1": "manual",
+   "hu-gungye#2": "manual",
+   "hu-gungye#3": "manual"
   },
   "yearsOk": true
  },
@@ -1237,8 +1317,8 @@
    }
   ],
   "facts": {
-   "hu-unification#0": "auto",
-   "hu-unification#1": "auto",
+   "hu-unification#0": "manual",
+   "hu-unification#1": "manual",
    "hu-unification#2": "manual"
   },
   "yearsOk": true
@@ -1254,14 +1334,34 @@
    {
     "title": "북진 정책",
     "url": "https://encykorea.aks.ac.kr/Article/E0024747"
+   },
+   {
+    "title": "사심관",
+    "url": "https://encykorea.aks.ac.kr/Article/E0025783"
+   },
+   {
+    "title": "만부교사건",
+    "url": "https://encykorea.aks.ac.kr/Article/E0017609"
+   },
+   {
+    "title": "훈요십조",
+    "url": "https://encykorea.aks.ac.kr/Article/E0065813"
+   },
+   {
+    "title": "흑창",
+    "url": "https://encykorea.aks.ac.kr/Article/E0065912"
+   },
+   {
+    "title": "태조",
+    "url": "https://encykorea.aks.ac.kr/Article/E0059032"
    }
   ],
   "facts": {
    "gr-taejo#0": "manual",
-   "gr-taejo#1": "auto",
+   "gr-taejo#1": "manual",
    "gr-taejo#2": "manual",
    "gr-taejo#3": "manual",
-   "gr-taejo#4": "auto",
+   "gr-taejo#4": "manual",
    "gr-taejo#5": "manual"
   },
   "yearsOk": true
@@ -1284,11 +1384,11 @@
    }
   ],
   "facts": {
-   "gr-gwangjong#0": "auto",
+   "gr-gwangjong#0": "manual",
    "gr-gwangjong#1": "manual",
    "gr-gwangjong#2": "manual",
-   "gr-gwangjong#3": "auto",
-   "gr-gwangjong#4": "auto"
+   "gr-gwangjong#3": "manual",
+   "gr-gwangjong#4": "manual"
   },
   "yearsOk": true
  },
@@ -1310,12 +1410,12 @@
    }
   ],
   "facts": {
-   "gr-seongjong#0": "auto",
-   "gr-seongjong#1": "auto",
+   "gr-seongjong#0": "manual",
+   "gr-seongjong#1": "manual",
    "gr-seongjong#2": "manual",
-   "gr-seongjong#3": "term",
-   "gr-seongjong#4": "term",
-   "gr-seongjong#5": "auto"
+   "gr-seongjong#3": "manual",
+   "gr-seongjong#4": "manual",
+   "gr-seongjong#5": "manual"
   },
   "yearsOk": true
  },
@@ -1329,7 +1429,7 @@
    }
   ],
   "facts": {
-   "gr-choeseungno#0": "auto",
+   "gr-choeseungno#0": "manual",
    "gr-choeseungno#1": "manual"
   },
   "yearsOk": true
@@ -1341,12 +1441,24 @@
    {
     "title": "중서문하성",
     "url": "https://encykorea.aks.ac.kr/Article/E0053786"
+   },
+   {
+    "title": "도병마사",
+    "url": "https://encykorea.aks.ac.kr/Article/E0015648"
+   },
+   {
+    "title": "중추원",
+    "url": "https://encykorea.aks.ac.kr/Article/E0053944"
+   },
+   {
+    "title": "식목도감",
+    "url": "https://encykorea.aks.ac.kr/Article/E0032553"
    }
   ],
   "facts": {
-   "gr-system#0": "auto",
+   "gr-system#0": "manual",
    "gr-system#1": "manual",
-   "gr-system#2": "auto",
+   "gr-system#2": "manual",
    "gr-system#3": "manual",
    "gr-system#4": "manual"
   },
@@ -1367,11 +1479,15 @@
    {
     "title": "향",
     "url": "https://encykorea.aks.ac.kr/Article/E0062872"
+   },
+   {
+    "title": "망이·망소이의 난",
+    "url": "https://encykorea.aks.ac.kr/Article/E0017893"
    }
   ],
   "facts": {
    "gr-local#0": "manual",
-   "gr-local#1": "auto",
+   "gr-local#1": "manual",
    "gr-local#2": "manual"
   },
   "yearsOk": true
@@ -1383,12 +1499,20 @@
    {
     "title": "음서",
     "url": "https://encykorea.aks.ac.kr/Article/E0042999"
+   },
+   {
+    "title": "승과",
+    "url": "https://encykorea.aks.ac.kr/Article/E0032156"
+   },
+   {
+    "title": "과거",
+    "url": "https://encykorea.aks.ac.kr/Article/E0004562"
    }
   ],
   "facts": {
-   "gr-eumseo#0": "auto",
+   "gr-eumseo#0": "manual",
    "gr-eumseo#1": "manual",
-   "gr-eumseo#2": "auto"
+   "gr-eumseo#2": "manual"
   },
   "yearsOk": true
  },
@@ -1399,13 +1523,25 @@
    {
     "title": "서희",
     "url": "https://encykorea.aks.ac.kr/Article/E0028321"
+   },
+   {
+    "title": "강감찬",
+    "url": "https://encykorea.aks.ac.kr/Article/E0000954"
+   },
+   {
+    "title": "나성",
+    "url": "https://encykorea.aks.ac.kr/Article/E0011384"
+   },
+   {
+    "title": "초조대장경",
+    "url": "https://encykorea.aks.ac.kr/Article/E0057046"
    }
   ],
   "facts": {
-   "gr-khitan#0": "auto",
+   "gr-khitan#0": "manual",
    "gr-khitan#1": "manual",
-   "gr-khitan#2": "auto",
-   "gr-khitan#3": "auto",
+   "gr-khitan#2": "manual",
+   "gr-khitan#3": "manual",
    "gr-khitan#4": "manual"
   },
   "yearsOk": true
@@ -1424,8 +1560,8 @@
    }
   ],
   "facts": {
-   "gr-yeojin#0": "auto",
-   "gr-yeojin#1": "auto",
+   "gr-yeojin#0": "manual",
+   "gr-yeojin#1": "manual",
    "gr-yeojin#2": "manual"
   },
   "yearsOk": true
@@ -1444,8 +1580,8 @@
    }
   ],
   "facts": {
-   "gr-leejagyeom#0": "auto",
-   "gr-leejagyeom#1": "auto",
+   "gr-leejagyeom#0": "manual",
+   "gr-leejagyeom#1": "manual",
    "gr-leejagyeom#2": "manual"
   },
   "yearsOk": true
@@ -1461,9 +1597,9 @@
   ],
   "facts": {
    "gr-myocheong#0": "manual",
-   "gr-myocheong#1": "auto",
-   "gr-myocheong#2": "auto",
-   "gr-myocheong#3": "auto"
+   "gr-myocheong#1": "manual",
+   "gr-myocheong#2": "manual",
+   "gr-myocheong#3": "manual"
   },
   "yearsOk": true
  },
@@ -1474,12 +1610,16 @@
    {
     "title": "중방",
     "url": "https://encykorea.aks.ac.kr/Article/E0053757"
+   },
+   {
+    "title": "정중부",
+    "url": "https://encykorea.aks.ac.kr/Article/E0050935"
    }
   ],
   "facts": {
    "gr-musin#0": "manual",
-   "gr-musin#1": "auto",
-   "gr-musin#2": "auto"
+   "gr-musin#1": "manual",
+   "gr-musin#2": "manual"
   },
   "yearsOk": true
  },
@@ -1494,7 +1634,7 @@
   ],
   "facts": {
    "gr-choechungheon#0": "manual",
-   "gr-choechungheon#1": "auto",
+   "gr-choechungheon#1": "manual",
    "gr-choechungheon#2": "manual"
   },
   "yearsOk": true
@@ -1509,9 +1649,9 @@
    }
   ],
   "facts": {
-   "gr-choewoo#0": "auto",
+   "gr-choewoo#0": "manual",
    "gr-choewoo#1": "manual",
-   "gr-choewoo#2": "auto"
+   "gr-choewoo#2": "manual"
   },
   "yearsOk": true
  },
@@ -1526,11 +1666,15 @@
    {
     "title": "김사미의 난",
     "url": "https://encykorea.aks.ac.kr/Article/E0009297"
+   },
+   {
+    "title": "만적의 난",
+    "url": "https://encykorea.aks.ac.kr/Article/E0017709"
    }
   ],
   "facts": {
-   "gr-revolts#0": "auto",
-   "gr-revolts#1": "auto",
+   "gr-revolts#0": "manual",
+   "gr-revolts#1": "manual",
    "gr-revolts#2": "manual"
   },
   "yearsOk": true
@@ -1550,14 +1694,22 @@
    {
     "title": "합천 해인사 대장경판",
     "url": "https://encykorea.aks.ac.kr/Article/E0062711"
+   },
+   {
+    "title": "강화천도",
+    "url": "https://encykorea.aks.ac.kr/Article/E0001532"
+   },
+   {
+    "title": "박서",
+    "url": "https://encykorea.aks.ac.kr/Article/E0020763"
    }
   ],
   "facts": {
    "gr-mongol#0": "manual",
-   "gr-mongol#1": "auto",
+   "gr-mongol#1": "manual",
    "gr-mongol#2": "manual",
    "gr-mongol#3": "manual",
-   "gr-mongol#4": "auto"
+   "gr-mongol#4": "manual"
   },
   "yearsOk": true
  },
@@ -1568,11 +1720,15 @@
    {
     "title": "삼별초",
     "url": "https://encykorea.aks.ac.kr/Article/E0026604"
+   },
+   {
+    "title": "배중손",
+    "url": "https://encykorea.aks.ac.kr/Article/E0021928"
    }
   ],
   "facts": {
-   "gr-sambyeolcho#0": "auto",
-   "gr-sambyeolcho#1": "auto",
+   "gr-sambyeolcho#0": "manual",
+   "gr-sambyeolcho#1": "manual",
    "gr-sambyeolcho#2": "manual"
   },
   "yearsOk": true
@@ -1606,7 +1762,7 @@
    "gr-won#0": "manual",
    "gr-won#1": "manual",
    "gr-won#2": "manual",
-   "gr-won#3": "auto",
+   "gr-won#3": "manual",
    "gr-won#4": "manual",
    "gr-won#5": "manual"
   },
@@ -1635,10 +1791,10 @@
    }
   ],
   "facts": {
-   "gr-gongmin#0": "auto",
+   "gr-gongmin#0": "manual",
    "gr-gongmin#1": "manual",
    "gr-gongmin#2": "manual",
-   "gr-gongmin#3": "auto",
+   "gr-gongmin#3": "manual",
    "gr-gongmin#4": "manual"
   },
   "yearsOk": true
@@ -1650,13 +1806,21 @@
    {
     "title": "황산대첩",
     "url": "https://encykorea.aks.ac.kr/Article/E0065178"
+   },
+   {
+    "title": "화통도감",
+    "url": "https://encykorea.aks.ac.kr/Article/E0064918"
+   },
+   {
+    "title": "박위",
+    "url": "https://encykorea.aks.ac.kr/Article/E0020998"
    }
   ],
   "facts": {
    "gr-waegu#0": "manual",
-   "gr-waegu#1": "auto",
+   "gr-waegu#1": "manual",
    "gr-waegu#2": "manual",
-   "gr-waegu#3": "auto"
+   "gr-waegu#3": "manual"
   },
   "yearsOk": true
  },
@@ -1675,8 +1839,8 @@
   ],
   "facts": {
    "gr-wihwado#0": "manual",
-   "gr-wihwado#1": "auto",
-   "gr-wihwado#2": "term",
+   "gr-wihwado#1": "manual",
+   "gr-wihwado#2": "manual",
    "gr-wihwado#3": "manual"
   },
   "yearsOk": true
@@ -1691,10 +1855,10 @@
    }
   ],
   "facts": {
-   "gr-jeonsigwa#0": "auto",
+   "gr-jeonsigwa#0": "manual",
    "gr-jeonsigwa#1": "manual",
-   "gr-jeonsigwa#2": "auto",
-   "gr-jeonsigwa#3": "auto"
+   "gr-jeonsigwa#2": "manual",
+   "gr-jeonsigwa#3": "manual"
   },
   "yearsOk": true
  },
@@ -1709,13 +1873,21 @@
    {
     "title": "은병",
     "url": "https://encykorea.aks.ac.kr/Article/E0042821"
+   },
+   {
+    "title": "주전도감",
+    "url": "https://encykorea.aks.ac.kr/Article/E0053417"
+   },
+   {
+    "title": "경시서",
+    "url": "https://encykorea.aks.ac.kr/Article/E0002620"
    }
   ],
   "facts": {
    "gr-economy#0": "manual",
-   "gr-economy#1": "auto",
+   "gr-economy#1": "manual",
    "gr-economy#2": "manual",
-   "gr-economy#3": "auto"
+   "gr-economy#3": "manual"
   },
   "yearsOk": true
  },
@@ -1743,7 +1915,7 @@
   "facts": {
    "gr-society#0": "manual",
    "gr-society#1": "manual",
-   "gr-society#2": "auto",
+   "gr-society#2": "manual",
    "gr-society#3": "manual"
   },
   "yearsOk": true
@@ -1757,17 +1929,17 @@
     "url": "https://encykorea.aks.ac.kr/Article/E0043423"
    },
    {
-    "title": "교관겸수",
-    "url": "https://encykorea.aks.ac.kr/Article/E0005443"
-   },
-   {
     "title": "역대 국사교과서(고등학교 국사) · 불교의 발달",
     "url": "https://contents.history.go.kr/id/ta_h51_0050_0040_0020"
+   },
+   {
+    "title": "교관겸수",
+    "url": "https://encykorea.aks.ac.kr/Article/E0005443"
    }
   ],
   "facts": {
-   "gr-uicheon#0": "auto",
-   "gr-uicheon#1": "term",
+   "gr-uicheon#0": "manual",
+   "gr-uicheon#1": "manual",
    "gr-uicheon#2": "manual",
    "gr-uicheon#3": "manual"
   },
@@ -1783,10 +1955,10 @@
    }
   ],
   "facts": {
-   "gr-jinul#0": "auto",
+   "gr-jinul#0": "manual",
    "gr-jinul#1": "manual",
-   "gr-jinul#2": "auto",
-   "gr-jinul#3": "auto"
+   "gr-jinul#2": "manual",
+   "gr-jinul#3": "manual"
   },
   "yearsOk": true
  },
@@ -1800,7 +1972,7 @@
    }
   ],
   "facts": {
-   "gr-yose#0": "auto"
+   "gr-yose#0": "manual"
   },
   "yearsOk": true
  },
@@ -1818,7 +1990,7 @@
    }
   ],
   "facts": {
-   "gr-samguksagi#0": "auto",
+   "gr-samguksagi#0": "manual",
    "gr-samguksagi#1": "manual",
    "gr-samguksagi#2": "manual"
   },
@@ -1838,9 +2010,9 @@
    }
   ],
   "facts": {
-   "gr-samgukyusa#0": "auto",
+   "gr-samgukyusa#0": "manual",
    "gr-samgukyusa#1": "manual",
-   "gr-samgukyusa#2": "auto"
+   "gr-samgukyusa#2": "manual"
   },
   "yearsOk": true
  },
@@ -1854,9 +2026,9 @@
    }
   ],
   "facts": {
-   "gr-jewangungi#0": "auto",
-   "gr-jewangungi#1": "auto",
-   "gr-jewangungi#2": "auto"
+   "gr-jewangungi#0": "manual",
+   "gr-jewangungi#1": "manual",
+   "gr-jewangungi#2": "manual"
   },
   "yearsOk": true
  },
@@ -1893,9 +2065,9 @@
    }
   ],
   "facts": {
-   "gr-jikji#0": "auto",
-   "gr-jikji#1": "auto",
-   "gr-jikji#2": "auto"
+   "gr-jikji#0": "manual",
+   "gr-jikji#1": "manual",
+   "gr-jikji#2": "manual"
   },
   "yearsOk": true
  },
@@ -1909,9 +2081,9 @@
    }
   ],
   "facts": {
-   "gr-tripitaka#0": "auto",
+   "gr-tripitaka#0": "manual",
    "gr-tripitaka#1": "manual",
-   "gr-tripitaka#2": "auto"
+   "gr-tripitaka#2": "manual"
   },
   "yearsOk": true
  },
@@ -1926,10 +2098,14 @@
    {
     "title": "역대 국사교과서(고등학교 국사) · 고려 문화의 성장",
     "url": "https://contents.history.go.kr/id/ta_h31_0050_0020_0020"
+   },
+   {
+    "title": "논산 관촉사 석조 미륵보살 입상",
+    "url": "https://encykorea.aks.ac.kr/Article/E0005026"
    }
   ],
   "facts": {
-   "gr-architecture#0": "auto",
+   "gr-architecture#0": "manual",
    "gr-architecture#1": "manual",
    "gr-architecture#2": "manual",
    "gr-architecture#3": "manual"
@@ -1947,12 +2123,16 @@
    {
     "title": "경복궁",
     "url": "https://encykorea.aks.ac.kr/Article/E0002434"
+   },
+   {
+    "title": "태조",
+    "url": "https://encykorea.aks.ac.kr/Article/E0059033"
    }
   ],
   "facts": {
    "js-taejo#0": "manual",
    "js-taejo#1": "manual",
-   "js-taejo#2": "auto"
+   "js-taejo#2": "manual"
   },
   "yearsOk": true
  },
@@ -1966,9 +2146,9 @@
    }
   ],
   "facts": {
-   "js-jeongdojeon#0": "auto",
-   "js-jeongdojeon#1": "auto",
-   "js-jeongdojeon#2": "auto"
+   "js-jeongdojeon#0": "manual",
+   "js-jeongdojeon#1": "manual",
+   "js-jeongdojeon#2": "manual"
   },
   "yearsOk": true
  },
@@ -1982,11 +2162,11 @@
    }
   ],
   "facts": {
-   "js-taejong#0": "auto",
-   "js-taejong#1": "auto",
-   "js-taejong#2": "auto",
-   "js-taejong#3": "auto",
-   "js-taejong#4": "auto"
+   "js-taejong#0": "manual",
+   "js-taejong#1": "manual",
+   "js-taejong#2": "manual",
+   "js-taejong#3": "manual",
+   "js-taejong#4": "manual"
   },
   "yearsOk": true
  },
@@ -2004,12 +2184,12 @@
    }
   ],
   "facts": {
-   "js-sejong#0": "auto",
-   "js-sejong#1": "auto",
-   "js-sejong#2": "auto",
-   "js-sejong#3": "auto",
+   "js-sejong#0": "manual",
+   "js-sejong#1": "manual",
+   "js-sejong#2": "manual",
+   "js-sejong#3": "manual",
    "js-sejong#4": "manual",
-   "js-sejong#5": "auto",
+   "js-sejong#5": "manual",
    "js-sejong#6": "manual",
    "js-sejong#7": "manual"
   },
@@ -2022,13 +2202,17 @@
    {
     "title": "세조",
     "url": "https://encykorea.aks.ac.kr/Article/E0029849"
+   },
+   {
+    "title": "과전법",
+    "url": "https://encykorea.aks.ac.kr/Article/E0004611"
    }
   ],
   "facts": {
    "js-sejo#0": "manual",
-   "js-sejo#1": "auto",
+   "js-sejo#1": "manual",
    "js-sejo#2": "manual",
-   "js-sejo#3": "auto",
+   "js-sejo#3": "manual",
    "js-sejo#4": "manual"
   },
   "yearsOk": true
@@ -2043,10 +2227,10 @@
    }
   ],
   "facts": {
-   "js-seongjong#0": "auto",
-   "js-seongjong#1": "auto",
-   "js-seongjong#2": "auto",
-   "js-seongjong#3": "auto",
+   "js-seongjong#0": "manual",
+   "js-seongjong#1": "manual",
+   "js-seongjong#2": "manual",
+   "js-seongjong#3": "manual",
    "js-seongjong#4": "manual"
   },
   "yearsOk": true
@@ -2062,14 +2246,26 @@
    {
     "title": "속현",
     "url": "https://encykorea.aks.ac.kr/Article/E0030457"
+   },
+   {
+    "title": "승정원",
+    "url": "https://encykorea.aks.ac.kr/Article/E0032242"
+   },
+   {
+    "title": "유향소",
+    "url": "https://encykorea.aks.ac.kr/Article/E0041984"
+   },
+   {
+    "title": "사헌부",
+    "url": "https://encykorea.aks.ac.kr/Article/E0026104"
    }
   ],
   "facts": {
-   "js-system#0": "auto",
+   "js-system#0": "manual",
    "js-system#1": "manual",
    "js-system#2": "manual",
    "js-system#3": "manual",
-   "js-system#4": "auto"
+   "js-system#4": "manual"
   },
   "yearsOk": true,
   "note": "백과사전「속현」: 조선은 수령이 없는 속현을 차례로 정리해 15세기 후반에도 72곳이 남았고 17세기경 모두 없어짐(‘모든 군현에 수령 파견’은 이 정리가 끝난 결과)."
@@ -2084,8 +2280,8 @@
    }
   ],
   "facts": {
-   "js-gwageo#0": "auto",
-   "js-gwageo#1": "auto"
+   "js-gwageo#0": "manual",
+   "js-gwageo#1": "manual"
   },
   "yearsOk": true
  },
@@ -2096,12 +2292,16 @@
    {
     "title": "사림",
     "url": "https://encykorea.aks.ac.kr/Article/E0025557"
+   },
+   {
+    "title": "무오사화",
+    "url": "https://encykorea.aks.ac.kr/Article/E0019174"
    }
   ],
   "facts": {
-   "js-sarim#0": "auto",
+   "js-sarim#0": "manual",
    "js-sarim#1": "manual",
-   "js-sarim#2": "auto"
+   "js-sarim#2": "manual"
   },
   "yearsOk": true
  },
@@ -2115,8 +2315,8 @@
    }
   ],
   "facts": {
-   "js-muo#0": "auto",
-   "js-muo#1": "auto"
+   "js-muo#0": "manual",
+   "js-muo#1": "manual"
   },
   "yearsOk": true
  },
@@ -2131,7 +2331,7 @@
   ],
   "facts": {
    "js-gapja#0": "manual",
-   "js-gapja#1": "auto"
+   "js-gapja#1": "manual"
   },
   "yearsOk": true
  },
@@ -2151,7 +2351,7 @@
   "facts": {
    "js-jogwangjo#0": "manual",
    "js-jogwangjo#1": "manual",
-   "js-jogwangjo#2": "auto",
+   "js-jogwangjo#2": "manual",
    "js-jogwangjo#3": "manual"
   },
   "yearsOk": true
@@ -2166,7 +2366,7 @@
    }
   ],
   "facts": {
-   "js-gimyo#0": "auto",
+   "js-gimyo#0": "manual",
    "js-gimyo#1": "manual"
   },
   "yearsOk": true
@@ -2181,8 +2381,8 @@
    }
   ],
   "facts": {
-   "js-eulsa#0": "auto",
-   "js-eulsa#1": "auto"
+   "js-eulsa#0": "manual",
+   "js-eulsa#1": "manual"
   },
   "yearsOk": true
  },
@@ -2197,12 +2397,20 @@
    {
     "title": "서원",
     "url": "https://encykorea.aks.ac.kr/Article/E0028091"
+   },
+   {
+    "title": "영주 소수서원",
+    "url": "https://encykorea.aks.ac.kr/Article/E0030146"
+   },
+   {
+    "title": "향약",
+    "url": "https://encykorea.aks.ac.kr/Article/E0062948"
    }
   ],
   "facts": {
    "js-seowon#0": "manual",
-   "js-seowon#1": "auto",
-   "js-seowon#2": "auto"
+   "js-seowon#1": "manual",
+   "js-seowon#2": "manual"
   },
   "yearsOk": true
  },
@@ -2213,10 +2421,14 @@
    {
     "title": "이황",
     "url": "https://encykorea.aks.ac.kr/Article/E0046626"
+   },
+   {
+    "title": "동인",
+    "url": "https://encykorea.aks.ac.kr/Article/E0016736"
    }
   ],
   "facts": {
-   "js-yihwang#0": "auto",
+   "js-yihwang#0": "manual",
    "js-yihwang#1": "manual",
    "js-yihwang#2": "manual"
   },
@@ -2229,13 +2441,21 @@
    {
     "title": "이이",
     "url": "https://encykorea.aks.ac.kr/Article/E0045546"
+   },
+   {
+    "title": "향약",
+    "url": "https://encykorea.aks.ac.kr/Article/E0062948"
+   },
+   {
+    "title": "대동법",
+    "url": "https://encykorea.aks.ac.kr/Article/E0014246"
    }
   ],
   "facts": {
-   "js-yiyi#0": "auto",
+   "js-yiyi#0": "manual",
    "js-yiyi#1": "manual",
    "js-yiyi#2": "manual",
-   "js-yiyi#3": "auto"
+   "js-yiyi#3": "manual"
   },
   "yearsOk": true
  },
@@ -2250,11 +2470,11 @@
   ],
   "facts": {
    "js-imjin#0": "manual",
-   "js-imjin#1": "auto",
-   "js-imjin#2": "auto",
+   "js-imjin#1": "manual",
+   "js-imjin#2": "manual",
    "js-imjin#3": "manual",
-   "js-imjin#4": "auto",
-   "js-imjin#5": "auto"
+   "js-imjin#4": "manual",
+   "js-imjin#5": "manual"
   },
   "yearsOk": true
  },
@@ -2270,8 +2490,8 @@
   "facts": {
    "js-yisunsin#0": "manual",
    "js-yisunsin#1": "manual",
-   "js-yisunsin#2": "auto",
-   "js-yisunsin#3": "auto"
+   "js-yisunsin#2": "manual",
+   "js-yisunsin#3": "manual"
   },
   "yearsOk": true
  },
@@ -2286,8 +2506,8 @@
   ],
   "facts": {
    "js-gwanghaegun#0": "manual",
-   "js-gwanghaegun#1": "auto",
-   "js-gwanghaegun#2": "auto",
+   "js-gwanghaegun#1": "manual",
+   "js-gwanghaegun#2": "manual",
    "js-gwanghaegun#3": "manual"
   },
   "yearsOk": true,
@@ -2303,9 +2523,9 @@
    }
   ],
   "facts": {
-   "js-jeongmyo#0": "auto",
-   "js-jeongmyo#1": "auto",
-   "js-jeongmyo#2": "auto"
+   "js-jeongmyo#0": "manual",
+   "js-jeongmyo#1": "manual",
+   "js-jeongmyo#2": "manual"
   },
   "yearsOk": true
  },
@@ -2320,9 +2540,9 @@
   ],
   "facts": {
    "js-byeongja#0": "manual",
-   "js-byeongja#1": "auto",
-   "js-byeongja#2": "auto",
-   "js-byeongja#3": "auto"
+   "js-byeongja#1": "manual",
+   "js-byeongja#2": "manual",
+   "js-byeongja#3": "manual"
   },
   "yearsOk": true
  },
@@ -2336,9 +2556,9 @@
    }
   ],
   "facts": {
-   "js-injo#0": "auto",
-   "js-injo#1": "auto",
-   "js-injo#2": "auto"
+   "js-injo#0": "manual",
+   "js-injo#1": "manual",
+   "js-injo#2": "manual"
   },
   "yearsOk": true
  },
@@ -2356,7 +2576,7 @@
    }
   ],
   "facts": {
-   "js-hyojong#0": "auto",
+   "js-hyojong#0": "manual",
    "js-hyojong#1": "manual",
    "js-hyojong#2": "manual"
   },
@@ -2369,11 +2589,19 @@
    {
     "title": "과전법",
     "url": "https://encykorea.aks.ac.kr/Article/E0004611"
+   },
+   {
+    "title": "직전",
+    "url": "https://encykorea.aks.ac.kr/Article/E0054533"
+   },
+   {
+    "title": "수신전",
+    "url": "https://encykorea.aks.ac.kr/Article/E0031511"
    }
   ],
   "facts": {
-   "js-gwajeon#0": "auto",
-   "js-gwajeon#1": "auto",
+   "js-gwajeon#0": "manual",
+   "js-gwajeon#1": "manual",
    "js-gwajeon#2": "manual"
   },
   "yearsOk": true
@@ -2388,9 +2616,9 @@
    }
   ],
   "facts": {
-   "js-sillok#0": "auto",
-   "js-sillok#1": "auto",
-   "js-sillok#2": "auto",
+   "js-sillok#0": "manual",
+   "js-sillok#1": "manual",
+   "js-sillok#2": "manual",
    "js-sillok#3": "manual"
   },
   "yearsOk": true
@@ -2402,6 +2630,10 @@
    {
     "title": "분청사기",
     "url": "https://encykorea.aks.ac.kr/Article/E0024868"
+   },
+   {
+    "title": "백자",
+    "url": "https://encykorea.aks.ac.kr/Article/E0022304"
    }
   ],
   "facts": {
@@ -2417,12 +2649,20 @@
    {
     "title": "몽유도원도",
     "url": "https://encykorea.aks.ac.kr/Article/E0018824"
+   },
+   {
+    "title": "자격루",
+    "url": "https://encykorea.aks.ac.kr/Article/E0047854"
+   },
+   {
+    "title": "혼일강리역대국도지도",
+    "url": "https://encykorea.aks.ac.kr/Article/E0063914"
    }
   ],
   "facts": {
-   "js-art1#0": "auto",
+   "js-art1#0": "manual",
    "js-art1#1": "manual",
-   "js-art1#2": "auto"
+   "js-art1#2": "manual"
   },
   "yearsOk": true
  },
@@ -2433,12 +2673,16 @@
    {
     "title": "붕당정치",
     "url": "https://encykorea.aks.ac.kr/Article/E0025062"
+   },
+   {
+    "title": "서인",
+    "url": "https://encykorea.aks.ac.kr/Article/E0028128"
    }
   ],
   "facts": {
-   "jl-bungdang#0": "auto",
-   "jl-bungdang#1": "auto",
-   "jl-bungdang#2": "auto"
+   "jl-bungdang#0": "manual",
+   "jl-bungdang#1": "manual",
+   "jl-bungdang#2": "manual"
   },
   "yearsOk": true
  },
@@ -2457,8 +2701,8 @@
   ],
   "facts": {
    "jl-yesong#0": "manual",
-   "jl-yesong#1": "auto",
-   "jl-yesong#2": "auto"
+   "jl-yesong#1": "manual",
+   "jl-yesong#2": "manual"
   },
   "yearsOk": true
  },
@@ -2471,24 +2715,24 @@
     "url": "https://encykorea.aks.ac.kr/Article/E0031837"
    },
    {
-    "title": "경신환국",
-    "url": "https://encykorea.aks.ac.kr/Article/E0002637"
-   },
-   {
     "title": "상평통보",
     "url": "https://encykorea.aks.ac.kr/Article/E0027386"
    },
    {
     "title": "백두산정계비",
     "url": "https://encykorea.aks.ac.kr/Article/E0022058"
+   },
+   {
+    "title": "경신환국",
+    "url": "https://encykorea.aks.ac.kr/Article/E0002637"
    }
   ],
   "facts": {
-   "jl-sukjong#0": "term",
+   "jl-sukjong#0": "manual",
    "jl-sukjong#1": "manual",
    "jl-sukjong#2": "manual",
    "jl-sukjong#3": "manual",
-   "jl-sukjong#4": "auto"
+   "jl-sukjong#4": "manual"
   },
   "yearsOk": true
  },
@@ -2506,11 +2750,11 @@
    }
   ],
   "facts": {
-   "jl-yeongjo#0": "term",
+   "jl-yeongjo#0": "manual",
    "jl-yeongjo#1": "manual",
-   "jl-yeongjo#2": "auto",
-   "jl-yeongjo#3": "auto",
-   "jl-yeongjo#4": "auto",
+   "jl-yeongjo#2": "manual",
+   "jl-yeongjo#3": "manual",
+   "jl-yeongjo#4": "manual",
    "jl-yeongjo#5": "manual"
   },
   "yearsOk": true
@@ -2526,14 +2770,18 @@
    {
     "title": "신해통공",
     "url": "https://encykorea.aks.ac.kr/Article/E0033551"
+   },
+   {
+    "title": "여유당전서",
+    "url": "https://encykorea.aks.ac.kr/Article/E0036443"
    }
   ],
   "facts": {
-   "jl-jeongjo#0": "auto",
+   "jl-jeongjo#0": "manual",
    "jl-jeongjo#1": "manual",
    "jl-jeongjo#2": "manual",
    "jl-jeongjo#3": "manual",
-   "jl-jeongjo#4": "term",
+   "jl-jeongjo#4": "manual",
    "jl-jeongjo#5": "manual"
   },
   "yearsOk": true
@@ -2552,7 +2800,7 @@
    }
   ],
   "facts": {
-   "jl-sedo#0": "auto",
+   "jl-sedo#0": "manual",
    "jl-sedo#1": "manual",
    "jl-sedo#2": "manual"
   },
@@ -2569,8 +2817,8 @@
    }
   ],
   "facts": {
-   "jl-yeongjeong#0": "auto",
-   "jl-yeongjeong#1": "auto"
+   "jl-yeongjeong#0": "manual",
+   "jl-yeongjeong#1": "manual"
   },
   "yearsOk": true
  },
@@ -2585,9 +2833,9 @@
   ],
   "facts": {
    "jl-daedong#0": "manual",
-   "jl-daedong#1": "auto",
-   "jl-daedong#2": "auto",
-   "jl-daedong#3": "auto"
+   "jl-daedong#1": "manual",
+   "jl-daedong#2": "manual",
+   "jl-daedong#3": "manual"
   },
   "yearsOk": true
  },
@@ -2614,11 +2862,15 @@
    {
     "title": "이앙법",
     "url": "https://encykorea.aks.ac.kr/Article/E0045066"
+   },
+   {
+    "title": "광작",
+    "url": "https://encykorea.aks.ac.kr/Article/E0005202"
    }
   ],
   "facts": {
    "jl-agri#0": "manual",
-   "jl-agri#1": "auto",
+   "jl-agri#1": "manual",
    "jl-agri#2": "manual"
   },
   "yearsOk": true
@@ -2646,13 +2898,21 @@
    {
     "title": "덕대제",
     "url": "https://encykorea.aks.ac.kr/Article/E0015325"
+   },
+   {
+    "title": "만상",
+    "url": "https://encykorea.aks.ac.kr/Article/E0017619"
+   },
+   {
+    "title": "경강상인",
+    "url": "https://encykorea.aks.ac.kr/Article/E0002285"
    }
   ],
   "facts": {
    "jl-commerce#0": "manual",
-   "jl-commerce#1": "auto",
+   "jl-commerce#1": "manual",
    "jl-commerce#2": "manual",
-   "jl-commerce#3": "auto",
+   "jl-commerce#3": "manual",
    "jl-commerce#4": "manual",
    "jl-commerce#5": "manual"
   },
@@ -2669,11 +2929,19 @@
    {
     "title": "향전",
     "url": "https://encykorea.aks.ac.kr/Article/E0062980"
+   },
+   {
+    "title": "노비",
+    "url": "https://encykorea.aks.ac.kr/Article/E0012757"
+   },
+   {
+    "title": "영조",
+    "url": "https://encykorea.aks.ac.kr/Article/E0037669"
    }
   ],
   "facts": {
-   "jl-society#0": "auto",
-   "jl-society#1": "auto",
+   "jl-society#0": "manual",
+   "jl-society#1": "manual",
    "jl-society#2": "manual",
    "jl-society#3": "manual"
   },
@@ -2686,12 +2954,20 @@
    {
     "title": "신해박해",
     "url": "https://encykorea.aks.ac.kr/Article/E0033544"
+   },
+   {
+    "title": "황사영 백서",
+    "url": "https://encykorea.aks.ac.kr/Article/E0065170"
+   },
+   {
+    "title": "병인박해",
+    "url": "https://encykorea.aks.ac.kr/Article/E0023139"
    }
   ],
   "facts": {
-   "jl-catholic#0": "auto",
-   "jl-catholic#1": "auto",
-   "jl-catholic#2": "auto"
+   "jl-catholic#0": "manual",
+   "jl-catholic#1": "manual",
+   "jl-catholic#2": "manual"
   },
   "yearsOk": true
  },
@@ -2706,8 +2982,8 @@
   ],
   "facts": {
    "jl-donghak#0": "manual",
-   "jl-donghak#1": "auto",
-   "jl-donghak#2": "auto"
+   "jl-donghak#1": "manual",
+   "jl-donghak#2": "manual"
   },
   "yearsOk": true
  },
@@ -2721,9 +2997,9 @@
    }
   ],
   "facts": {
-   "jl-hongkyungnae#0": "auto",
-   "jl-hongkyungnae#1": "auto",
-   "jl-hongkyungnae#2": "auto"
+   "jl-hongkyungnae#0": "manual",
+   "jl-hongkyungnae#1": "manual",
+   "jl-hongkyungnae#2": "manual"
   },
   "yearsOk": true
  },
@@ -2743,7 +3019,7 @@
   "facts": {
    "jl-imsul#0": "manual",
    "jl-imsul#1": "manual",
-   "jl-imsul#2": "auto"
+   "jl-imsul#2": "manual"
   },
   "yearsOk": true
  },
@@ -2761,8 +3037,8 @@
    }
   ],
   "facts": {
-   "jl-yuhyeongwon#0": "auto",
-   "jl-yuhyeongwon#1": "term"
+   "jl-yuhyeongwon#0": "manual",
+   "jl-yuhyeongwon#1": "manual"
   },
   "yearsOk": true
  },
@@ -2777,11 +3053,15 @@
    {
     "title": "한전론",
     "url": "https://encykorea.aks.ac.kr/Article/E0061940"
+   },
+   {
+    "title": "과거",
+    "url": "https://encykorea.aks.ac.kr/Article/E0004562"
    }
   ],
   "facts": {
-   "jl-yik#0": "auto",
-   "jl-yik#1": "term",
+   "jl-yik#0": "manual",
+   "jl-yik#1": "manual",
    "jl-yik#2": "manual"
   },
   "yearsOk": true
@@ -2808,7 +3088,7 @@
    }
   ],
   "facts": {
-   "jl-jeongyakyong#0": "auto",
+   "jl-jeongyakyong#0": "manual",
    "jl-jeongyakyong#1": "manual",
    "jl-jeongyakyong#2": "manual",
    "jl-jeongyakyong#3": "manual",
@@ -2826,8 +3106,8 @@
    }
   ],
   "facts": {
-   "jl-hongdaeyong#0": "auto",
-   "jl-hongdaeyong#1": "auto"
+   "jl-hongdaeyong#0": "manual",
+   "jl-hongdaeyong#1": "manual"
   },
   "yearsOk": true
  },
@@ -2877,7 +3157,7 @@
    }
   ],
   "facts": {
-   "jl-bakjega#0": "auto",
+   "jl-bakjega#0": "manual",
    "jl-bakjega#1": "manual",
    "jl-bakjega#2": "manual"
   },
@@ -2890,10 +3170,14 @@
    {
     "title": "유득공",
     "url": "https://encykorea.aks.ac.kr/Article/E0041372"
+   },
+   {
+    "title": "발해",
+    "url": "https://encykorea.aks.ac.kr/Article/E0021626"
    }
   ],
   "facts": {
-   "jl-yudeukgong#0": "auto",
+   "jl-yudeukgong#0": "manual",
    "jl-yudeukgong#1": "manual"
   },
   "yearsOk": true
@@ -2909,13 +3193,25 @@
    {
     "title": "동국지도",
     "url": "https://encykorea.aks.ac.kr/Article/E0016300"
+   },
+   {
+    "title": "택리지",
+    "url": "https://encykorea.aks.ac.kr/Article/E0059125"
+   },
+   {
+    "title": "대동여지도",
+    "url": "https://encykorea.aks.ac.kr/Article/E0014266"
+   },
+   {
+    "title": "연려실기술",
+    "url": "https://encykorea.aks.ac.kr/Article/E0036753"
    }
   ],
   "facts": {
-   "jl-history-books#0": "auto",
+   "jl-history-books#0": "manual",
    "jl-history-books#1": "manual",
    "jl-history-books#2": "manual",
-   "jl-history-books#3": "auto",
+   "jl-history-books#3": "manual",
    "jl-history-books#4": "manual"
   },
   "yearsOk": true
@@ -2935,7 +3231,7 @@
   ],
   "facts": {
    "jl-kimjeonghui#0": "manual",
-   "jl-kimjeonghui#1": "auto",
+   "jl-kimjeonghui#1": "manual",
    "jl-kimjeonghui#2": "manual"
   },
   "yearsOk": true
@@ -2947,11 +3243,15 @@
    {
     "title": "승정원일기",
     "url": "https://encykorea.aks.ac.kr/Article/E0032244"
+   },
+   {
+    "title": "일성록",
+    "url": "https://encykorea.aks.ac.kr/Article/E0047238"
    }
   ],
   "facts": {
-   "jl-ilseongnok#0": "auto",
-   "jl-ilseongnok#1": "auto"
+   "jl-ilseongnok#0": "manual",
+   "jl-ilseongnok#1": "manual"
   },
   "yearsOk": true
  },
@@ -2966,13 +3266,25 @@
    {
     "title": "김홍도 필 풍속도 화첩",
     "url": "https://encykorea.aks.ac.kr/Article/E0013639"
+   },
+   {
+    "title": "진경산수화",
+    "url": "https://encykorea.aks.ac.kr/Article/E0054575"
+   },
+   {
+    "title": "정선 필 인왕제색도",
+    "url": "https://encykorea.aks.ac.kr/Article/E0046984"
+   },
+   {
+    "title": "단오",
+    "url": "https://encykorea.aks.ac.kr/Article/E0013638"
    }
   ],
   "facts": {
-   "jl-art#0": "auto",
+   "jl-art#0": "manual",
    "jl-art#1": "manual",
    "jl-art#2": "manual",
-   "jl-art#3": "auto"
+   "jl-art#3": "manual"
   },
   "yearsOk": true
  },
@@ -2991,13 +3303,21 @@
    {
     "title": "홍길동전",
     "url": "https://encykorea.aks.ac.kr/Article/E0063994"
+   },
+   {
+    "title": "전기수",
+    "url": "https://encykorea.aks.ac.kr/Article/E0049311"
+   },
+   {
+    "title": "사설시조",
+    "url": "https://encykorea.aks.ac.kr/Article/E0025723"
    }
   ],
   "facts": {
    "jl-seomin#0": "manual",
    "jl-seomin#1": "manual",
    "jl-seomin#2": "manual",
-   "jl-seomin#3": "auto"
+   "jl-seomin#3": "manual"
   },
   "yearsOk": true
  },
@@ -3012,7 +3332,7 @@
   ],
   "facts": {
    "jl-architecture#0": "manual",
-   "jl-architecture#1": "auto"
+   "jl-architecture#1": "manual"
   },
   "yearsOk": true
  },
@@ -3027,15 +3347,35 @@
    {
     "title": "영주 소수서원",
     "url": "https://encykorea.aks.ac.kr/Article/E0030146"
+   },
+   {
+    "title": "비변사",
+    "url": "https://encykorea.aks.ac.kr/Article/E0025147"
+   },
+   {
+    "title": "당백전",
+    "url": "https://encykorea.aks.ac.kr/Article/E0013889"
+   },
+   {
+    "title": "호포",
+    "url": "https://encykorea.aks.ac.kr/Article/E0063881"
+   },
+   {
+    "title": "사창",
+    "url": "https://encykorea.aks.ac.kr/Article/E0025991"
+   },
+   {
+    "title": "대전회통",
+    "url": "https://encykorea.aks.ac.kr/Article/E0014749"
    }
   ],
   "facts": {
-   "gh-daewongun#0": "auto",
-   "gh-daewongun#1": "auto",
-   "gh-daewongun#2": "auto",
-   "gh-daewongun#3": "auto",
+   "gh-daewongun#0": "manual",
+   "gh-daewongun#1": "manual",
+   "gh-daewongun#2": "manual",
+   "gh-daewongun#3": "manual",
    "gh-daewongun#4": "manual",
-   "gh-daewongun#5": "auto",
+   "gh-daewongun#5": "manual",
    "gh-daewongun#6": "manual"
   },
   "yearsOk": true
@@ -3050,7 +3390,7 @@
    }
   ],
   "facts": {
-   "gh-sherman#0": "auto",
+   "gh-sherman#0": "manual",
    "gh-sherman#1": "manual",
    "gh-sherman#2": "manual"
   },
@@ -3070,7 +3410,7 @@
    }
   ],
   "facts": {
-   "gh-byeongin#0": "auto",
+   "gh-byeongin#0": "manual",
    "gh-byeongin#1": "manual",
    "gh-byeongin#2": "manual",
    "gh-byeongin#3": "manual"
@@ -3107,8 +3447,8 @@
    }
   ],
   "facts": {
-   "gh-shinmi#0": "auto",
-   "gh-shinmi#1": "auto",
+   "gh-shinmi#0": "manual",
+   "gh-shinmi#1": "manual",
    "gh-shinmi#2": "manual",
    "gh-shinmi#3": "manual"
   },
@@ -3125,9 +3465,9 @@
   ],
   "facts": {
    "gh-ganghwa#0": "manual",
-   "gh-ganghwa#1": "auto",
-   "gh-ganghwa#2": "auto",
-   "gh-ganghwa#3": "auto",
+   "gh-ganghwa#1": "manual",
+   "gh-ganghwa#2": "manual",
+   "gh-ganghwa#3": "manual",
    "gh-ganghwa#4": "manual"
   },
   "yearsOk": true
@@ -3142,9 +3482,9 @@
    }
   ],
   "facts": {
-   "gh-susinsa#0": "auto",
-   "gh-susinsa#1": "auto",
-   "gh-susinsa#2": "auto"
+   "gh-susinsa#0": "manual",
+   "gh-susinsa#1": "manual",
+   "gh-susinsa#2": "manual"
   },
   "yearsOk": true
  },
@@ -3158,9 +3498,9 @@
    }
   ],
   "facts": {
-   "gh-josa#0": "auto",
-   "gh-josa#1": "auto",
-   "gh-josa#2": "auto"
+   "gh-josa#0": "manual",
+   "gh-josa#1": "manual",
+   "gh-josa#2": "manual"
   },
   "yearsOk": true
  },
@@ -3176,7 +3516,7 @@
   "facts": {
    "gh-yeongseon#0": "manual",
    "gh-yeongseon#1": "manual",
-   "gh-yeongseon#2": "auto"
+   "gh-yeongseon#2": "manual"
   },
   "yearsOk": true
  },
@@ -3187,11 +3527,15 @@
    {
     "title": "보빙사",
     "url": "https://encykorea.aks.ac.kr/Article/E0023371"
+   },
+   {
+    "title": "보빙사절단",
+    "url": "https://encykorea.aks.ac.kr/Article/E0073718"
    }
   ],
   "facts": {
-   "gh-bobing#0": "auto",
-   "gh-bobing#1": "auto"
+   "gh-bobing#0": "manual",
+   "gh-bobing#1": "manual"
   },
   "yearsOk": true
  },
@@ -3202,11 +3546,15 @@
    {
     "title": "통리기무아문",
     "url": "https://encykorea.aks.ac.kr/Article/E0059315"
+   },
+   {
+    "title": "별기군",
+    "url": "https://encykorea.aks.ac.kr/Article/E0023007"
    }
   ],
   "facts": {
    "gh-tongni#0": "manual",
-   "gh-tongni#1": "auto",
+   "gh-tongni#1": "manual",
    "gh-tongni#2": "manual"
   },
   "yearsOk": true
@@ -3222,13 +3570,17 @@
    {
     "title": "신편 한국사 39권 · 일본에 의한 개항과 무관세무역",
     "url": "https://contents.history.go.kr/id/nh_039_0040_0010_0010_0010"
+   },
+   {
+    "title": "역대 국사교과서(고등학교 국사) · 개항",
+    "url": "https://contents.history.go.kr/id/ta_h42_0040_0010_0020"
    }
   ],
   "facts": {
    "gh-usa#0": "manual",
    "gh-usa#1": "manual",
    "gh-usa#2": "manual",
-   "gh-usa#3": "auto"
+   "gh-usa#3": "manual"
   },
   "yearsOk": true,
   "note": "조미조약이 ‘처음으로’ 최혜국 대우를 규정했다는 서술은 근거를 찾지 못해 ‘포함되었다’로 고침."
@@ -3248,6 +3600,10 @@
    {
     "title": "신편 한국사 38권 · 병자년의 위정척사운동",
     "url": "https://contents.history.go.kr/id/nh_038_0040_0020_0010"
+   },
+   {
+    "title": "성리학",
+    "url": "https://encykorea.aks.ac.kr/Article/E0029308"
    }
   ],
   "facts": {
@@ -3265,6 +3621,14 @@
    {
     "title": "임오군란",
     "url": "https://encykorea.aks.ac.kr/Article/E0047565"
+   },
+   {
+    "title": "별기군",
+    "url": "https://encykorea.aks.ac.kr/Article/E0023007"
+   },
+   {
+    "title": "갑신정변",
+    "url": "https://encykorea.aks.ac.kr/Article/E0000922"
    }
   ],
   "facts": {
@@ -3290,12 +3654,12 @@
    }
   ],
   "facts": {
-   "gh-gapsin#0": "term",
-   "gh-gapsin#1": "auto",
+   "gh-gapsin#0": "manual",
+   "gh-gapsin#1": "manual",
    "gh-gapsin#2": "manual",
    "gh-gapsin#3": "manual",
-   "gh-gapsin#4": "auto",
-   "gh-gapsin#5": "auto"
+   "gh-gapsin#4": "manual",
+   "gh-gapsin#5": "manual"
   },
   "yearsOk": true
  },
@@ -3313,7 +3677,7 @@
    }
   ],
   "facts": {
-   "gh-geomundo#0": "auto",
+   "gh-geomundo#0": "manual",
    "gh-geomundo#1": "manual"
   },
   "yearsOk": true
@@ -3329,7 +3693,7 @@
   ],
   "facts": {
    "gh-banggok#0": "manual",
-   "gh-banggok#1": "auto"
+   "gh-banggok#1": "manual"
   },
   "yearsOk": true
  },
@@ -3343,7 +3707,7 @@
    }
   ],
   "facts": {
-   "gh-gobu#0": "auto",
+   "gh-gobu#0": "manual",
    "gh-gobu#1": "manual",
    "gh-gobu#2": "manual"
   },
@@ -3360,14 +3724,18 @@
    {
     "title": "역대 국사교과서(고등학교 국사) · 동학 농민 운동의 전개",
     "url": "https://contents.history.go.kr/id/ta_h52_0040_0020_0010"
+   },
+   {
+    "title": "황토현전투",
+    "url": "https://encykorea.aks.ac.kr/Article/E0065371"
    }
   ],
   "facts": {
-   "gh-donghak1#0": "auto",
+   "gh-donghak1#0": "manual",
    "gh-donghak1#1": "manual",
-   "gh-donghak1#2": "auto",
-   "gh-donghak1#3": "auto",
-   "gh-donghak1#4": "auto"
+   "gh-donghak1#2": "manual",
+   "gh-donghak1#3": "manual",
+   "gh-donghak1#4": "manual"
   },
   "yearsOk": true
  },
@@ -3385,8 +3753,8 @@
    }
   ],
   "facts": {
-   "gh-donghak2#0": "auto",
-   "gh-donghak2#1": "auto",
+   "gh-donghak2#0": "manual",
+   "gh-donghak2#1": "manual",
    "gh-donghak2#2": "manual"
   },
   "yearsOk": true
@@ -3398,15 +3766,19 @@
    {
     "title": "갑오개혁",
     "url": "https://encykorea.aks.ac.kr/Article/E0000925"
+   },
+   {
+    "title": "군국기무처",
+    "url": "https://encykorea.aks.ac.kr/Article/E0006586"
    }
   ],
   "facts": {
-   "gh-gabo1#0": "auto",
-   "gh-gabo1#1": "auto",
-   "gh-gabo1#2": "auto",
-   "gh-gabo1#3": "auto",
+   "gh-gabo1#0": "manual",
+   "gh-gabo1#1": "manual",
+   "gh-gabo1#2": "manual",
+   "gh-gabo1#3": "manual",
    "gh-gabo1#4": "manual",
-   "gh-gabo1#5": "auto"
+   "gh-gabo1#5": "manual"
   },
   "yearsOk": true
  },
@@ -3420,9 +3792,9 @@
    }
   ],
   "facts": {
-   "gh-gabo2#0": "auto",
-   "gh-gabo2#1": "auto",
-   "gh-gabo2#2": "auto",
+   "gh-gabo2#0": "manual",
+   "gh-gabo2#1": "manual",
+   "gh-gabo2#2": "manual",
    "gh-gabo2#3": "manual"
   },
   "yearsOk": true
@@ -3437,8 +3809,8 @@
    }
   ],
   "facts": {
-   "gh-eulmisabyeon#0": "auto",
-   "gh-eulmisabyeon#1": "auto"
+   "gh-eulmisabyeon#0": "manual",
+   "gh-eulmisabyeon#1": "manual"
   },
   "yearsOk": true
  },
@@ -3452,10 +3824,10 @@
    }
   ],
   "facts": {
-   "gh-eulmi-reform#0": "auto",
-   "gh-eulmi-reform#1": "auto",
-   "gh-eulmi-reform#2": "auto",
-   "gh-eulmi-reform#3": "auto"
+   "gh-eulmi-reform#0": "manual",
+   "gh-eulmi-reform#1": "manual",
+   "gh-eulmi-reform#2": "manual",
+   "gh-eulmi-reform#3": "manual"
   },
   "yearsOk": true
  },
@@ -3469,7 +3841,7 @@
    }
   ],
   "facts": {
-   "gh-agwan#0": "auto",
+   "gh-agwan#0": "manual",
    "gh-agwan#1": "manual"
   },
   "yearsOk": true
@@ -3484,11 +3856,11 @@
    }
   ],
   "facts": {
-   "gh-independence#0": "auto",
-   "gh-independence#1": "auto",
-   "gh-independence#2": "auto",
-   "gh-independence#3": "auto",
-   "gh-independence#4": "auto"
+   "gh-independence#0": "manual",
+   "gh-independence#1": "manual",
+   "gh-independence#2": "manual",
+   "gh-independence#3": "manual",
+   "gh-independence#4": "manual"
   },
   "yearsOk": true
  },
@@ -3506,9 +3878,9 @@
    }
   ],
   "facts": {
-   "gh-daehan#0": "auto",
-   "gh-daehan#1": "auto",
-   "gh-daehan#2": "auto",
+   "gh-daehan#0": "manual",
+   "gh-daehan#1": "manual",
+   "gh-daehan#2": "manual",
    "gh-daehan#3": "manual",
    "gh-daehan#4": "manual",
    "gh-daehan#5": "manual"
@@ -3526,13 +3898,25 @@
    {
     "title": "제중원",
     "url": "https://encykorea.aks.ac.kr/Article/E0051479"
+   },
+   {
+    "title": "전환국",
+    "url": "https://encykorea.aks.ac.kr/Article/E0049771"
+   },
+   {
+    "title": "육영공원",
+    "url": "https://encykorea.aks.ac.kr/Article/E0042129"
+   },
+   {
+    "title": "박문국",
+    "url": "https://encykorea.aks.ac.kr/Article/E0020685"
    }
   ],
   "facts": {
-   "gh-facilities#0": "auto",
+   "gh-facilities#0": "manual",
    "gh-facilities#1": "manual",
    "gh-facilities#2": "manual",
-   "gh-facilities#3": "auto",
+   "gh-facilities#3": "manual",
    "gh-facilities#4": "manual"
   },
   "yearsOk": true
@@ -3544,12 +3928,20 @@
    {
     "title": "황성신문",
     "url": "https://encykorea.aks.ac.kr/Article/E0065214"
+   },
+   {
+    "title": "대한매일신보",
+    "url": "https://encykorea.aks.ac.kr/Article/E0014992"
+   },
+   {
+    "title": "독립신문",
+    "url": "https://encykorea.aks.ac.kr/Article/E0015984"
    }
   ],
   "facts": {
    "gh-press#0": "manual",
-   "gh-press#1": "auto",
-   "gh-press#2": "auto",
+   "gh-press#1": "manual",
+   "gh-press#2": "manual",
    "gh-press#3": "manual"
   },
   "yearsOk": true
@@ -3561,6 +3953,10 @@
    {
     "title": "한일의정서",
     "url": "https://encykorea.aks.ac.kr/Article/E0061922"
+   },
+   {
+    "title": "대한제국",
+    "url": "https://encykorea.aks.ac.kr/Article/E0015187"
    }
   ],
   "facts": {
@@ -3576,12 +3972,16 @@
    {
     "title": "고문정치",
     "url": "https://encykorea.aks.ac.kr/Article/E0003576"
+   },
+   {
+    "title": "화폐정리사업",
+    "url": "https://encykorea.aks.ac.kr/Article/E0064926"
    }
   ],
   "facts": {
-   "gh-hyeobyak1#0": "auto",
-   "gh-hyeobyak1#1": "auto",
-   "gh-hyeobyak1#2": "auto"
+   "gh-hyeobyak1#0": "manual",
+   "gh-hyeobyak1#1": "manual",
+   "gh-hyeobyak1#2": "manual"
   },
   "yearsOk": true
  },
@@ -3599,8 +3999,8 @@
    }
   ],
   "facts": {
-   "gh-eulsa#0": "auto",
-   "gh-eulsa#1": "auto",
+   "gh-eulsa#0": "manual",
+   "gh-eulsa#1": "manual",
    "gh-eulsa#2": "manual",
    "gh-eulsa#3": "manual"
   },
@@ -3616,8 +4016,8 @@
    }
   ],
   "facts": {
-   "gh-hague#0": "auto",
-   "gh-hague#1": "auto",
+   "gh-hague#0": "manual",
+   "gh-hague#1": "manual",
    "gh-hague#2": "manual"
   },
   "yearsOk": true
@@ -3629,11 +4029,15 @@
    {
     "title": "한일신협약",
     "url": "https://encykorea.aks.ac.kr/Article/E0061918"
+   },
+   {
+    "title": "군대해산",
+    "url": "https://encykorea.aks.ac.kr/Article/E0006598"
    }
   ],
   "facts": {
-   "gh-jeongmi#0": "auto",
-   "gh-jeongmi#1": "auto"
+   "gh-jeongmi#0": "manual",
+   "gh-jeongmi#1": "manual"
   },
   "yearsOk": true
  },
@@ -3644,11 +4048,15 @@
    {
     "title": "기유각서",
     "url": "https://encykorea.aks.ac.kr/Article/E0008369"
+   },
+   {
+    "title": "조선총독부",
+    "url": "https://encykorea.aks.ac.kr/Article/E0052242"
    }
   ],
   "facts": {
    "gh-annex#0": "manual",
-   "gh-annex#1": "auto"
+   "gh-annex#1": "manual"
   },
   "yearsOk": true
  },
@@ -3663,8 +4071,8 @@
   ],
   "facts": {
    "gh-eulmi-uibyeong#0": "manual",
-   "gh-eulmi-uibyeong#1": "auto",
-   "gh-eulmi-uibyeong#2": "auto"
+   "gh-eulmi-uibyeong#1": "manual",
+   "gh-eulmi-uibyeong#2": "manual"
   },
   "yearsOk": true
  },
@@ -3675,12 +4083,16 @@
    {
     "title": "을사의병",
     "url": "https://encykorea.aks.ac.kr/Article/E0042956"
+   },
+   {
+    "title": "신돌석",
+    "url": "https://encykorea.aks.ac.kr/Article/E0032784"
    }
   ],
   "facts": {
-   "gh-eulsa-uibyeong#0": "auto",
-   "gh-eulsa-uibyeong#1": "auto",
-   "gh-eulsa-uibyeong#2": "auto"
+   "gh-eulsa-uibyeong#0": "manual",
+   "gh-eulsa-uibyeong#1": "manual",
+   "gh-eulsa-uibyeong#2": "manual"
   },
   "yearsOk": true
  },
@@ -3702,9 +4114,9 @@
    }
   ],
   "facts": {
-   "gh-jeongmi-uibyeong#0": "auto",
-   "gh-jeongmi-uibyeong#1": "auto",
-   "gh-jeongmi-uibyeong#2": "auto",
+   "gh-jeongmi-uibyeong#0": "manual",
+   "gh-jeongmi-uibyeong#1": "manual",
+   "gh-jeongmi-uibyeong#2": "manual",
    "gh-jeongmi-uibyeong#3": "manual"
   },
   "yearsOk": true
@@ -3761,8 +4173,8 @@
    }
   ],
   "facts": {
-   "gh-sinminhoe#0": "auto",
-   "gh-sinminhoe#1": "auto",
+   "gh-sinminhoe#0": "manual",
+   "gh-sinminhoe#1": "manual",
    "gh-sinminhoe#2": "manual",
    "gh-sinminhoe#3": "manual",
    "gh-sinminhoe#4": "manual"
@@ -3792,12 +4204,20 @@
    {
     "title": "독도",
     "url": "https://encykorea.aks.ac.kr/Article/E0015953"
+   },
+   {
+    "title": "간도협약",
+    "url": "https://encykorea.aks.ac.kr/Article/E0066163"
+   },
+   {
+    "title": "역대 국사교과서(중학교 국사) · 독도 문제",
+    "url": "https://contents.history.go.kr/id/ta_m71_0090_0020_0030_0020"
    }
   ],
   "facts": {
-   "gh-dokdo#0": "auto",
-   "gh-dokdo#1": "auto",
-   "gh-dokdo#2": "auto"
+   "gh-dokdo#0": "manual",
+   "gh-dokdo#1": "manual",
+   "gh-dokdo#2": "manual"
   },
   "yearsOk": true
  },
@@ -3834,11 +4254,15 @@
    {
     "title": "역대 국사교과서(고등학교 국사) · 민족 경제의 침탈",
     "url": "https://contents.history.go.kr/id/ta_h52_0050_0030_0010"
+   },
+   {
+    "title": "회사령",
+    "url": "https://encykorea.aks.ac.kr/Article/E0065503"
    }
   ],
   "facts": {
    "ij-land#0": "manual",
-   "ij-land#1": "auto",
+   "ij-land#1": "manual",
    "ij-land#2": "manual"
   },
   "yearsOk": true
@@ -3859,7 +4283,7 @@
   "facts": {
    "ij-uigunbu#0": "manual",
    "ij-uigunbu#1": "manual",
-   "ij-uigunbu#2": "auto"
+   "ij-uigunbu#2": "manual"
   },
   "yearsOk": true
  },
@@ -3873,9 +4297,9 @@
    }
   ],
   "facts": {
-   "ij-gwangbokhoe#0": "auto",
-   "ij-gwangbokhoe#1": "auto",
-   "ij-gwangbokhoe#2": "auto"
+   "ij-gwangbokhoe#0": "manual",
+   "ij-gwangbokhoe#1": "manual",
+   "ij-gwangbokhoe#2": "manual"
   },
   "yearsOk": true
  },
@@ -3886,13 +4310,25 @@
    {
     "title": "대한광복군정부",
     "url": "https://encykorea.aks.ac.kr/Article/E0014921"
+   },
+   {
+    "title": "대조선국민군단",
+    "url": "https://encykorea.aks.ac.kr/Article/E0014780"
+   },
+   {
+    "title": "서전서숙",
+    "url": "https://encykorea.aks.ac.kr/Article/E0028159"
+   },
+   {
+    "title": "대한민국 임시정부",
+    "url": "https://encykorea.aks.ac.kr/Article/E0015017"
    }
   ],
   "facts": {
-   "ij-abroad1910#0": "auto",
-   "ij-abroad1910#1": "auto",
+   "ij-abroad1910#0": "manual",
+   "ij-abroad1910#1": "manual",
    "ij-abroad1910#2": "manual",
-   "ij-abroad1910#3": "auto"
+   "ij-abroad1910#3": "manual"
   },
   "yearsOk": true,
   "note": "E0014921: 권업회 1911·대한광복군정부 1914 / E0014780: 대조선국민군단 1914"
@@ -3907,7 +4343,7 @@
    }
   ],
   "facts": {
-   "ij-sinheung#0": "auto",
+   "ij-sinheung#0": "manual",
    "ij-sinheung#1": "manual",
    "ij-sinheung#2": "manual"
   },
@@ -3928,10 +4364,10 @@
   ],
   "facts": {
    "ij-samil#0": "manual",
-   "ij-samil#1": "auto",
+   "ij-samil#1": "manual",
    "ij-samil#2": "manual",
    "ij-samil#3": "manual",
-   "ij-samil#4": "auto"
+   "ij-samil#4": "manual"
   },
   "yearsOk": true
  },
@@ -3942,14 +4378,22 @@
    {
     "title": "대한민국 임시정부",
     "url": "https://encykorea.aks.ac.kr/Article/E0015017"
+   },
+   {
+    "title": "교통국",
+    "url": "https://encykorea.aks.ac.kr/Article/E0005594"
+   },
+   {
+    "title": "독립공채",
+    "url": "https://encykorea.aks.ac.kr/Article/E0015970"
    }
   ],
   "facts": {
-   "ij-kpg#0": "auto",
-   "ij-kpg#1": "auto",
-   "ij-kpg#2": "auto",
-   "ij-kpg#3": "auto",
-   "ij-kpg#4": "auto"
+   "ij-kpg#0": "manual",
+   "ij-kpg#1": "manual",
+   "ij-kpg#2": "manual",
+   "ij-kpg#3": "manual",
+   "ij-kpg#4": "manual"
   },
   "yearsOk": true
  },
@@ -3960,10 +4404,14 @@
    {
     "title": "국민대표회의",
     "url": "https://encykorea.aks.ac.kr/Article/E0006294"
+   },
+   {
+    "title": "대한민국 임시정부",
+    "url": "https://encykorea.aks.ac.kr/Article/E0015017"
    }
   ],
   "facts": {
-   "ij-national-rep#0": "auto",
+   "ij-national-rep#0": "manual",
    "ij-national-rep#1": "manual"
   },
   "yearsOk": true
@@ -3975,12 +4423,16 @@
    {
     "title": "삼균주의",
     "url": "https://encykorea.aks.ac.kr/Article/E0026495"
+   },
+   {
+    "title": "대한민국 임시정부",
+    "url": "https://encykorea.aks.ac.kr/Article/E0015017"
    }
   ],
   "facts": {
-   "ij-kpg-chongqing#0": "auto",
-   "ij-kpg-chongqing#1": "auto",
-   "ij-kpg-chongqing#2": "auto"
+   "ij-kpg-chongqing#0": "manual",
+   "ij-kpg-chongqing#1": "manual",
+   "ij-kpg-chongqing#2": "manual"
   },
   "yearsOk": true
  },
@@ -3995,13 +4447,17 @@
    {
     "title": "3·1운동",
     "url": "https://encykorea.aks.ac.kr/Article/E0026772"
+   },
+   {
+    "title": "조선교육령",
+    "url": "https://encykorea.aks.ac.kr/Article/E0051933"
    }
   ],
   "facts": {
    "ij-munhwa#0": "manual",
-   "ij-munhwa#1": "auto",
+   "ij-munhwa#1": "manual",
    "ij-munhwa#2": "manual",
-   "ij-munhwa#3": "auto"
+   "ij-munhwa#3": "manual"
   },
   "yearsOk": true,
   "note": "E0026772: 3·1 운동 이후 문화통치로 전환(1920년대)"
@@ -4026,7 +4482,7 @@
   "facts": {
    "ij-sanmi#0": "manual",
    "ij-sanmi#1": "manual",
-   "ij-sanmi#2": "auto"
+   "ij-sanmi#2": "manual"
   },
   "yearsOk": true
  },
@@ -4064,7 +4520,7 @@
    }
   ],
   "facts": {
-   "ij-university#0": "auto",
+   "ij-university#0": "manual",
    "ij-university#1": "manual",
    "ij-university#2": "manual"
   },
@@ -4084,8 +4540,8 @@
    }
   ],
   "facts": {
-   "ij-literacy#0": "auto",
-   "ij-literacy#1": "auto"
+   "ij-literacy#0": "manual",
+   "ij-literacy#1": "manual"
   },
   "yearsOk": true,
   "note": "E0076100 문자보급운동: 1920년대 말~1930년대 초 / E0025066 브나로드운동: 1931~1934년"
@@ -4097,10 +4553,14 @@
    {
     "title": "암태도 소작쟁의",
     "url": "https://encykorea.aks.ac.kr/Article/E0035164"
+   },
+   {
+    "title": "원산총파업",
+    "url": "https://encykorea.aks.ac.kr/Article/E0040696"
    }
   ],
   "facts": {
-   "ij-amtae#0": "auto",
+   "ij-amtae#0": "manual",
    "ij-amtae#1": "manual"
   },
   "yearsOk": true
@@ -4115,8 +4575,8 @@
    }
   ],
   "facts": {
-   "ij-hyeongpyeong#0": "auto",
-   "ij-hyeongpyeong#1": "auto"
+   "ij-hyeongpyeong#0": "manual",
+   "ij-hyeongpyeong#1": "manual"
   },
   "yearsOk": true
  },
@@ -4127,12 +4587,16 @@
    {
     "title": "방정환",
     "url": "https://encykorea.aks.ac.kr/Article/E0021783"
+   },
+   {
+    "title": "근우회",
+    "url": "https://encykorea.aks.ac.kr/Article/E0007442"
    }
   ],
   "facts": {
-   "ij-youth#0": "auto",
-   "ij-youth#1": "auto",
-   "ij-youth#2": "auto"
+   "ij-youth#0": "manual",
+   "ij-youth#1": "manual",
+   "ij-youth#2": "manual"
   },
   "yearsOk": true
  },
@@ -4150,9 +4614,9 @@
    }
   ],
   "facts": {
-   "ij-singanhoe#0": "auto",
-   "ij-singanhoe#1": "auto",
-   "ij-singanhoe#2": "auto",
+   "ij-singanhoe#0": "manual",
+   "ij-singanhoe#1": "manual",
+   "ij-singanhoe#2": "manual",
    "ij-singanhoe#3": "manual"
   },
   "yearsOk": true
@@ -4171,7 +4635,7 @@
    }
   ],
   "facts": {
-   "ij-610#0": "auto",
+   "ij-610#0": "manual",
    "ij-610#1": "manual"
   },
   "yearsOk": true
@@ -4186,8 +4650,8 @@
    }
   ],
   "facts": {
-   "ij-gwangju#0": "auto",
-   "ij-gwangju#1": "auto",
+   "ij-gwangju#0": "manual",
+   "ij-gwangju#1": "manual",
    "ij-gwangju#2": "manual"
   },
   "yearsOk": true
@@ -4202,8 +4666,8 @@
    }
   ],
   "facts": {
-   "ij-bongodong#0": "auto",
-   "ij-bongodong#1": "auto"
+   "ij-bongodong#0": "manual",
+   "ij-bongodong#1": "manual"
   },
   "yearsOk": true
  },
@@ -4217,7 +4681,7 @@
    }
   ],
   "facts": {
-   "ij-cheongsanri#0": "auto",
+   "ij-cheongsanri#0": "manual",
    "ij-cheongsanri#1": "manual"
   },
   "yearsOk": true
@@ -4241,7 +4705,7 @@
   ],
   "facts": {
    "ij-gando#0": "manual",
-   "ij-gando#1": "auto",
+   "ij-gando#1": "manual",
    "ij-gando#2": "manual"
   },
   "yearsOk": true,
@@ -4254,10 +4718,14 @@
    {
     "title": "정의부",
     "url": "https://encykorea.aks.ac.kr/Article/E0050766"
+   },
+   {
+    "title": "대한민국 임시정부 육군주만참의부",
+    "url": "https://encykorea.aks.ac.kr/Article/E0015019"
    }
   ],
   "facts": {
-   "ij-3bu#0": "auto",
+   "ij-3bu#0": "manual",
    "ij-3bu#1": "manual",
    "ij-3bu#2": "manual"
   },
@@ -4271,13 +4739,17 @@
    {
     "title": "쌍성보전투",
     "url": "https://encykorea.aks.ac.kr/Article/E0034139"
+   },
+   {
+    "title": "대전자령 전투",
+    "url": "https://encykorea.aks.ac.kr/Article/E0014742"
    }
   ],
   "facts": {
-   "ij-hangukdoknip#0": "auto",
-   "ij-hangukdoknip#1": "auto",
-   "ij-hangukdoknip#2": "auto",
-   "ij-hangukdoknip#3": "auto"
+   "ij-hangukdoknip#0": "manual",
+   "ij-hangukdoknip#1": "manual",
+   "ij-hangukdoknip#2": "manual",
+   "ij-hangukdoknip#3": "manual"
   },
   "yearsOk": true
  },
@@ -4288,13 +4760,17 @@
    {
     "title": "조선혁명군",
     "url": "https://encykorea.aks.ac.kr/Article/E0052267"
+   },
+   {
+    "title": "국민부",
+    "url": "https://encykorea.aks.ac.kr/Article/E0006303"
    }
   ],
   "facts": {
-   "ij-joseonhyeokmyeong#0": "auto",
-   "ij-joseonhyeokmyeong#1": "auto",
+   "ij-joseonhyeokmyeong#0": "manual",
+   "ij-joseonhyeokmyeong#1": "manual",
    "ij-joseonhyeokmyeong#2": "manual",
-   "ij-joseonhyeokmyeong#3": "auto"
+   "ij-joseonhyeokmyeong#3": "manual"
   },
   "yearsOk": true
  },
@@ -4313,10 +4789,10 @@
   ],
   "facts": {
    "ij-uiyeoldan#0": "manual",
-   "ij-uiyeoldan#1": "auto",
-   "ij-uiyeoldan#2": "auto",
-   "ij-uiyeoldan#3": "auto",
-   "ij-uiyeoldan#4": "term"
+   "ij-uiyeoldan#1": "manual",
+   "ij-uiyeoldan#2": "manual",
+   "ij-uiyeoldan#3": "manual",
+   "ij-uiyeoldan#4": "manual"
   },
   "yearsOk": true
  },
@@ -4330,8 +4806,8 @@
    }
   ],
   "facts": {
-   "ij-aegukdan#0": "auto",
-   "ij-aegukdan#1": "auto",
+   "ij-aegukdan#0": "manual",
+   "ij-aegukdan#1": "manual",
    "ij-aegukdan#2": "manual",
    "ij-aegukdan#3": "manual"
   },
@@ -4352,8 +4828,8 @@
   ],
   "facts": {
    "ij-joseonuiyongdae#0": "manual",
-   "ij-joseonuiyongdae#1": "auto",
-   "ij-joseonuiyongdae#2": "auto"
+   "ij-joseonuiyongdae#1": "manual",
+   "ij-joseonuiyongdae#2": "manual"
   },
   "yearsOk": true
  },
@@ -4364,11 +4840,15 @@
    {
     "title": "조선독립동맹",
     "url": "https://encykorea.aks.ac.kr/Article/E0051988"
+   },
+   {
+    "title": "조선의용군",
+    "url": "https://encykorea.aks.ac.kr/Article/E0052177"
    }
   ],
   "facts": {
    "ij-joseondoknipdongmaeng#0": "manual",
-   "ij-joseondoknipdongmaeng#1": "auto"
+   "ij-joseondoknipdongmaeng#1": "manual"
   },
   "yearsOk": true
  },
@@ -4391,8 +4871,8 @@
   ],
   "facts": {
    "ij-gwangbokgun#0": "manual",
-   "ij-gwangbokgun#1": "auto",
-   "ij-gwangbokgun#2": "auto",
+   "ij-gwangbokgun#1": "manual",
+   "ij-gwangbokgun#2": "manual",
    "ij-gwangbokgun#3": "manual"
   },
   "yearsOk": true
@@ -4407,8 +4887,8 @@
    }
   ],
   "facts": {
-   "ij-geonguk#0": "auto",
-   "ij-geonguk#1": "auto"
+   "ij-geonguk#0": "manual",
+   "ij-geonguk#1": "manual"
   },
   "yearsOk": true
  },
@@ -4419,11 +4899,15 @@
    {
     "title": "황국신민서사",
     "url": "https://encykorea.aks.ac.kr/Article/E0076120"
+   },
+   {
+    "title": "교육",
+    "url": "https://encykorea.aks.ac.kr/Article/E0005524"
    }
   ],
   "facts": {
-   "ij-malsal#0": "auto",
-   "ij-malsal#1": "auto",
+   "ij-malsal#0": "manual",
+   "ij-malsal#1": "manual",
    "ij-malsal#2": "manual",
    "ij-malsal#3": "manual"
   },
@@ -4437,12 +4921,20 @@
    {
     "title": "국가총동원법",
     "url": "https://encykorea.aks.ac.kr/Article/E0006142"
+   },
+   {
+    "title": "공출",
+    "url": "https://encykorea.aks.ac.kr/Article/E0004535"
+   },
+   {
+    "title": "한국광복군",
+    "url": "https://encykorea.aks.ac.kr/Article/E0005134"
    }
   ],
   "facts": {
    "ij-mobilization#0": "manual",
    "ij-mobilization#1": "manual",
-   "ij-mobilization#2": "auto",
+   "ij-mobilization#2": "manual",
    "ij-mobilization#3": "manual"
   },
   "yearsOk": true,
@@ -4462,10 +4954,10 @@
    }
   ],
   "facts": {
-   "ij-korean-language#0": "auto",
+   "ij-korean-language#0": "manual",
    "ij-korean-language#1": "manual",
    "ij-korean-language#2": "manual",
-   "ij-korean-language#3": "auto"
+   "ij-korean-language#3": "manual"
   },
   "yearsOk": true
  },
@@ -4483,9 +4975,9 @@
    }
   ],
   "facts": {
-   "ij-parkeunsik#0": "auto",
-   "ij-parkeunsik#1": "auto",
-   "ij-parkeunsik#2": "auto",
+   "ij-parkeunsik#0": "manual",
+   "ij-parkeunsik#1": "manual",
+   "ij-parkeunsik#2": "manual",
    "ij-parkeunsik#3": "manual"
   },
   "yearsOk": true
@@ -4500,10 +4992,10 @@
    }
   ],
   "facts": {
-   "ij-sinchaeho#0": "auto",
-   "ij-sinchaeho#1": "auto",
-   "ij-sinchaeho#2": "auto",
-   "ij-sinchaeho#3": "auto"
+   "ij-sinchaeho#0": "manual",
+   "ij-sinchaeho#1": "manual",
+   "ij-sinchaeho#2": "manual",
+   "ij-sinchaeho#3": "manual"
   },
   "yearsOk": true
  },
@@ -4521,9 +5013,9 @@
    }
   ],
   "facts": {
-   "ij-history#0": "auto",
+   "ij-history#0": "manual",
    "ij-history#1": "manual",
-   "ij-history#2": "auto"
+   "ij-history#2": "manual"
   },
   "yearsOk": true
  },
@@ -4542,6 +5034,10 @@
    {
     "title": "여유당전서",
     "url": "https://encykorea.aks.ac.kr/Article/E0036443"
+   },
+   {
+    "title": "정약용",
+    "url": "https://encykorea.aks.ac.kr/Article/E0050549"
    }
   ],
   "facts": {
@@ -4566,8 +5062,8 @@
   ],
   "facts": {
    "ij-jindan#0": "manual",
-   "ij-jindan#1": "auto",
-   "ij-jindan#2": "auto"
+   "ij-jindan#1": "manual",
+   "ij-jindan#2": "manual"
   },
   "yearsOk": true
  },
@@ -4578,13 +5074,29 @@
    {
     "title": "대종교",
     "url": "https://encykorea.aks.ac.kr/Article/E0014791"
+   },
+   {
+    "title": "중광단",
+    "url": "https://encykorea.aks.ac.kr/Article/E0053695"
+   },
+   {
+    "title": "천도교",
+    "url": "https://encykorea.aks.ac.kr/Article/E0055819"
+   },
+   {
+    "title": "조선불교유신론",
+    "url": "https://encykorea.aks.ac.kr/Article/E0052056"
+   },
+   {
+    "title": "원불교",
+    "url": "https://encykorea.aks.ac.kr/Article/E0040670"
    }
   ],
   "facts": {
-   "ij-religion#0": "auto",
-   "ij-religion#1": "auto",
+   "ij-religion#0": "manual",
+   "ij-religion#1": "manual",
    "ij-religion#2": "manual",
-   "ij-religion#3": "auto"
+   "ij-religion#3": "manual"
   },
   "yearsOk": true
  },
@@ -4598,8 +5110,8 @@
    }
   ],
   "facts": {
-   "hd-geonjun#0": "auto",
-   "hd-geonjun#1": "auto",
+   "hd-geonjun#0": "manual",
+   "hd-geonjun#1": "manual",
    "hd-geonjun#2": "manual"
   },
   "yearsOk": true
@@ -4611,12 +5123,16 @@
    {
     "title": "모스크바 삼상회의",
     "url": "https://encykorea.aks.ac.kr/Article/E0066402"
+   },
+   {
+    "title": "신탁통치 반대운동",
+    "url": "https://encykorea.aks.ac.kr/Article/E0033478"
    }
   ],
   "facts": {
-   "hd-moscow#0": "auto",
-   "hd-moscow#1": "auto",
-   "hd-moscow#2": "auto"
+   "hd-moscow#0": "manual",
+   "hd-moscow#1": "manual",
+   "hd-moscow#2": "manual"
   },
   "yearsOk": true
  },
@@ -4645,8 +5161,8 @@
    }
   ],
   "facts": {
-   "hd-jwau#0": "auto",
-   "hd-jwau#1": "auto"
+   "hd-jwau#0": "manual",
+   "hd-jwau#1": "manual"
   },
   "yearsOk": true
  },
@@ -4660,8 +5176,8 @@
    }
   ],
   "facts": {
-   "hd-un#0": "auto",
-   "hd-un#1": "auto"
+   "hd-un#0": "manual",
+   "hd-un#1": "manual"
   },
   "yearsOk": true
  },
@@ -4672,12 +5188,16 @@
    {
     "title": "남북협상",
     "url": "https://encykorea.aks.ac.kr/Article/E0011936"
+   },
+   {
+    "title": "김구",
+    "url": "https://encykorea.aks.ac.kr/Article/E0008753"
    }
   ],
   "facts": {
-   "hd-namBuk#0": "auto",
-   "hd-namBuk#1": "auto",
-   "hd-namBuk#2": "auto"
+   "hd-namBuk#0": "manual",
+   "hd-namBuk#1": "manual",
+   "hd-namBuk#2": "manual"
   },
   "yearsOk": true
  },
@@ -4695,7 +5215,7 @@
    }
   ],
   "facts": {
-   "hd-jeju#0": "auto",
+   "hd-jeju#0": "manual",
    "hd-jeju#1": "manual"
   },
   "yearsOk": true
@@ -4714,9 +5234,9 @@
    }
   ],
   "facts": {
-   "hd-510#0": "auto",
+   "hd-510#0": "manual",
    "hd-510#1": "manual",
-   "hd-510#2": "auto"
+   "hd-510#2": "manual"
   },
   "yearsOk": true
  },
@@ -4730,8 +5250,8 @@
    }
   ],
   "facts": {
-   "hd-yeosun#0": "auto",
-   "hd-yeosun#1": "auto"
+   "hd-yeosun#0": "manual",
+   "hd-yeosun#1": "manual"
   },
   "yearsOk": true
  },
@@ -4742,12 +5262,16 @@
    {
     "title": "반민족행위처벌법",
     "url": "https://encykorea.aks.ac.kr/Article/E0021477"
+   },
+   {
+    "title": "반민족행위특별조사위원회",
+    "url": "https://encykorea.aks.ac.kr/Article/E0021478"
    }
   ],
   "facts": {
-   "hd-banmin#0": "auto",
-   "hd-banmin#1": "auto",
-   "hd-banmin#2": "auto"
+   "hd-banmin#0": "manual",
+   "hd-banmin#1": "manual",
+   "hd-banmin#2": "manual"
   },
   "yearsOk": true
  },
@@ -4765,9 +5289,9 @@
    }
   ],
   "facts": {
-   "hd-land-reform#0": "auto",
+   "hd-land-reform#0": "manual",
    "hd-land-reform#1": "manual",
-   "hd-land-reform#2": "auto"
+   "hd-land-reform#2": "manual"
   },
   "yearsOk": true
  },
@@ -4785,10 +5309,10 @@
    }
   ],
   "facts": {
-   "hd-war#0": "auto",
+   "hd-war#0": "manual",
    "hd-war#1": "manual",
    "hd-war#2": "manual",
-   "hd-war#3": "auto",
+   "hd-war#3": "manual",
    "hd-war#4": "manual"
   },
   "yearsOk": true
@@ -4807,7 +5331,7 @@
    }
   ],
   "facts": {
-   "hd-balchwe#0": "auto",
+   "hd-balchwe#0": "manual",
    "hd-balchwe#1": "manual"
   },
   "yearsOk": true
@@ -4841,7 +5365,7 @@
    }
   ],
   "facts": {
-   "hd-jinbo#0": "auto",
+   "hd-jinbo#0": "manual",
    "hd-jinbo#1": "manual"
   },
   "yearsOk": true
@@ -4856,8 +5380,8 @@
    }
   ],
   "facts": {
-   "hd-sambaek#0": "auto",
-   "hd-sambaek#1": "auto"
+   "hd-sambaek#0": "manual",
+   "hd-sambaek#1": "manual"
   },
   "yearsOk": true
  },
@@ -4878,7 +5402,7 @@
    "hd-419#0": "manual",
    "hd-419#1": "manual",
    "hd-419#2": "manual",
-   "hd-419#3": "auto"
+   "hd-419#3": "manual"
   },
   "yearsOk": true
  },
@@ -4915,8 +5439,8 @@
    }
   ],
   "facts": {
-   "hd-516#0": "auto",
-   "hd-516#1": "auto"
+   "hd-516#0": "manual",
+   "hd-516#1": "manual"
   },
   "yearsOk": true
  },
@@ -4936,7 +5460,7 @@
   "facts": {
    "hd-hanil#0": "manual",
    "hd-hanil#1": "manual",
-   "hd-hanil#2": "auto"
+   "hd-hanil#2": "manual"
   },
   "yearsOk": true
  },
@@ -4970,7 +5494,7 @@
    }
   ],
   "facts": {
-   "hd-3seon#0": "auto"
+   "hd-3seon#0": "manual"
   },
   "yearsOk": true
  },
@@ -4988,9 +5512,9 @@
    }
   ],
   "facts": {
-   "hd-yushin#0": "auto",
-   "hd-yushin#1": "auto",
-   "hd-yushin#2": "auto",
+   "hd-yushin#0": "manual",
+   "hd-yushin#1": "manual",
+   "hd-yushin#2": "manual",
    "hd-yushin#3": "manual"
   },
   "yearsOk": true
@@ -5018,11 +5542,19 @@
    {
     "title": "사료로 본 한국사 · 제4차 경제 개발 5개년 계획의 목표와 방침",
     "url": "https://contents.history.go.kr/id/hm_155_0080"
+   },
+   {
+    "title": "경부고속도로",
+    "url": "https://encykorea.aks.ac.kr/Article/E0002460"
+   },
+   {
+    "title": "전태일",
+    "url": "https://encykorea.aks.ac.kr/Article/E0068917"
    }
   ],
   "facts": {
-   "hd-park-econ#0": "auto",
-   "hd-park-econ#1": "auto",
+   "hd-park-econ#0": "manual",
+   "hd-park-econ#1": "manual",
    "hd-park-econ#2": "manual",
    "hd-park-econ#3": "manual",
    "hd-park-econ#4": "manual"
@@ -5042,7 +5574,7 @@
   "facts": {
    "hd-buma#0": "manual",
    "hd-buma#1": "manual",
-   "hd-buma#2": "auto"
+   "hd-buma#2": "manual"
   },
   "yearsOk": true
  },
@@ -5056,7 +5588,7 @@
    }
   ],
   "facts": {
-   "hd-1212#0": "auto",
+   "hd-1212#0": "manual",
    "hd-1212#1": "manual"
   },
   "yearsOk": true
@@ -5101,10 +5633,18 @@
    {
     "title": "3저 호황",
     "url": "https://encykorea.aks.ac.kr/Article/E0073420"
+   },
+   {
+    "title": "야간통행금지",
+    "url": "https://encykorea.aks.ac.kr/Article/E0035247"
+   },
+   {
+    "title": "교육",
+    "url": "https://encykorea.aks.ac.kr/Article/E0005524"
    }
   ],
   "facts": {
-   "hd-chun#0": "auto",
+   "hd-chun#0": "manual",
    "hd-chun#1": "manual",
    "hd-chun#2": "manual",
    "hd-chun#3": "manual",
@@ -5119,14 +5659,22 @@
    {
     "title": "6월항쟁",
     "url": "https://encykorea.aks.ac.kr/Article/E0068343"
+   },
+   {
+    "title": "대한민국헌법",
+    "url": "https://encykorea.aks.ac.kr/Article/E0015030"
+   },
+   {
+    "title": "6·29민주화선언",
+    "url": "https://encykorea.aks.ac.kr/Article/E0042141"
    }
   ],
   "facts": {
-   "hd-june#0": "auto",
+   "hd-june#0": "manual",
    "hd-june#1": "manual",
    "hd-june#2": "manual",
    "hd-june#3": "manual",
-   "hd-june#4": "auto"
+   "hd-june#4": "manual"
   },
   "yearsOk": true
  },
@@ -5140,9 +5688,9 @@
    }
   ],
   "facts": {
-   "hd-rohtaewoo#0": "auto",
-   "hd-rohtaewoo#1": "auto",
-   "hd-rohtaewoo#2": "auto",
+   "hd-rohtaewoo#0": "manual",
+   "hd-rohtaewoo#1": "manual",
+   "hd-rohtaewoo#2": "manual",
    "hd-rohtaewoo#3": "manual"
   },
   "yearsOk": true
@@ -5161,10 +5709,10 @@
    }
   ],
   "facts": {
-   "hd-kimyoungsam#0": "auto",
-   "hd-kimyoungsam#1": "auto",
+   "hd-kimyoungsam#0": "manual",
+   "hd-kimyoungsam#1": "manual",
    "hd-kimyoungsam#2": "manual",
-   "hd-kimyoungsam#3": "auto",
+   "hd-kimyoungsam#3": "manual",
    "hd-kimyoungsam#4": "manual"
   },
   "yearsOk": true
@@ -5192,7 +5740,7 @@
   ],
   "facts": {
    "hd-kimdaejung#0": "manual",
-   "hd-kimdaejung#1": "auto",
+   "hd-kimdaejung#1": "manual",
    "hd-kimdaejung#2": "manual",
    "hd-kimdaejung#3": "manual"
   },
@@ -5214,6 +5762,10 @@
    {
     "title": "호주제 폐지",
     "url": "https://encykorea.aks.ac.kr/Article/E0068599"
+   },
+   {
+    "title": "남북정상회담",
+    "url": "https://encykorea.aks.ac.kr/Article/E0070317"
    }
   ],
   "facts": {
@@ -5233,8 +5785,8 @@
    }
   ],
   "facts": {
-   "hd-74#0": "auto",
-   "hd-74#1": "auto"
+   "hd-74#0": "manual",
+   "hd-74#1": "manual"
   },
   "yearsOk": true
  },
@@ -5248,8 +5800,8 @@
    }
   ],
   "facts": {
-   "hd-basic#0": "auto",
-   "hd-basic#1": "auto"
+   "hd-basic#0": "manual",
+   "hd-basic#1": "manual"
   },
   "yearsOk": true
  },
@@ -5268,7 +5820,7 @@
   ],
   "facts": {
    "hd-615#0": "manual",
-   "hd-615#1": "auto"
+   "hd-615#1": "manual"
   },
   "yearsOk": true
  },
@@ -5301,8 +5853,8 @@
    }
   ],
   "facts": {
-   "hd-panmunjom#0": "auto",
-   "hd-panmunjom#1": "auto"
+   "hd-panmunjom#0": "manual",
+   "hd-panmunjom#1": "manual"
   },
   "yearsOk": true
  },
@@ -5322,7 +5874,7 @@
   "facts": {
    "th-seol#0": "manual",
    "th-seol#1": "manual",
-   "th-seol#2": "auto"
+   "th-seol#2": "manual"
   },
   "yearsOk": true
  },
@@ -5343,7 +5895,7 @@
    "th-boreum#0": "manual",
    "th-boreum#1": "manual",
    "th-boreum#2": "manual",
-   "th-boreum#3": "auto"
+   "th-boreum#3": "manual"
   },
   "yearsOk": true
  },
@@ -5357,8 +5909,8 @@
    }
   ],
   "facts": {
-   "th-hansik#0": "auto",
-   "th-hansik#1": "auto"
+   "th-hansik#0": "manual",
+   "th-hansik#1": "manual"
   },
   "yearsOk": true
  },
@@ -5377,9 +5929,9 @@
   ],
   "facts": {
    "th-dano#0": "manual",
-   "th-dano#1": "term",
+   "th-dano#1": "manual",
    "th-dano#2": "manual",
-   "th-dano#3": "auto"
+   "th-dano#3": "manual"
   },
   "yearsOk": true
  },
@@ -5393,8 +5945,8 @@
    }
   ],
   "facts": {
-   "th-chuseok#0": "auto",
-   "th-chuseok#1": "auto",
+   "th-chuseok#0": "manual",
+   "th-chuseok#1": "manual",
    "th-chuseok#2": "manual"
   },
   "yearsOk": true
@@ -5409,9 +5961,9 @@
    }
   ],
   "facts": {
-   "th-dongji#0": "auto",
-   "th-dongji#1": "auto",
-   "th-dongji#2": "auto"
+   "th-dongji#0": "manual",
+   "th-dongji#1": "manual",
+   "th-dongji#2": "manual"
   },
   "yearsOk": true
  },
@@ -5424,19 +5976,23 @@
     "url": "https://encykorea.aks.ac.kr/Article/E0001507"
    },
    {
+    "title": "외규장각의궤",
+    "url": "https://encykorea.aks.ac.kr/Article/E0071554"
+   },
+   {
     "title": "강화학파",
     "url": "https://encykorea.aks.ac.kr/Article/E0001537"
    },
    {
-    "title": "외규장각의궤",
-    "url": "https://encykorea.aks.ac.kr/Article/E0071554"
+    "title": "신미양요",
+    "url": "https://encykorea.aks.ac.kr/Article/E0032961"
    }
   ],
   "facts": {
-   "th-ganghwa#0": "auto",
-   "th-ganghwa#1": "auto",
+   "th-ganghwa#0": "manual",
+   "th-ganghwa#1": "manual",
    "th-ganghwa#2": "manual",
-   "th-ganghwa#3": "term",
+   "th-ganghwa#3": "manual",
    "th-ganghwa#4": "manual"
   },
   "yearsOk": true
@@ -5448,12 +6004,24 @@
    {
     "title": "개성시장",
     "url": "https://encykorea.aks.ac.kr/Article/E0001661"
+   },
+   {
+    "title": "선죽교",
+    "url": "https://encykorea.aks.ac.kr/Article/E0028936"
+   },
+   {
+    "title": "개성공단",
+    "url": "https://encykorea.aks.ac.kr/Article/E0070226"
+   },
+   {
+    "title": "만월대",
+    "url": "https://encykorea.aks.ac.kr/Article/E0017684"
    }
   ],
   "facts": {
    "th-gaeseong#0": "manual",
-   "th-gaeseong#1": "auto",
-   "th-gaeseong#2": "auto"
+   "th-gaeseong#1": "manual",
+   "th-gaeseong#2": "manual"
   },
   "yearsOk": true
  },
@@ -5464,12 +6032,16 @@
    {
     "title": "평양시",
     "url": "https://encykorea.aks.ac.kr/Article/E0059979"
+   },
+   {
+    "title": "조선물산장려운동",
+    "url": "https://encykorea.aks.ac.kr/Article/E0052020"
    }
   ],
   "facts": {
-   "th-pyeongyang#0": "auto",
+   "th-pyeongyang#0": "manual",
    "th-pyeongyang#1": "manual",
-   "th-pyeongyang#2": "auto"
+   "th-pyeongyang#2": "manual"
   },
   "yearsOk": true
  },
@@ -5483,9 +6055,9 @@
    }
   ],
   "facts": {
-   "th-gongju#0": "auto",
-   "th-gongju#1": "auto",
-   "th-gongju#2": "auto"
+   "th-gongju#0": "manual",
+   "th-gongju#1": "manual",
+   "th-gongju#2": "manual"
   },
   "yearsOk": true
  },
@@ -5499,8 +6071,8 @@
    }
   ],
   "facts": {
-   "th-buyeo#0": "auto",
-   "th-buyeo#1": "auto"
+   "th-buyeo#0": "manual",
+   "th-buyeo#1": "manual"
   },
   "yearsOk": true
  },
@@ -5511,10 +6083,18 @@
    {
     "title": "진주시",
     "url": "https://encykorea.aks.ac.kr/Article/E0054910"
+   },
+   {
+    "title": "백낙신",
+    "url": "https://encykorea.aks.ac.kr/Article/E0022016"
+   },
+   {
+    "title": "형평운동",
+    "url": "https://encykorea.aks.ac.kr/Article/E0063568"
    }
   ],
   "facts": {
-   "th-jinju#0": "auto",
+   "th-jinju#0": "manual",
    "th-jinju#1": "manual",
    "th-jinju#2": "manual"
   },
@@ -5527,11 +6107,15 @@
    {
     "title": "전주시",
     "url": "https://encykorea.aks.ac.kr/Article/E0049669"
+   },
+   {
+    "title": "집강소",
+    "url": "https://encykorea.aks.ac.kr/Article/E0055029"
    }
   ],
   "facts": {
-   "th-jeonju#0": "auto",
-   "th-jeonju#1": "auto",
+   "th-jeonju#0": "manual",
+   "th-jeonju#1": "manual",
    "th-jeonju#2": "manual"
   },
   "yearsOk": true
@@ -5543,10 +6127,14 @@
    {
     "title": "원산시",
     "url": "https://encykorea.aks.ac.kr/Article/E0040691"
+   },
+   {
+    "title": "원산총파업",
+    "url": "https://encykorea.aks.ac.kr/Article/E0040696"
    }
   ],
   "facts": {
-   "th-wonsan#0": "auto",
+   "th-wonsan#0": "manual",
    "th-wonsan#1": "manual"
   },
   "yearsOk": true
@@ -5560,18 +6148,26 @@
     "url": "https://encykorea.aks.ac.kr/Article/E0051413"
    },
    {
+    "title": "탐라총관부",
+    "url": "https://encykorea.aks.ac.kr/Article/E0058823"
+   },
+   {
     "title": "김만덕",
     "url": "https://encykorea.aks.ac.kr/Article/E0076304"
    },
    {
-    "title": "탐라총관부",
-    "url": "https://encykorea.aks.ac.kr/Article/E0058823"
+    "title": "김통정",
+    "url": "https://encykorea.aks.ac.kr/Article/E0010884"
+   },
+   {
+    "title": "유형원",
+    "url": "https://encykorea.aks.ac.kr/Article/E0042005"
    }
   ],
   "facts": {
    "th-jeju#0": "manual",
    "th-jeju#1": "manual",
-   "th-jeju#2": "term",
+   "th-jeju#2": "manual",
    "th-jeju#3": "manual"
   },
   "yearsOk": true
@@ -5583,12 +6179,16 @@
    {
     "title": "독도",
     "url": "https://encykorea.aks.ac.kr/Article/E0015953"
+   },
+   {
+    "title": "울릉도",
+    "url": "https://encykorea.aks.ac.kr/Article/E0040443"
    }
   ],
   "facts": {
-   "th-dokdo#0": "auto",
-   "th-dokdo#1": "auto",
-   "th-dokdo#2": "auto"
+   "th-dokdo#0": "manual",
+   "th-dokdo#1": "manual",
+   "th-dokdo#2": "manual"
   },
   "yearsOk": true
  },
@@ -5603,7 +6203,7 @@
   ],
   "facts": {
    "th-chungju#0": "manual",
-   "th-chungju#1": "auto"
+   "th-chungju#1": "manual"
   },
   "yearsOk": true
  },
@@ -5621,7 +6221,7 @@
    }
   ],
   "facts": {
-   "th-pungsu#0": "auto",
+   "th-pungsu#0": "manual",
    "th-pungsu#1": "manual"
   },
   "yearsOk": true
@@ -5637,7 +6237,7 @@
   ],
   "facts": {
    "th-dogyo#0": "manual",
-   "th-dogyo#1": "auto"
+   "th-dogyo#1": "manual"
   },
   "yearsOk": true
  },
@@ -5652,8 +6252,8 @@
   ],
   "facts": {
    "th-seongnihak#0": "manual",
-   "th-seongnihak#1": "auto",
-   "th-seongnihak#2": "auto"
+   "th-seongnihak#1": "manual",
+   "th-seongnihak#2": "manual"
   },
   "yearsOk": true
  },
@@ -5667,7 +6267,7 @@
    }
   ],
   "facts": {
-   "th-gyeongdang#0": "auto"
+   "th-gyeongdang#0": "manual"
   },
   "yearsOk": true
  },
@@ -5678,12 +6278,20 @@
    {
     "title": "최충",
     "url": "https://encykorea.aks.ac.kr/Article/E0057700"
+   },
+   {
+    "title": "칠재",
+    "url": "https://encykorea.aks.ac.kr/Article/E0058531"
+   },
+   {
+    "title": "양현고",
+    "url": "https://encykorea.aks.ac.kr/Article/E0035854"
    }
   ],
   "facts": {
-   "th-sahak#0": "auto",
-   "th-sahak#1": "auto",
-   "th-sahak#2": "auto"
+   "th-sahak#0": "manual",
+   "th-sahak#1": "manual",
+   "th-sahak#2": "manual"
   },
   "yearsOk": true
  },
@@ -5698,12 +6306,16 @@
    {
     "title": "역대 국사교과서(고등학교 국사) · 조선 초기의 사회 구조",
     "url": "https://contents.history.go.kr/id/ta_h31_0060_0010_0030"
+   },
+   {
+    "title": "향교",
+    "url": "https://encykorea.aks.ac.kr/Article/E0062880"
    }
   ],
   "facts": {
-   "th-seonggyungwan#0": "auto",
+   "th-seonggyungwan#0": "manual",
    "th-seonggyungwan#1": "manual",
-   "th-seonggyungwan#2": "auto"
+   "th-seonggyungwan#2": "manual"
   },
   "yearsOk": true
  },
@@ -5714,12 +6326,16 @@
    {
     "title": "상평통보",
     "url": "https://encykorea.aks.ac.kr/Article/E0027386"
+   },
+   {
+    "title": "조선통보",
+    "url": "https://encykorea.aks.ac.kr/Article/E0052248"
    }
   ],
   "facts": {
-   "th-currency#0": "auto",
-   "th-currency#1": "auto",
-   "th-currency#2": "auto"
+   "th-currency#0": "manual",
+   "th-currency#1": "manual",
+   "th-currency#2": "manual"
   },
   "yearsOk": true
  },
@@ -5730,13 +6346,25 @@
    {
     "title": "향약구급방",
     "url": "https://encykorea.aks.ac.kr/Article/E0062951"
+   },
+   {
+    "title": "향약집성방",
+    "url": "https://encykorea.aks.ac.kr/Article/E0062961"
+   },
+   {
+    "title": "동의수세보원",
+    "url": "https://encykorea.aks.ac.kr/Article/E0016732"
+   },
+   {
+    "title": "동의보감",
+    "url": "https://encykorea.aks.ac.kr/Article/E0016731"
    }
   ],
   "facts": {
    "th-medical#0": "manual",
-   "th-medical#1": "auto",
-   "th-medical#2": "auto",
-   "th-medical#3": "auto"
+   "th-medical#1": "manual",
+   "th-medical#2": "manual",
+   "th-medical#3": "manual"
   },
   "yearsOk": true
  },
@@ -5747,10 +6375,14 @@
    {
     "title": "종묘",
     "url": "https://encykorea.aks.ac.kr/Article/E0052928"
+   },
+   {
+    "title": "종묘제례악",
+    "url": "https://encykorea.aks.ac.kr/Article/E0052934"
    }
   ],
   "facts": {
-   "th-jongmyo#0": "auto",
+   "th-jongmyo#0": "manual",
    "th-jongmyo#1": "manual"
   },
   "yearsOk": true

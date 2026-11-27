@@ -3,7 +3,7 @@
 # 사용: python -I scripts/verify_build.py verify-cache scripts/verify-manual.json src/content/verification.json
 #  사실 상태: manual(사람이 출처 본문을 읽고 확인) > auto/term(핵심어와 나머지 내용이 같은 문장 근처에서 자동 일치)
 #            > unconfirmed(근거 없음, 또는 핵심어만 맞은 '약한 자동 확인'을 아직 사람이 읽지 않음)
-import json, os, sys, datetime
+import json, os, re, sys, datetime
 
 cache, manual_path, out_path = sys.argv[1], sys.argv[2], sys.argv[3]
 report = json.load(open(f'{cache}/report.json', encoding='utf-8'))
@@ -23,6 +23,17 @@ mn = manual.get('notes', {})  # 확인하지 못한 사실에 대한 설명(앱�
 extra = manual.get('extraSources', {})
 today = datetime.date.today().isoformat()
 BASE = 'https://encykorea.aks.ac.kr/Article/'
+TITLES = {}  # 백과사전 Article ID -> 표제어(대조에 쓴 항목들)
+for r in report.values():
+    for a in r['articles']:
+        TITLES[a['id']] = a['title']
+for mp in mapping.values():
+    for t in (mp.get('terms') or {}).values():
+        TITLES.setdefault(t['id'], t['title'])
+for es in extra.values():
+    for e in es:
+        if e.get('id'):
+            TITLES.setdefault(e['id'], e['title'])
 
 out = {}
 stats = {'verified': 0, 'partial': 0, 'none': 0}
@@ -49,6 +60,14 @@ for cid, r in report.items():
         url = e.get('url') or BASE + e['id']
         if all(s['url'] != url for s in srcs):
             srcs.append({'title': e['title'], 'url': url})
+    # 사람이 확인한 근거에 적힌 백과사전 항목도 출처로 표시(같은 개념의 보조 항목에서 확인한 경우)
+    for fid, st in facts.items():
+        if st != 'manual':
+            continue
+        for aid in re.findall(r'E\d{7}', mf.get(fid, '') + ' ' + rv.get(fid, '')):
+            url = BASE + aid
+            if aid in TITLES and all(s['url'] != url for s in srcs):
+                srcs.append({'title': TITLES[aid], 'url': url})
     years_ok = not r['yearsMissing'] or cid in my
     confirmed = sum(1 for v in facts.values() if v != 'unconfirmed')
     if not srcs or confirmed == 0:

@@ -6,6 +6,22 @@ import { Chip, cx } from './kit';
 const NUM = ['①', '②', '③', '④', '⑤'];
 const PAIR_COLORS = ['bg-sky-500', 'bg-amber-500', 'bg-fuchsia-500', 'bg-emerald-500'];
 
+/** 문화유산 사진 + 출처 표기(이용 조건상 반드시 함께 표시) */
+export function PhotoFigure({ src, alt, width, height, credit, sourceUrl, caption }: { src: string; alt: string; width: number; height: number; credit: string; sourceUrl: string; caption?: string }) {
+  return (
+    <figure className="mt-3 overflow-hidden rounded-2xl border border-line bg-card2">
+      <img src={src} alt={alt} width={width} height={height} loading="lazy" className="mx-auto max-h-[34vh] w-auto object-contain" />
+      <figcaption className="px-3 py-1.5 text-[11px] leading-4 text-muted">
+        {caption && <span className="mr-1 font-semibold text-ink">{caption}</span>}
+        사진: {credit} ·{' '}
+        <a href={sourceUrl} target="_blank" rel="noopener noreferrer" className="underline">
+          원본
+        </a>
+      </figcaption>
+    </figure>
+  );
+}
+
 export function Passage({ q }: { q: Question }) {
   if (!q.passage?.length && !q.chip) return null;
   return (
@@ -37,6 +53,7 @@ export default function QuestionView({
   return (
     <div className="anim-pop">
       <h2 className="text-[19px] leading-7 font-extrabold">{q.prompt}</h2>
+      {q.image && <PhotoFigure {...q.image} />}
       <Passage q={q} />
       <div className="mt-4">
         {q.kind === 'short' ? (

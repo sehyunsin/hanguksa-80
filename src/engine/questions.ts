@@ -3,7 +3,8 @@
 //  - 오답 선택지는 다른 개념의 '구별되는(generic 아닌)' 사실만 사용하고, 대상 개념과 같은 키의 사실은 제외한다.
 //  - 정답 위치는 Balancer로 고르게 분산한다.
 //  - 순서 문제는 sort 값으로 정답을 판정하므로 보기 순서를 섞어도 오류가 없다.
-import { CONCEPTS, CONCEPT_MAP, ERA_LABEL, ERA_ORDER } from '../content';
+import { CONCEPTS, CONCEPT_MAP, ERA_LABEL, ERA_ORDER, FACT_MAP } from '../content';
+import { IMAGES, creditOf, imagesOf } from '../content/images';
 import type { Concept, Fact } from '../content/types';
 import { josa, shuffle, type Rng, defaultRng } from './util';
 
@@ -20,7 +21,8 @@ export type QKind =
   | 'clue5'
   | 'wrong5'
   | 'era'
-  | 'year';
+  | 'year'
+  | 'photo';
 
 export type KindTier = 'easy' | 'recall' | 'exam';
 
@@ -38,6 +40,7 @@ export const KIND_LABEL: Record<QKind, string> = {
   wrong5: '틀린 설명 찾기',
   era: '시대 구분',
   year: '연도 맞히기',
+  photo: '사진 자료',
 };
 
 export const KIND_TIER: Record<QKind, KindTier> = {
@@ -51,6 +54,7 @@ export const KIND_TIER: Record<QKind, KindTier> = {
   sort2: 'recall',
   order: 'recall',
   year: 'recall',
+  photo: 'easy',
   clue5: 'exam',
   wrong5: 'exam',
   order5: 'exam',
@@ -68,6 +72,7 @@ export const KIND_SECONDS: Record<QKind, number> = {
   sort2: 40,
   order: 35,
   year: 18,
+  photo: 20,
   clue5: 60,
   wrong5: 60,
   order5: 55,
@@ -81,9 +86,19 @@ export interface Choice {
   note?: string;
 }
 
+export interface QuestionImage {
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+  credit: string;
+  sourceUrl: string;
+}
+
 export interface Question {
   id: string;
   kind: QKind;
+  image?: QuestionImage;
   conceptId: string;
   relatedIds: string[];
   prompt: string;
@@ -637,6 +652,50 @@ export function genYear(c: Concept, ctx: GenCtx): Question | null {
   };
 }
 
+/**
+ * 사진 자료: 문화유산 사진을 보고 이름 / 관련 설명 / 시대를 고른다.
+ * 오답 선택지는 다른 사진의 문화유산(이름·설명)이라 '사진 속 유산'만 정답이 된다.
+ */
+export function genPhoto(c: Concept, ctx: GenCtx): Question | null {
+  const mine = imagesOf(c.id);
+  if (!mine.length) return null;
+  const im = mine[Math.floor(ctx.rng() * mine.length)];
+  const image: QuestionImage = { src: im.file, alt: '문화유산 사진', width: im.width, height: im.height, credit: creditOf(im), sourceUrl: im.sourceUrl };
+  const others = shuffle(IMAGES.filter((x) => x.name !== im.name), ctx.rng);
+  // 같은 시대의 사진을 먼저 오답 후보로(구별해야 할 대상)
+  others.sort((a, b) => Number(CONCEPT_MAP.get(b.conceptId)?.era === c.era) - Number(CONCEPT_MAP.get(a.conceptId)?.era === c.era));
+  const fact = im.factId ? FACT_MAP.get(im.factId) : undefined;
+  const variants: ('name' | 'fact' | 'era')[] = ['name'];
+  if (fact && others.filter((x) => x.factId && x.factId !== im.factId).length >= 3) variants.push('fact');
+  if (c.era !== 'theme') variants.push('era');
+  const v = variants[Math.floor(ctx.rng() * variants.length)];
+  const base = { id: qid('photo'), kind: 'photo' as const, conceptId: c.id, relatedIds: [], image, difficulty: 1 as const };
+  const tail = `${im.name}${fact ? ` — ${fact.text}` : ''}. (${c.name}) ${c.summary}`;
+  if (v === 'era') {
+    const idx = ERA_ORDER.indexOf(c.era);
+    const near = ERA_ORDER.filter((e) => e !== c.era).sort((a, b) => Math.abs(ERA_ORDER.indexOf(a) - idx) - Math.abs(ERA_ORDER.indexOf(b) - idx) + (ctx.rng() - 0.5));
+    const choices = place({ id: c.era, text: ERA_LABEL[c.era], correct: true }, near.slice(0, 3).map((e) => ({ id: e, text: ERA_LABEL[e], correct: false })), ctx);
+    return { ...base, prompt: '사진 속 문화유산과 관련된 시대는?', choices, explanation: `${ERA_LABEL[c.era]}: ${tail}` };
+  }
+  if (v === 'fact') {
+    const seenFacts = new Set<string>();
+    const wrongs = others
+      .filter((x) => x.factId && x.factId !== im.factId && !seenFacts.has(x.factId) && seenFacts.add(x.factId))
+      .slice(0, 3)
+      .map((x, i) => ({ id: `w${i}`, text: FACT_MAP.get(x.factId!)!.text, correct: false, conceptId: x.conceptId !== c.id ? x.conceptId : undefined }));
+    const choices = place({ id: 'ans', text: fact!.text, correct: true, conceptId: c.id }, wrongs, ctx);
+    return { ...base, prompt: '사진 속 문화유산에 대한 설명으로 옳은 것은?', choices, explanation: tail };
+  }
+  const names = others.slice(0, 3);
+  if (names.length < 3) return null;
+  const choices = place(
+    { id: 'ans', text: im.name, correct: true, conceptId: c.id },
+    names.map((x, i) => ({ id: `w${i}`, text: x.name, correct: false, conceptId: x.conceptId !== c.id ? x.conceptId : undefined })),
+    ctx,
+  );
+  return { ...base, prompt: '사진 속 문화유산은?', choices, explanation: tail };
+}
+
 const GENERATORS: Record<QKind, (c: Concept, ctx: GenCtx) => Question | null> = {
   ox: (c, x) => genOX(c, x),
   mc_who: (c, x) => genWho(c, x, 3),
@@ -651,6 +710,7 @@ const GENERATORS: Record<QKind, (c: Concept, ctx: GenCtx) => Question | null> = 
   wrong5: (c, x) => genWrong5(c, x),
   era: (c, x) => genEra(c, x),
   year: (c, x) => genYear(c, x),
+  photo: (c, x) => genPhoto(c, x),
 };
 
 /** 원하는 유형을 순서대로 시도하고, 모두 실패하면 OX로 대체 */

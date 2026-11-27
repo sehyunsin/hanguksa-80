@@ -1,5 +1,6 @@
 import { CONCEPTS, CONTENT_VERSION, UNITS } from '../content';
 import { ANALYSIS, SPOT_CHECK } from '../content/exams';
+import { IMAGES, licenseLabel } from '../content/images';
 import { CHECKED_AT, EXAM_FORMAT, NEXT_EXAM } from '../content/official';
 import { MISSING, SOURCES } from '../content/sources';
 import { Card, Chip, Header, Section } from '../ui/kit';
@@ -62,6 +63,32 @@ export default function AboutScreen() {
           ))}
         </div>
       </Section>
+
+      {IMAGES.length > 0 && (
+        <Section title={`사진 출처 ${IMAGES.length}장`}>
+          <Card className="text-xs leading-5">
+            <p className="text-muted">이용 조건(퍼블릭 도메인·CC BY·CC BY-SA·공공누리 제1유형)을 원본 페이지에서 확인한 사진만 썼고, 크기만 줄였어요. 사진을 누르면 원본과 라이선스 전문을 볼 수 있어요.</p>
+            <ul className="mt-2 space-y-1">
+              {IMAGES.map((im) => (
+                <li key={im.id}>
+                  <a href={im.sourceUrl} target="_blank" rel="noopener noreferrer" className="font-semibold text-brand underline-offset-2 hover:underline">
+                    {im.name}
+                  </a>{' '}
+                  — {im.author} ·{' '}
+                  {im.licenseUrl ? (
+                    <a href={im.licenseUrl} target="_blank" rel="noopener noreferrer" className="underline">
+                      {licenseLabel(im.license)}
+                    </a>
+                  ) : (
+                    licenseLabel(im.license)
+                  )}{' '}
+                  · {im.sourceName} (확인 {im.checkedAt})
+                </li>
+              ))}
+            </ul>
+          </Card>
+        </Section>
+      )}
 
       <Section title="미확보 자료·미완료 작업">
         <div className="space-y-2">

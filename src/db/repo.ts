@@ -33,9 +33,12 @@ export async function saveSettings(patch: Partial<Settings>, d: StudyDB = db) {
   await d.settings.put({ ...s, ...patch, id: 'main' });
 }
 
+/** 저장된 기록 중 현재 콘텐츠에 있는 개념만 사용(콘텐츠 업데이트로 개념이 빠져도 앱이 멈추지 않게). 기록 자체는 지우지 않음. */
+export const knownConcept = (id: string) => CONCEPT_MAP.has(id);
+
 export async function masteryMap(d: StudyDB = db): Promise<Map<string, MasteryRecord>> {
   const all = await d.mastery.toArray();
-  return new Map(all.map((m) => [m.conceptId, m]));
+  return new Map(all.filter((m) => knownConcept(m.conceptId)).map((m) => [m.conceptId, m]));
 }
 
 export const emptySeconds = (): Record<Bucket, number> => Object.fromEntries(BUCKETS.map((b) => [b, 0])) as Record<Bucket, number>;
@@ -63,7 +66,7 @@ export async function startSession(
 ): Promise<SessionState> {
   const { plan, settings, mastery } = await currentPlan(d);
   const daily = await getDaily(dayKey(), d);
-  const confusions = await d.confusions.toArray();
+  const confusions = (await d.confusions.toArray()).filter((p) => knownConcept(p.a) && knownConcept(p.b));
   const sp = buildSession({
     now: Date.now(),
     plan,
@@ -94,6 +97,8 @@ export async function startSession(
 export async function getSession(d: StudyDB = db) {
   const s = await d.session.get('current');
   if (s && s.index >= s.plan.items.length) return undefined;
+  // 앱 업데이트로 없어진 개념이 남은 문항에 있으면 그 세션은 이어 하지 않음(학습 기록은 이미 문항마다 저장됨)
+  if (s && s.plan.items.slice(s.index).some((it) => !knownConcept(it.conceptId))) return undefined;
   return s;
 }
 

@@ -1,5 +1,6 @@
 import { useLiveQuery } from 'dexie-react-hooks';
 import { useEffect, useRef } from 'react';
+import { CONCEPT_MAP } from '../content';
 import { db } from '../db/db';
 import { getDaily } from '../db/repo';
 import type { DailyRecord, MasteryRecord } from '../engine/model';
@@ -11,7 +12,7 @@ export function useSettings() {
 }
 
 export function useMastery(): Map<string, MasteryRecord> | undefined {
-  return useLiveQuery(async () => new Map((await db.mastery.toArray()).map((m) => [m.conceptId, m])), []);
+  return useLiveQuery(async () => new Map((await db.mastery.toArray()).filter((m) => CONCEPT_MAP.has(m.conceptId)).map((m) => [m.conceptId, m])), []);
 }
 
 export function useDailyMap(): Map<string, DailyRecord> | undefined {

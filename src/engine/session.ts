@@ -13,6 +13,7 @@ import {
   genFact,
   genMatch,
   genOrder,
+  genPhoto,
   genSort2,
   genWho,
   type GenCtx,
@@ -65,9 +66,10 @@ const INTRO_SEC = 75;
 
 export function kindsForLevel(level: number, rng: Rng, lastKind?: QKind): QKind[] {
   let ks: QKind[];
-  if (level <= 1) ks = shuffle(['mc_who', 'ox', 'mc_fact', 'cloze'], rng);
-  else if (level === 2) ks = shuffle(['cloze', 'match', 'sort2', 'mc_fact', 'year', 'ox'], rng);
-  else if (level === 3) ks = shuffle(['clue5', 'short', 'sort2', 'order', 'wrong5', 'year'], rng);
+  // 'photo'는 사진이 있는 개념에서만 만들어지고, 없으면 다음 유형으로 넘어간다
+  if (level <= 1) ks = shuffle(['mc_who', 'ox', 'mc_fact', 'cloze', 'photo'], rng);
+  else if (level === 2) ks = shuffle(['cloze', 'match', 'sort2', 'mc_fact', 'year', 'ox', 'photo'], rng);
+  else if (level === 3) ks = shuffle(['clue5', 'short', 'sort2', 'order', 'wrong5', 'year', 'photo'], rng);
   else ks = shuffle(['clue5', 'wrong5', 'order5', 'short', 'clue5'], rng);
   // 직전에 통과한 유형은 뒤로 미룬다(같은 형태 반복 방지)
   if (lastKind) ks = [...ks.filter((k) => k !== lastKind), ...ks.filter((k) => k === lastKind)];
@@ -88,6 +90,7 @@ export function lessonBlock(c: Concept, gctx: GenCtx, compact = false): SessionI
   const items: SessionItem[] = [{ id: uid(), type: 'intro', bucket: 'new', conceptId: c.id, schedule: 'none', estSec: INTRO_SEC }];
   const qs: (Question | null)[] = [
     genWho(c, gctx, 2),
+    genPhoto(c, gctx),
     genFact(c, gctx, 3),
     genCloze(c, gctx, false),
     compact ? null : genMatch(c, gctx),
@@ -315,7 +318,7 @@ export function buildSession(b: BuildCtx): SessionPlan {
       if (n >= limit || est() >= target) return;
       if (used.has(p.a) && used.has(p.b)) continue;
       const a = CONCEPT_MAP.get(p.a);
-      if (!a) continue;
+      if (!a || !CONCEPT_MAP.has(p.b)) continue;
       const q = genSort2(a, gctx, p.b) ?? genMatch(a, gctx);
       if (q) {
         add(qItem(q, 'weak', 'review'));

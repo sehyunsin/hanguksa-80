@@ -1,4 +1,6 @@
+import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
+import { CONCEPT_MAP } from '../src/content';
 import { StudyDB } from '../src/db/db';
 import { exportBackup, getSession, importBackup, masteryMap, recordAnswer, recordIntro, startSession } from '../src/db/repo';
 import { grade } from '../src/engine/questions';
@@ -43,5 +45,28 @@ describe('로컬 DB · 세션 · 백업', () => {
     expect(counts.mastery).toBe(m.size);
     expect((await masteryMap(d2)).size).toBe(m.size);
     await expect(importBackup({ foo: 1 }, d2)).rejects.toThrow();
+  });
+
+  it('앱 업데이트로 콘텐츠에서 빠진 개념의 기록이 남아 있어도 멈추지 않고, 그 기록은 지우지 않는다', async () => {
+    const d = new StudyDB(`t3-${Math.random()}`);
+    let st = await startSession('daily', {}, d);
+    const it0 = st.plan.items[0];
+    st = it0.type === 'intro' ? await recordIntro(st, it0, 20000, d) : st;
+    const real = [...(await masteryMap(d)).values()][0] ?? (await d.mastery.toArray())[0];
+    // 옛 버전에만 있던 개념의 기록 + 혼동 짝 + 진행 중 세션을 흉내 냄
+    if (real) await d.mastery.put({ ...real, conceptId: 'removed-old-concept', level: 3 });
+    await d.confusions.put({ pair: 'gg-jangsu|removed-old-concept', a: 'gg-jangsu', b: 'removed-old-concept', count: 3, lastTs: Date.now(), resolvedCount: 0 });
+    const cur = (await d.session.get('current'))!;
+    await d.session.put({ ...cur, plan: { ...cur.plan, items: [...cur.plan.items, { ...cur.plan.items[0], id: 'x', conceptId: 'removed-old-concept' }] } });
+
+    expect((await masteryMap(d)).has('removed-old-concept')).toBe(false); // 화면·계획에서는 무시
+    expect(await d.mastery.get('removed-old-concept')).toBeDefined(); // 기록은 그대로(백업에도 포함)
+    expect(await getSession(d)).toBeUndefined(); // 없어진 개념이 든 세션은 이어 하지 않음
+    for (const mode of ['daily', 'review', 'weak'] as const) await expect(startSession(mode, {}, d)).resolves.toBeDefined();
+  });
+
+  it('배포판에서 쓰던 개념 ID가 모두 남아 있다(지우면 사용자 학습 기록이 끊김)', () => {
+    const released = JSON.parse(readFileSync('tests/released-concepts.json', 'utf8')) as { ids: string[] };
+    expect(released.ids.filter((id) => !CONCEPT_MAP.has(id))).toEqual([]);
   });
 });

@@ -1,12 +1,14 @@
 import { useLiveQuery } from 'dexie-react-hooks';
 import { CONCEPT_MAP, ERA_LABEL, UNIT_MAP, VERIFICATION } from '../content';
 import { ANALYZED_ROUNDS, frequencyOf } from '../content/exams';
+import { creditOf, imagesOf } from '../content/images';
 import type { Concept } from '../content/types';
 import { db } from '../db/db';
 import { startSession } from '../db/repo';
 import { CAUSE_LABEL } from '../engine/model';
 import { retrievability } from '../engine/srs';
 import { Button, Card, Chip, Header, Icon, LevelDots, Section, pct } from '../ui/kit';
+import { PhotoFigure } from '../ui/QuestionView';
 import { back, go } from '../ui/router';
 
 const LEVEL_TEXT = ['미학습', '소개됨', '쉬운 확인 통과', '회상·비교 통과', '간격 후 기출형 통과', '장기 기억'];
@@ -35,6 +37,15 @@ export function ConceptBody({ c, compact }: { c: Concept; compact?: boolean }) {
           <p key={i}>{p}</p>
         ))}
       </div>
+      {imagesOf(c.id).length > 0 && (
+        <div className="mt-3 -mx-1 flex snap-x gap-2 overflow-x-auto px-1 pb-1">
+          {imagesOf(c.id).map((im) => (
+            <div key={im.id} className="w-[78%] max-w-sm shrink-0 snap-start">
+              <PhotoFigure src={im.file} alt={im.name} width={im.width} height={im.height} credit={creditOf(im)} sourceUrl={im.sourceUrl} caption={im.name} />
+            </div>
+          ))}
+        </div>
+      )}
       <div className="mt-4 rounded-2xl bg-brand2 p-3">
         <div className="mb-1 text-xs font-bold text-brand">핵심 기억</div>
         <ul className="flex flex-wrap gap-1.5">

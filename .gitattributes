@@ -1,0 +1,6 @@
+# 저장소에는 줄바꿈을 LF로 통일해 저장(Windows에서 고쳐도 diff가 파일 전체로 잡히지 않게)
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.png binary
+*.pdf binary
+*.jpg binary
